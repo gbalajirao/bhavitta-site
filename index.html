@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bhavitta — Cross-border US ↔ World FIRE planning</title>
+<meta name="description" content="Bhavitta is a private, offline iOS app for cross-border US ↔ India / world financial-independence (FIRE) planning. Model your life as a timeline and project whether your plan survives with Monte Carlo and real market history." />
+<meta name="theme-color" content="#0B1220" />
+<meta property="og:title" content="Bhavitta — Cross-border FIRE planning" />
+<meta property="og:description" content="Model your whole life as a timeline and see whether your plan survives. Private, offline, no accounts." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="./screenshots/projections.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<style>
+  :root{
+    --night-1:#0B1220; --night-2:#17133F; --ink-deep:#0F0E23;
+    --cyan:#0EA5E9; --cyan-soft:#38BDF8; --violet:#8B5CF6; --violet-2:#6C63FF;
+    --emerald:#10B981; --emerald-2:#059669; --gold:#F59E0B;
+    --surface:#F6F7FB; --card:#FFFFFF; --line:#E7E9F0;
+    --text:#1E1B33; --text-2:#5B6072; --muted:#8A8FA3;
+    --radius:20px; --radius-lg:28px;
+    --shadow:0 18px 50px rgba(17,20,40,.12);
+    --maxw:1120px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--text); background:var(--surface); line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+  .eyebrow{
+    font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--cyan);
+  }
+  .btn{
+    display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:15px;
+    padding:13px 22px;border-radius:14px;border:1px solid transparent;cursor:pointer;
+    transition:transform .15s ease, box-shadow .15s ease;
+  }
+  .btn:hover{transform:translateY(-2px)}
+  .btn-primary{background:linear-gradient(135deg,var(--emerald),var(--emerald-2));color:#fff;box-shadow:0 10px 24px rgba(16,185,129,.35)}
+  .btn-ghost{border-color:rgba(255,255,255,.25);color:#fff;background:rgba(255,255,255,.06)}
+
+  /* ── Nav ── */
+  nav{position:sticky;top:0;z-index:50;backdrop-filter:saturate(160%) blur(12px);
+      background:rgba(11,18,32,.72);border-bottom:1px solid rgba(255,255,255,.06)}
+  nav .wrap{display:flex;align-items:center;justify-content:space-between;height:62px}
+  .brand{display:flex;align-items:center;gap:10px;color:#fff;font-weight:700;font-size:18px}
+  .brand .dot{width:10px;height:10px;border-radius:50%;background:var(--cyan);box-shadow:0 0 14px var(--cyan)}
+  .nav-links{display:flex;gap:26px;color:rgba(255,255,255,.72);font-size:14px;font-weight:500}
+  .nav-links a:hover{color:#fff}
+  @media(max-width:720px){.nav-links{display:none}}
+
+  /* ── Hero ── */
+  .hero{position:relative;overflow:hidden;color:#fff;
+    background:radial-gradient(1100px 480px at 78% -8%, rgba(14,165,233,.30), transparent 60%),
+               radial-gradient(900px 520px at 10% 0%, rgba(139,92,246,.22), transparent 55%),
+               linear-gradient(160deg,var(--night-1),var(--night-2));}
+  .hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:36px;align-items:center;
+    padding:74px 24px 90px}
+  @media(max-width:900px){.hero .wrap{grid-template-columns:1fr;text-align:center;padding-top:52px}}
+  .kicker-deva{font-size:14px;letter-spacing:.36em;color:rgba(56,189,248,.85);font-weight:600;margin-bottom:14px}
+  h1{font-size:clamp(38px,6vw,62px);line-height:1.04;font-weight:800;letter-spacing:-.02em;
+     background:linear-gradient(92deg,#fff 30%, #9FE6FF);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .lede{margin-top:18px;font-size:clamp(16px,2.2vw,20px);color:rgba(255,255,255,.74);max-width:560px}
+  @media(max-width:900px){.lede{margin-left:auto;margin-right:auto}}
+  .hero-cta{display:flex;gap:14px;margin-top:30px;flex-wrap:wrap}
+  @media(max-width:900px){.hero-cta{justify-content:center}}
+  .badges{display:flex;gap:10px;margin-top:26px;flex-wrap:wrap}
+  @media(max-width:900px){.badges{justify-content:center}}
+  .badge{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:600;
+    color:rgba(255,255,255,.85);padding:7px 13px;border-radius:999px;
+    background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12)}
+  .badge svg{width:14px;height:14px}
+
+  /* hero phones */
+  .hero-art{position:relative;height:480px}
+  @media(max-width:900px){.hero-art{height:540px;margin-top:18px}}
+  .phone{border-radius:34px;background:#0c0c14;padding:7px;
+    box-shadow:0 30px 70px rgba(0,0,0,.5);border:1px solid rgba(255,255,255,.10)}
+  .phone img{display:block;width:100%;border-radius:27px}
+  .hero-art .phone{position:absolute;width:230px}
+  .hero-art .p-back{right:30px;top:8px;transform:rotate(6deg);width:215px;opacity:.96}
+  .hero-art .p-front{left:24px;top:48px;transform:rotate(-5deg);z-index:2}
+  @media(max-width:900px){
+    .hero-art .p-front{left:50%;margin-left:-150px;width:248px;transform:rotate(-4deg)}
+    .hero-art .p-back{right:50%;margin-right:-150px;top:0;transform:rotate(7deg)}
+  }
+
+  /* ── Section scaffolding ── */
+  section{padding:84px 0}
+  .section-head{max-width:680px;margin:0 auto 50px;text-align:center}
+  .section-head h2{font-size:clamp(28px,4vw,40px);font-weight:800;letter-spacing:-.02em;margin-top:12px}
+  .section-head p{margin-top:14px;color:var(--text-2);font-size:17px}
+
+  /* ── Features grid ── */
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  @media(max-width:900px){.grid{grid-template-columns:1fr 1fr}}
+  @media(max-width:600px){.grid{grid-template-columns:1fr}}
+  .feature{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+    padding:26px;box-shadow:var(--shadow)}
+  .feature .ic{width:46px;height:46px;border-radius:13px;display:grid;place-items:center;margin-bottom:16px;color:#fff}
+  .feature h3{font-size:18px;font-weight:700;margin-bottom:7px}
+  .feature p{color:var(--text-2);font-size:14.5px}
+  .ic-1{background:linear-gradient(135deg,#0EA5E9,#6366F1)}
+  .ic-2{background:linear-gradient(135deg,#10B981,#0EA5E9)}
+  .ic-3{background:linear-gradient(135deg,#F59E0B,#EF4444)}
+  .ic-4{background:linear-gradient(135deg,#8B5CF6,#6C63FF)}
+  .ic-5{background:linear-gradient(135deg,#0EA5E9,#10B981)}
+  .ic-6{background:linear-gradient(135deg,#334155,#0F172A)}
+
+  /* ── Showcase ── */
+  .showcase{background:linear-gradient(180deg,#fff, #eef1f8)}
+  .shots{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;align-items:end}
+  @media(max-width:900px){.shots{grid-template-columns:1fr 1fr}}
+  .shot{text-align:center}
+  .shot .phone{border-radius:28px;padding:6px}
+  .shot .phone img{border-radius:22px}
+  .shot span{display:block;margin-top:14px;font-weight:600;font-size:14px;color:var(--text-2)}
+
+  /* ── Steps ── */
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  @media(max-width:800px){.steps{grid-template-columns:1fr}}
+  .step{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:28px}
+  .step .n{font-size:13px;font-weight:800;color:var(--cyan);letter-spacing:.1em}
+  .step h3{margin:10px 0 6px;font-size:19px}
+  .step p{color:var(--text-2);font-size:15px}
+
+  /* ── Privacy band ── */
+  .privacy{color:#fff;background:radial-gradient(800px 360px at 80% 0%,rgba(16,185,129,.22),transparent 60%),linear-gradient(160deg,var(--ink-deep),#141233)}
+  .privacy .section-head h2,.privacy .section-head p{color:#fff}
+  .privacy .section-head p{color:rgba(255,255,255,.72)}
+  .priv-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:8px}
+  @media(max-width:800px){.priv-grid{grid-template-columns:1fr}}
+  .priv-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:var(--radius);padding:24px}
+  .priv-card h3{font-size:16px;margin-bottom:6px}
+  .priv-card p{color:rgba(255,255,255,.72);font-size:14.5px}
+
+  /* ── Support ── */
+  .support .card{max-width:680px;margin:0 auto;background:var(--card);border:1px solid var(--line);
+    border-radius:var(--radius-lg);padding:38px;text-align:center;box-shadow:var(--shadow)}
+  .support a.mail{color:var(--emerald-2);font-weight:700}
+
+  /* ── Footer ── */
+  footer{background:var(--ink-deep);color:rgba(255,255,255,.6);padding:40px 0;font-size:14px}
+  footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+  footer a:hover{color:#fff}
+  .disclaimer{font-size:12.5px;color:var(--muted);max-width:var(--maxw);margin:18px auto 0;padding:0 24px;text-align:center}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <div class="brand"><span class="dot"></span> Bhavitta</div>
+    <div class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#screens">Screens</a>
+      <a href="#how">How it works</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#support">Support</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-copy">
+      <div class="kicker-deva">भविष्य</div>
+      <h1>Plan your future<br/>across borders.</h1>
+      <p class="lede">
+        Bhavitta is a private, offline FIRE planner for people building wealth across
+        countries — a career in the US, retirement abroad, assets on both sides. Map
+        your whole life as a timeline and see whether the plan actually survives.
+      </p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#screens">See the app</a>
+        <a class="btn btn-ghost" href="#features">Explore features</a>
+      </div>
+      <div class="badges">
+        <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><path d="M12 3l7 4v5c0 4-3 7-7 9-4-2-7-5-7-9V7z"/></svg> 100% offline</span>
+        <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg> No accounts, no tracking</span>
+        <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><path d="M5 12h14M12 5v14"/></svg> iPhone · iOS 18+</span>
+      </div>
+    </div>
+    <div class="hero-art">
+      <div class="phone p-back"><img src="./screenshots/timeline.png" alt="Life-stage timeline" /></div>
+      <div class="phone p-front"><img src="./screenshots/projections.png" alt="Projection fan chart" /></div>
+    </div>
+  </div>
+</header>
+
+<!-- FEATURES -->
+<section id="features">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">What it does</div>
+      <h2>One model for your whole financial life</h2>
+      <p>From your US career years to a retirement abroad — income, taxes, a home, kids' college, social security, and one-time events — all on a single interactive timeline.</p>
+    </div>
+    <div class="grid">
+      <div class="feature">
+        <div class="ic ic-1"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 4v16"/></svg></div>
+        <h3>Life-stage timeline</h3>
+        <p>Map every chapter as a stage — US HCOL/MCOL, a foreign city (30+ curated), college, social security, owning or renting. Gaps auto-fill so the model never breaks.</p>
+      </div>
+      <div class="feature">
+        <div class="ic ic-2"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M3 17l5-6 4 3 5-7 4 4"/></svg></div>
+        <h3>Two simulation models</h3>
+        <p>Replay real US market history (1928–2023, nominal or Shiller-real) or run 10,000 Monte Carlo trials. Both give you a probability fan and your true survival rate.</p>
+      </div>
+      <div class="feature">
+        <div class="ic ic-3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M3 15h18M9 3v18M15 3v18"/></svg></div>
+        <h3>Stress-test heatmap</h3>
+        <p>A return × inflation grid shows exactly how sensitive your plan is to the two assumptions that move the needle most.</p>
+      </div>
+      <div class="feature">
+        <div class="ic ic-4"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M4 5h16M4 12h16M4 19h16"/></svg></div>
+        <h3>Year-by-year ledger</h3>
+        <p>An amortization view of resolved cash flow — income, taxes, expenses, college, property, one-time events, and closing balance — for any percentile path.</p>
+      </div>
+      <div class="feature">
+        <div class="ic ic-5"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M4 7h16v12H4zM8 7V5a4 4 0 018 0v2"/></svg></div>
+        <h3>Compare & share scenarios</h3>
+        <p>Save plans side by side against a feasibility benchmark. Clone, rename, share an image, or export as Markdown for an AI second opinion.</p>
+      </div>
+      <div class="feature">
+        <div class="ic ic-6"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M12 3l7 4v5c0 4-3 7-7 9-4-2-7-5-7-9V7z"/></svg></div>
+        <h3>Private by design</h3>
+        <p>Everything is stored locally with SwiftData. No accounts, no analytics, no servers — your numbers never leave your phone. Localized in 20 currencies.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SCREENS -->
+<section id="screens" class="showcase">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Screens</div>
+      <h2>Designed to make the future legible</h2>
+      <p>Tap anything to edit. Watch numbers update live as you reshape your plan.</p>
+    </div>
+    <div class="shots">
+      <div class="shot"><div class="phone"><img src="./screenshots/scenarios.png" alt="Scenarios" /></div><span>Scenarios</span></div>
+      <div class="shot"><div class="phone"><img src="./screenshots/timeline.png" alt="Timeline" /></div><span>Timeline</span></div>
+      <div class="shot"><div class="phone"><img src="./screenshots/projections.png" alt="Projections" /></div><span>Projections</span></div>
+      <div class="shot"><div class="phone"><img src="./screenshots/ledger.png" alt="Ledger" /></div><span>Ledger</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">How it works</div>
+      <h2>Three steps to a real forecast</h2>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="n">STEP 1</div>
+        <h3>Set your inputs</h3>
+        <p>Your age, starting corpus, expected return, inflation, and household size — with sensible cross-border defaults.</p>
+      </div>
+      <div class="step">
+        <div class="n">STEP 2</div>
+        <h3>Build your timeline</h3>
+        <p>Add the places you'll live and the events along the way. Each stage's income and spending roll up automatically.</p>
+      </div>
+      <div class="step">
+        <div class="n">STEP 3</div>
+        <h3>Read the outcome</h3>
+        <p>See a fan of projected balances, your survival odds, and a stress test — then tune and compare scenarios.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRIVACY -->
+<section id="privacy" class="privacy">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow" style="color:#34D399">Privacy</div>
+      <h2>Your money stays on your device</h2>
+      <p>Bhavitta is built to be useful without ever asking you to trust it with your data.</p>
+    </div>
+    <div class="priv-grid">
+      <div class="priv-card"><h3>No data collection</h3><p>The app collects no personal data and includes no analytics or third-party trackers.</p></div>
+      <div class="priv-card"><h3>No network calls</h3><p>All computation runs on-device. Your plan is stored locally with SwiftData and is never uploaded.</p></div>
+      <div class="priv-card"><h3>You control sharing</h3><p>Exporting a scenario or a share-image is always explicit, through the standard iOS share sheet you initiate.</p></div>
+    </div>
+    <p style="text-align:center;margin-top:26px;color:rgba(255,255,255,.6);font-size:14px">
+      In short: there is no account to create, nothing is tracked, and nothing leaves your phone unless you explicitly share it.
+    </p>
+  </div>
+</section>
+
+<!-- SUPPORT -->
+<section id="support" class="support">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Support</div>
+      <h2>Questions or feedback?</h2>
+    </div>
+    <div class="card">
+      <p style="color:var(--text-2);font-size:16px">
+        We'd love to hear from you — bug reports, feature ideas, or help getting started.
+        Reach out and we'll get back to you.
+      </p>
+      <p style="margin-top:16px;font-size:18px">
+        <a class="mail" href="mailto:bhavitta.help@gmail.com">bhavitta.help@gmail.com</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="brand"><span class="dot"></span> Bhavitta</div>
+    <div style="display:flex;gap:22px">
+      <a href="#features">Features</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#support">Support</a>
+    </div>
+    <div>© 2026 Bhavitta</div>
+  </div>
+  <p class="disclaimer">
+    Bhavitta is an educational planning tool, not financial advice. Projections are
+    estimates based on your inputs and historical or simulated market behavior, and are
+    not guarantees of future results.
+  </p>
+</footer>
+
+</body>
+</html>
