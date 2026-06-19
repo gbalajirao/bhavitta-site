@@ -10,6 +10,10 @@
 <meta property="og:description" content="Model your whole life as a timeline and see whether your plan survives. Private, offline, no accounts." />
 <meta property="og:type" content="website" />
 <meta property="og:image" content="./screenshots/projections.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png" />
+<link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png" />
+<link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+<link rel="manifest" href="./manifest.webmanifest" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <style>
   :root{
@@ -49,7 +53,8 @@
       background:rgba(11,18,32,.72);border-bottom:1px solid rgba(255,255,255,.06)}
   nav .wrap{display:flex;align-items:center;justify-content:space-between;height:62px}
   .brand{display:flex;align-items:center;gap:10px;color:#fff;font-weight:700;font-size:18px}
-  .brand .dot{width:10px;height:10px;border-radius:50%;background:var(--cyan);box-shadow:0 0 14px var(--cyan)}
+  .brand .logo{width:28px;height:28px;border-radius:8px;display:block;
+    box-shadow:0 0 14px rgba(56,189,248,.45);border:1px solid rgba(255,255,255,.12)}
   .nav-links{display:flex;gap:26px;color:rgba(255,255,255,.72);font-size:14px;font-weight:500}
   .nav-links a:hover{color:#fff}
   @media(max-width:720px){.nav-links{display:none}}
@@ -155,7 +160,7 @@
 
 <nav>
   <div class="wrap">
-    <div class="brand"><span class="dot"></span> Bhavitta</div>
+    <div class="brand"><img class="logo" src="./icon-192.png" alt="Bhavitta app icon" /> Bhavitta</div>
     <div class="nav-links">
       <a href="#features">Features</a>
       <a href="#screens">Screens</a>
@@ -321,7 +326,7 @@
 
 <footer>
   <div class="wrap">
-    <div class="brand"><span class="dot"></span> Bhavitta</div>
+    <div class="brand"><img class="logo" src="./icon-192.png" alt="Bhavitta app icon" /> Bhavitta</div>
     <div style="display:flex;gap:22px">
       <a href="#features">Features</a>
       <a href="#privacy">Privacy</a>
