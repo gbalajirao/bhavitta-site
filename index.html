@@ -144,10 +144,13 @@
 
   /* ── Watch ── */
   .watch{background:linear-gradient(180deg,#eef1f8,#fff)}
+  .video-row{display:flex;gap:40px;justify-content:center;flex-wrap:wrap;align-items:flex-start}
+  .video-col{flex:0 1 380px}
   .video-embed{max-width:380px;margin:0 auto;aspect-ratio:1320/2868;border-radius:28px;
     overflow:hidden;background:#0c0c14;box-shadow:0 30px 70px rgba(17,20,40,.22);
     border:1px solid rgba(17,20,40,.08)}
-  .video-embed iframe{display:block;width:100%;height:100%;border:0}
+  .video-embed.android{aspect-ratio:1080/2400}
+  .video-embed iframe,.video-embed video{display:block;width:100%;height:100%;border:0;object-fit:cover}
 
   /* ── Privacy band ── */
   .privacy{color:#fff;background:radial-gradient(800px 360px at 80% 0%,rgba(16,185,129,.22),transparent 60%),linear-gradient(160deg,var(--ink-deep),#141233)}
@@ -356,8 +359,21 @@
       <h2>See the whole flow in under 2 minutes</h2>
       <p>Create a scenario, add life stages, then review the Monte Carlo projections, Stress Test heatmap, and Ledger.</p>
     </div>
-    <div class="video-embed">
-      <iframe src="https://www.youtube.com/embed/ZKJ-2-R6qCo" title="Bhavitta — How to Build a Cross-Border FIRE Plan" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    <div class="video-row">
+      <div class="video-col">
+        <div class="platform-label">iPhone</div>
+        <div class="video-embed">
+          <iframe src="https://www.youtube.com/embed/ZKJ-2-R6qCo" title="Bhavitta — How to Build a Cross-Border FIRE Plan" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+      </div>
+      <div class="video-col">
+        <div class="platform-label">Android</div>
+        <div class="video-embed android">
+          <video controls preload="metadata" playsinline title="Bhavitta on Android — walkthrough">
+            <source src="./videos/android-walkthrough.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
     </div>
   </div>
 </section>
