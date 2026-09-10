@@ -1,7 +1,7 @@
 {
   "name": "Bhavitta",
   "short_name": "Bhavitta",
-  "description": "Private, offline cross-border US ↔ world FIRE planning for iPhone.",
+  "description": "Private, offline retirement-readiness check and planning tool.",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#0B1220",
