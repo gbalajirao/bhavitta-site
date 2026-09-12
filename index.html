@@ -72,7 +72,9 @@
   .hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:36px;align-items:center;
     padding:74px 24px 90px}
   @media(max-width:900px){.hero .wrap{grid-template-columns:1fr;text-align:center;padding-top:52px}}
-  .kicker-deva{font-size:14px;letter-spacing:.36em;color:rgba(56,189,248,.85);font-weight:600;margin-bottom:14px}
+  .kicker-deva{font-size:14px;letter-spacing:.36em;color:rgba(56,189,248,.85);font-weight:600;margin-bottom:6px}
+  .name-note{font-size:13px;color:rgba(255,255,255,.5);font-style:italic;margin:0 0 16px}
+  @media(max-width:900px){.name-note{margin-left:auto;margin-right:auto}}
   h1{font-size:clamp(38px,6vw,62px);line-height:1.04;font-weight:800;letter-spacing:-.02em;
      background:linear-gradient(92deg,#fff 30%, #9FE6FF);-webkit-background-clip:text;background-clip:text;color:transparent}
   .lede{margin-top:18px;font-size:clamp(16px,2.2vw,20px);color:rgba(255,255,255,.74);max-width:560px}
@@ -215,7 +217,8 @@
 <header class="hero">
   <div class="wrap">
     <div class="hero-copy">
-      <div class="kicker-deva">भविष्य</div>
+      <div class="kicker-deva">भविष्य + वित्त</div>
+      <p class="name-note">Bhavitta — <em>bhavishya</em> (future) + <em>vitta</em> (wealth)</p>
       <h1>Will your retirement<br/>plan hold?</h1>
       <p class="lede">
         Bhavitta is a private, offline retirement-readiness check and planning tool.
