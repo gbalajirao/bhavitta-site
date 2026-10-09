@@ -413,7 +413,7 @@
     </div>
     <div class="priv-grid">
       <div class="priv-card"><h3>Your plan never leaves your phone</h3><p>Every scenario, life stage, and amount is stored locally on your device. It's never collected, uploaded, or shared — that hasn't changed.</p></div>
-      <div class="priv-card"><h3>Anonymous usage analytics</h3><p>The app sends anonymous, non-identifying analytics (which screens get used, which features get tapped) to help us improve it. It never sends amounts, names, cities you typed, or your plan itself &mdash; only coarse signals such as a rounded success-rate bucket, a planning horizon in years, and which kinds of life stages a plan contains. Nothing is ever linked to you.</p></div>
+      <div class="priv-card"><h3>Anonymous usage analytics</h3><p>The app sends anonymous, non-identifying analytics (which screens get used, which features get tapped) to help us improve it. It never sends amounts, names, cities you typed, or your plan itself &mdash; only coarse signals such as a rounded success-rate bucket, a planning horizon in years, and which kinds of life stages a plan contains. Nothing is ever linked to you.</p><p style="margin-top:10px">This website counts anonymous visits and taps on its download and video buttons, with no cookies and no way to identify you, and does nothing at all if your browser sends Do Not Track or Global Privacy Control.</p></div>
       <div class="priv-card"><h3>Anonymous diagnostics</h3><p>To keep the app stable, it also reports anonymous crash and performance diagnostics: error codes, rough timings, and crash categories. Never a stack trace, never your plan, and never linked to you.</p></div>
       <div class="priv-card"><h3>Location and tips</h3><p>If you tap &ldquo;My location&rdquo; when choosing a city, the app reads your approximate location once, on your phone, and matches it to the nearest city in its own list. It is never stored, looked up online, or sent anywhere. If you choose to leave an optional tip, the purchase goes through Apple or Google; the app only records anonymously that a tip of a given size happened, never who tipped. Tips unlock nothing.</p></div>
       <div class="priv-card"><h3>What goes over the network</h3><p>Besides the analytics and diagnostics above, the app only downloads public data: news feeds and market prices when you open the News tab, and a currency exchange rate if you ask for a refresh. Nothing about you or your plan is sent with them. On iOS, once after install, the app also asks Apple whether the install came from an Apple Search Ads campaign; Apple returns a campaign number or &ldquo;no&rdquo;, nothing about you.</p></div>
@@ -488,6 +488,49 @@
     not guarantees of future results.
   </p>
 </footer>
+
+<script>
+/* Anonymous, cookieless funnel counts for this page (see ANALYTICS.md, "Website").
+   No SDK, no cookies, no persistent id: one random id per tab session, no person
+   profile. Skipped on localhost and when the browser sends Do Not Track / Global
+   Privacy Control. Events: site_pageview, site_click_ios|android, site_video_play_ios|android. */
+(function () {
+  try {
+    var h = location.hostname;
+    if (h !== 'bhavitta.com' && h !== 'www.bhavitta.com') return;
+    if (navigator.doNotTrack === '1' || navigator.globalPrivacyControl) return;
+    var id;
+    try { id = sessionStorage.getItem('b_sid'); if (!id) { id = (crypto.randomUUID ? crypto.randomUUID() : String(Math.random()).slice(2) + Date.now()); sessionStorage.setItem('b_sid', id); } }
+    catch (e) { id = String(Math.random()).slice(2) + Date.now(); }
+    var KEY = 'phc_mWpsFt8CwpgQXLtXw9cZmcKfTerVpyC62gDtbRynoAQo';
+    function send(event, props) {
+      var body = JSON.stringify({ api_key: KEY, event: event, distinct_id: id, timestamp: new Date().toISOString(),
+        properties: Object.assign({ environment: 'web', $process_person_profile: false, $lib: 'bhavitta-site', $current_url: location.origin + location.pathname }, props || {}) });
+      try { if (navigator.sendBeacon && navigator.sendBeacon('https://eu.i.posthog.com/capture/', new Blob([body], { type: 'text/plain' }))) return; } catch (e) {}
+      try { fetch('https://eu.i.posthog.com/capture/', { method: 'POST', body: body, keepalive: true, mode: 'no-cors' }); } catch (e) {}
+    }
+    var ref = ''; try { ref = document.referrer ? new URL(document.referrer).hostname : ''; } catch (e) {}
+    send('site_pageview', { referrer_host: ref });
+    function where(el) { var n = el.closest('nav, header, footer, [id]'); return n ? (n.id || n.tagName.toLowerCase()) : 'page'; }
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('a[href]'); if (!a) return;
+      var u = a.href;
+      if (u.indexOf('https://apps.apple.com/') === 0) send('site_click_ios', { location: where(a) });
+      else if (u.indexOf('https://play.google.com/') === 0) send('site_click_android', { location: where(a) });
+    }, true);
+    /* A click into a YouTube embed moves focus to the iframe — count it as a play (no YouTube API script loaded). */
+    var played = {};
+    window.addEventListener('blur', function () {
+      setTimeout(function () {
+        var f = document.activeElement;
+        if (!f || f.tagName !== 'IFRAME') return;
+        var plat = f.src.indexOf('lxiPuegHyKI') > -1 ? 'android' : f.src.indexOf('tC0qMMW9aEU') > -1 ? 'ios' : null;
+        if (plat && !played[plat]) { played[plat] = 1; send('site_video_play_' + plat, {}); }
+      }, 0);
+    });
+  } catch (e) {}
+})();
+</script>
 
 </body>
 </html>
