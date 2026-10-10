@@ -390,13 +390,13 @@
       <div class="video-col">
         <div class="platform-label">iPhone</div>
         <div class="video-embed">
-          <iframe src="https://www.youtube.com/embed/tC0qMMW9aEU" title="Bhavitta — retirement readiness walkthrough (iPhone)" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+          <iframe src="https://www.youtube.com/embed/TCEp8X_M89k" title="Bhavitta — retirement readiness walkthrough (iPhone)" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
         </div>
       </div>
       <div class="video-col">
         <div class="platform-label">Android</div>
         <div class="video-embed android">
-          <iframe src="https://www.youtube.com/embed/lxiPuegHyKI" title="Bhavitta on Android — walkthrough" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+          <iframe src="https://www.youtube.com/embed/U5UNRyhtJVA" title="Bhavitta on Android — walkthrough" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
         </div>
       </div>
     </div>
@@ -524,7 +524,7 @@
       setTimeout(function () {
         var f = document.activeElement;
         if (!f || f.tagName !== 'IFRAME') return;
-        var plat = f.src.indexOf('lxiPuegHyKI') > -1 ? 'android' : f.src.indexOf('tC0qMMW9aEU') > -1 ? 'ios' : null;
+        var plat = f.src.indexOf('U5UNRyhtJVA') > -1 ? 'android' : f.src.indexOf('TCEp8X_M89k') > -1 ? 'ios' : null;
         if (plat && !played[plat]) { played[plat] = 1; send('site_video_play_' + plat, {}); }
       }, 0);
     });
