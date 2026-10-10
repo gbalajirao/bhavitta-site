@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>How the Bhavitta readiness score works — historical replay, Monte Carlo, and the formula</title>
+<meta name="description" content="What Bhavitta actually computes: a year-by-year cash-flow model of your life stages, run through every window of 1928–2023 market history or 10,000 Monte Carlo trials, and how the 0–100 readiness score, survival rate and earliest-retirement age are derived. Includes what the model deliberately does not do." />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+<link rel="canonical" href="https://bhavitta.com/how-it-works.html" />
+<meta name="theme-color" content="#0B1220" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://bhavitta.com/how-it-works.html" />
+<meta property="og:site_name" content="Bhavitta" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:title" content="How the Bhavitta readiness score works" />
+<meta property="og:description" content="What Bhavitta actually computes: a year-by-year cash-flow model of your life stages, run through every window of 1928–2023 market history or 10,000 Monte Carlo trials, and how the 0–100 readiness score, survival rate and earliest-retirement age are derived. Includes what the model deliberately does not do." />
+<meta property="og:image" content="https://bhavitta.com/og-card.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Bhavitta — Will your retirement plan hold?" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="How the Bhavitta readiness score works" />
+<meta name="twitter:description" content="What Bhavitta actually computes: a year-by-year cash-flow model of your life stages, run through every window of 1928–2023 market history or 10,000 Monte Carlo trials, and how the 0–100 readiness score, survival rate and earliest-retirement age are derived. Includes what the model deliberately does not do." />
+<meta name="twitter:image" content="https://bhavitta.com/og-card.png" />
+<meta name="apple-itunes-app" content="app-id=6781692447" />
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png" />
+<link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png" />
+<link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+<link rel="stylesheet" href="./site.css" />
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Bhavitta",
+     "item": "https://bhavitta.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "How the readiness score works",
+     "item": "https://bhavitta.com/how-it-works.html"
+    }
+   ]
+  },
+  {
+   "@type": "TechArticle",
+   "@id": "https://bhavitta.com/how-it-works.html#article",
+   "headline": "How the Bhavitta readiness score works",
+   "description": "How Bhavitta computes a retirement readiness score: life-stage cash-flow model, historical replay of 1928–2023 S&P 500 returns, 10,000-trial Monte Carlo, survival rate, cushion test, and the earliest-retirement solver.",
+   "url": "https://bhavitta.com/how-it-works.html",
+   "datePublished": "2026-10-10",
+   "dateModified": "2026-10-10",
+   "author": {
+    "@id": "https://bhavitta.com/#org"
+   },
+   "publisher": {
+    "@id": "https://bhavitta.com/#org"
+   },
+   "image": "https://bhavitta.com/og-card.png",
+   "about": {
+    "@id": "https://bhavitta.com/#app"
+   },
+   "inLanguage": "en",
+   "isAccessibleForFree": true
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<nav>
+  <div class="wrap">
+    <a class="brand" href="./"><img class="logo" src="./icon-192.png" alt="Bhavitta app icon" /> Bhavitta</a>
+    <div class="nav-right">
+      <div class="nav-links">
+        <a href="./#features">Features</a>
+        <a href="./#how">How it works</a>
+        <a href="./#guides">Guides</a>
+        <a href="./#faq">FAQ</a>
+        <a href="./#privacy">Privacy</a>
+        <a href="./#support">Support</a>
+        <a class="nav-store" href="https://apps.apple.com/app/apple-store/id6781692447?pt=129056482&amp;ct=site&amp;mt=8" target="_blank" rel="noopener">App Store</a>
+        <a class="nav-store" href="https://play.google.com/store/apps/details?id=com.gururajan.bhavitta&amp;referrer=utm_source%3Dbhavitta.com%26utm_medium%3Dweb%26utm_campaign%3Dsite" target="_blank" rel="noopener">Google Play</a>
+      </div>
+      <div class="nav-socials">
+        <a href="https://www.instagram.com/bhavitta.help/" target="_blank" rel="noopener" aria-label="Bhavitta on Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="https://www.youtube.com/@Bhavitta-planning" target="_blank" rel="noopener" aria-label="Bhavitta on YouTube">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z" fill="currentColor" stroke="none"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+<header class="article-hero">
+  <div class="wrap">
+    <div class="breadcrumb"><a href="./">Bhavitta</a> › Guides</div>
+    <div class="eyebrow">How it works</div>
+    <h1>How the readiness score works</h1>
+    <p class="lede">A plain-language walk through the simulation engine: what goes in, what the recurrence does each year, how the two return models differ, and exactly how the score, the survival rate and the "Ready at" age are computed.</p>
+    <p class="meta">Published 10 October 2026 · Reflects Bhavitta 2.7 · 9 min read</p>
+  </div>
+</header>
+<main class="article">
+
+<h2>The question the app answers</h2>
+<p>Bhavitta answers two questions about a plan: <strong>will the money last to the end of the plan</strong>, and <strong>from what age could you stop working</strong> and still have it last. Everything on this page exists to make those two answers honest and reproducible. The engine is a single compiled Swift package that runs on your phone, on iOS natively and on Android through WebAssembly, so the same plan gives the same result on both.</p>
+
+<h2>1. Your plan is a timeline, not a form</h2>
+<p>A plan is a sequence of <strong>life stages</strong> from your current age to the end of the planning horizon. Each location stage has:</p>
+<ul>
+  <li><strong>A city and a lifestyle tier.</strong> Picking, say, Seattle at the Comfortable tier fills in an estimated annual living cost in today's US dollars and that city's typical local inflation rate. 49 curated cities are included; every estimate is editable and you can add your own city.</li>
+  <li><strong>Earned income and a blended tax rate</strong> for the years you work there. The tax rate is a single percentage applied to that stage's income. Bhavitta is not a tax calculator; it does not model brackets, slabs, or filing status.</li>
+  <li><strong>Household size</strong>, which scales the living cost.</li>
+</ul>
+<p>On top of location stages you layer <strong>overlays</strong>: a home you own (mortgage, property tax, payoff age, sale with appreciation, selling cost and capital-gains rate), a property you rent out, a child's four years of college, a pension or Social Security (indexed guaranteed income from a start age), a recurring cost such as supporting parents, and <strong>one-time events</strong> such as a wedding, a windfall, or a down payment.</p>
+<p>Years you leave uncovered do not break the model. An uncovered span after a location stage <strong>keeps that location and its living costs but drops earned income to zero</strong>: you still live there, you just no longer work there. Only a gap before your very first stage is filled with a generic mid-cost US baseline.</p>
+
+<h2>2. Every year, one cash-flow line</h2>
+<p>For each year of the plan the engine resolves the active stage and computes net cash flow: earned income minus tax, minus living expense, college, property and recurring costs, plus guaranteed income, rental income, home-sale proceeds and one-time credits. Then it rolls the balance forward:</p>
+<div class="formula">balance(t+1) = (balance(t) + netCashFlow(t)) × (1 + return(t))   when the sum is positive<br>balance(t+1) =  balance(t) + netCashFlow(t)                      otherwise</div>
+<p>Two deliberate choices sit in that recurrence. A plan that fails is allowed to <strong>go negative</strong>, so the ledger and chart show how deep the shortfall is instead of clamping at zero. And a deficit <strong>neither earns nor compounds</strong>; it is carried and can be paid back down by a later inflow such as a home sale or Social Security.</p>
+<p><strong>Indexing.</strong> Every amount you type is a today's-money figure. Income, living costs, guaranteed income and property tax grow with the active location's inflation rate from the start of the plan. Costs for an Indian city are stored in dollars and grow at India's inflation <em>less</em> the rupee-depreciation rate you set (defaults 6% and 3%, so about 2.9% a year in dollar terms). A separate <strong>display deflator</strong> converts any nominal balance back to today's money, switching rate the moment the active location changes, which is why a US-to-Bangalore plan reads sensibly in either basis.</p>
+
+<h2>3. Two ways to generate returns</h2>
+<h3>Historical replay (the default)</h3>
+<p>The plan is run through <strong>every contiguous window of real market history</strong>. The embedded series is nominal annual total return on the S&amp;P 500, price plus dividends, 1928 to 2023, from Aswath Damodaran's public dataset: 96 years, geometric mean about 9.8%, standard deviation about 19.5%. A 30-year plan therefore gets 67 trajectories, one starting in each of 1928, 1929, and so on; a 50-year plan gets 47. Nothing is randomised; it is deterministic, and it is the most faithful picture of what markets have actually done to a plan like yours, including the sequence-of-returns risk of retiring into 1929, 1966, or 2000.</p>
+<p>A second source, <strong>Shiller real</strong>, deflates each year's return by US CPI so the plan runs in constant dollars with living costs held flat. The two are not comparable in dollar magnitude; use one or the other.</p>
+<h3>Monte Carlo</h3>
+<p><strong>10,000 trials</strong>. Each year of each trial draws a return from a normal distribution with the expected return and volatility you set; the defaults are a deliberately conservative 7% and 12%. Draws are seeded from the plan itself, so the same plan always produces the same fan and the score does not jitter between opens.</p>
+<div class="callout"><strong>Why the two models disagree.</strong> Raw history compounds at about 9.8%; the Monte Carlo default assumes 7%. Over forty years that gap is large, and it is the whole difference. Historical is kept raw, with no recentering, because it is the record; if you want the two to agree, raise the Monte Carlo expected return toward 10%, or treat Monte Carlo as your stress case.</div>
+
+<h2>4. What comes out</h2>
+<ul>
+  <li><strong>A fan of balances.</strong> At every age the trials (or windows) are sorted and five lines are read off: P10, the optimistic upside only one in ten beats; P50, typical markets; <strong>P80, bad markets, the app's default benchmark</strong>; P90, very bad; P95, the worst case. Ten more quantile bands draw the probability cloud behind them.</li>
+  <li><strong>Survival rate.</strong> The share of trials in which the balance stayed above zero in <em>every</em> year of the plan, not just the last one. A path that is broke for twenty years and then rescued by a house sale does not count as surviving.</li>
+  <li><strong>A year-by-year ledger</strong> for any percentile path: opening balance, income, tax, each expense line, market gain and closing balance, in today's money by default.</li>
+</ul>
+
+<h2>5. The readiness score</h2>
+<p>The 0 to 100 score combines the survival rate with a cushion test at your planned retirement age:</p>
+<div class="formula">score = 0.8 × survivalRate + 20 × min(1, cushionYears ÷ 10)<br>cushionYears = balance at retirement on the benchmark line (P80) ÷ first-year retirement spending</div>
+<p>So survival alone can earn at most 80 points; the last 20 come from arriving at retirement with at least ten years of spending on the <em>bad-markets</em> line. A plan that survives on paper but starts retirement thin scores in the 80s, which is the point. The headline next to the gauge comes from a second computation, the <strong>earliest-retirement solver</strong>: it zeroes your earned income (and its tax) from a candidate age onward, leaving everything else in place, including where you live, your home, college and Social Security, and finds the earliest age at which survival still clears the benchmark. That age is the "Ready at 52" in the headline; if no age clears it, the headline says how far short the plan is at your own planned age. The sentence under it names the income sources that cover spending and the riskiest stretch of years on the bad-markets path.</p>
+
+<h2>6. Changing one thing</h2>
+<p>Three sliders under the score, starting corpus, retirement age and yearly spending, re-run the whole simulation on release and show the before and after. The <strong>what-if chips</strong> apply a named shock: a job loss (income gap), a market crash (a forced drawdown in a chosen year, applied identically to every trial and window), retiring earlier or later, a move abroad, a big expense. <strong>Compare</strong> overlays up to three scenarios and, with two selected, writes a one-line verdict such as "Moving to Bangalore at 50 lets you retire 4 years earlier", using retirement age first and survival rate as the tie-break.</p>
+<p>The <strong>stress test</strong> is a five-by-five grid: expected return from two points below to two points above your baseline, inflation from one and a half points below to above, 200 trials per cell, coloured by survival. It shows which of the two assumptions your plan is actually sensitive to.</p>
+
+<h2>7. Spending shape</h2>
+<p>By default spending is <strong>constant real</strong>: flat in today's money, rising only with inflation. The optional <strong>Bernicke</strong> model eases real spending by 1.5% a year after 56 and levels off at 76, the "go-go, slow-go, no-go" pattern seen in retiree surveys. It usually raises survival; treat it as a view, not a promise.</p>
+
+<h2>8. What the model does not do</h2>
+<ul>
+  <li>No tax brackets, slabs, filing status, or treaty rules; one blended rate per stage, plus a capital-gains rate on property sales.</li>
+  <li>No account types. EPF, NPS, PPF, 401(k) and IRA balances are simply part of the starting corpus; lock-ins, withdrawal limits and required minimum distributions are not modelled.</li>
+  <li>One portfolio return. There is no asset allocation, bond ladder or glide path; the return you set, or history, applies to the whole balance.</li>
+  <li>Historical replay uses US equity history for every plan, including plans lived in India.</li>
+  <li>Healthcare, insurance and long-term care are not special; add them as a recurring cost or a one-time event if they matter to you.</li>
+  <li>Display currency is a presentation conversion of dollar amounts; the rupee-depreciation input is the only currency-risk lever.</li>
+</ul>
+<p class="note">Defaults, in case you want to compare with your own spreadsheet: expected return 7%, volatility 12%, US inflation 3%, India inflation 6%, rupee depreciation 3%, Monte Carlo 10,000 trials, benchmark P80 at an 80% survival bar. All are editable in Inputs.</p>
+
+<div class="cta">
+  <h3>Run it with your own numbers</h3>
+  <p>Free on iPhone and Android. No account; your plan never leaves your phone.</p>
+  <a class="btn btn-primary" href="https://apps.apple.com/app/apple-store/id6781692447?pt=129056482&amp;ct=site&amp;mt=8" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:18px;height:18px"><path d="M16.365 1.43c0 1.14-.42 2.21-1.13 3.01-.78.88-2.05 1.56-3.27 1.46-.14-1.13.42-2.31 1.1-3.05.77-.85 2.13-1.5 3.3-1.42zM20.5 17.06c-.55 1.27-.81 1.84-1.52 2.96-.99 1.56-2.39 3.51-4.12 3.52-1.54.02-1.94-1-4.03-.99-2.09.01-2.53 1.01-4.07.99-1.73-.02-3.06-1.78-4.05-3.34C-.04 16.79-.4 11.7 1.27 9.06c1.18-1.88 3.05-2.98 4.81-2.98 1.79 0 2.92 1 4.4 1 1.43 0 2.31-1 4.38-1 1.57 0 3.23.85 4.41 2.33-3.88 2.13-3.25 7.68 1.23 8.65z"/></svg> Download on the App Store</a>
+  <a class="btn btn-ghost" href="https://play.google.com/store/apps/details?id=com.gururajan.bhavitta&amp;referrer=utm_source%3Dbhavitta.com%26utm_medium%3Dweb%26utm_campaign%3Dsite" target="_blank" rel="noopener">Get it on Google Play</a>
+</div>
+</main>
+<footer>
+  <div class="wrap">
+    <a class="brand" href="./"><img class="logo" src="./icon-192.png" alt="Bhavitta app icon" /> Bhavitta</a>
+    <div style="display:flex;gap:22px;align-items:center;flex-wrap:wrap">
+      <a href="./#features">Features</a>
+      <a href="./how-it-works.html">How the score works</a>
+      <a href="./retire-in-india-vs-us.html">India vs US example</a>
+      <a href="./#privacy">Privacy</a>
+      <a href="./#faq">FAQ</a>
+      <a href="./#support">Support</a>
+    </div>
+    <div>© 2026 Bhavitta</div>
+  </div>
+  <p class="disclaimer">
+    Bhavitta is an educational planning tool, not financial advice. Projections are
+    estimates based on your inputs and historical or simulated market behavior, and are
+    not guarantees of future results.
+  </p>
+</footer>
+<script>
+/* Channel passthrough + anonymous page counts — same behaviour as the home page (ANALYTICS.md "Website"). */
+(function () {
+  try {
+    function clean(v) { return (v || '').toLowerCase().replace(/[^a-z0-9_-]/g, '').slice(0, 40); }
+    var q = new URLSearchParams(location.search);
+    var src = clean(q.get('utm_source')), camp = clean(q.get('utm_campaign'));
+    try {
+      if (src) { sessionStorage.setItem('b_utm_source', src); sessionStorage.setItem('b_utm_campaign', camp); }
+      else { src = clean(sessionStorage.getItem('b_utm_source')); camp = clean(sessionStorage.getItem('b_utm_campaign')); }
+    } catch (e) {}
+    window.__bhavittaChannel = { source: src, campaign: camp };
+    if (!src) return;
+    var links = document.querySelectorAll('a[href]');
+    for (var i = 0; i < links.length; i++) {
+      var a = links[i], u;
+      try { u = new URL(a.href); } catch (e) { continue; }
+      if (u.hostname === 'apps.apple.com') { u.searchParams.set('ct', src); a.href = u.toString(); }
+      else if (u.hostname === 'play.google.com') {
+        u.searchParams.set('referrer', 'utm_source=' + src + '&utm_medium=web&utm_campaign=' + (camp || 'site'));
+        a.href = u.toString();
+      }
+    }
+  } catch (e) {}
+})();
+(function () {
+  try {
+    var h = location.hostname;
+    if (h !== 'bhavitta.com' && h !== 'www.bhavitta.com') return;
+    if (navigator.doNotTrack === '1' || navigator.globalPrivacyControl) return;
+    var id;
+    try { id = sessionStorage.getItem('b_sid'); if (!id) { id = (crypto.randomUUID ? crypto.randomUUID() : String(Math.random()).slice(2) + Date.now()); sessionStorage.setItem('b_sid', id); } }
+    catch (e) { id = String(Math.random()).slice(2) + Date.now(); }
+    var KEY = 'phc_mWpsFt8CwpgQXLtXw9cZmcKfTerVpyC62gDtbRynoAQo';
+    function send(event, props) {
+      var body = JSON.stringify({ api_key: KEY, event: event, distinct_id: id, timestamp: new Date().toISOString(),
+        properties: Object.assign({ environment: 'web', $process_person_profile: false, $lib: 'bhavitta-site', $current_url: location.origin + location.pathname }, props || {}) });
+      try { if (navigator.sendBeacon && navigator.sendBeacon('https://eu.i.posthog.com/capture/', new Blob([body], { type: 'text/plain' }))) return; } catch (e) {}
+      try { fetch('https://eu.i.posthog.com/capture/', { method: 'POST', body: body, keepalive: true, mode: 'no-cors' }); } catch (e) {}
+    }
+    var ref = ''; try { ref = document.referrer ? new URL(document.referrer).hostname : ''; } catch (e) {}
+    var ch = window.__bhavittaChannel || {};
+    send('site_pageview', { referrer_host: ref, utm_source: ch.source || '', utm_campaign: ch.campaign || '' });
+    function where(el) { var n = el.closest('nav, header, footer, [id]'); return n ? (n.id || n.tagName.toLowerCase()) : 'page'; }
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('a[href]'); if (!a) return;
+      var u = a.href;
+      if (u.indexOf('https://apps.apple.com/') === 0) send('site_click_ios', { location: where(a) });
+      else if (u.indexOf('https://play.google.com/') === 0) send('site_click_android', { location: where(a) });
+    }, true);
+  } catch (e) {}
+})();
+</script>
+</body>
+</html>

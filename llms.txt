@@ -2,7 +2,7 @@
 
 > Bhavitta is a free, private, on-device retirement-readiness check and planning app for iPhone (iOS 18+) and Android. You map your whole financial life as a timeline of life stages, and the app simulates it with 10,000 Monte Carlo trials or by replaying real market history from 1928 to 2023, then gives a 0 to 100 readiness score, a probability fan of outcomes, a stress-test heatmap and a year-by-year ledger. There is no account and no server: the plan never leaves the phone.
 
-The name is Sanskrit: bhavishya (future) + vitta (wealth). Built and maintained by one independent developer, Balaji Gururajan. Not backed by a bank, brokerage, or advisory firm. Not financial advice.
+The name is Sanskrit: bhavishya (future) + vitta (wealth). Built and maintained by one independent developer. Not backed by a bank, brokerage, or advisory firm. Not financial advice.
 
 ## Key facts
 
@@ -10,6 +10,7 @@ The name is Sanskrit: bhavishya (future) + vitta (wealth). Built and maintained 
 - Platforms: iPhone (iOS 18 or later) and Android phones. No web or desktop version yet. Nothing syncs; a local backup file moves plans between devices.
 - Privacy: no account; every scenario, stage and amount is stored on the phone. The app sends anonymous usage and crash diagnostics (screen names, a rounded success-rate bucket, error codes), never amounts, names, typed cities or the plan. The News tab downloads public feeds and prices with nothing about the user attached.
 - Audience: anyone planning retirement, in India, the United States, or across borders (NRI, expat, FIRE). 21 display currencies including Indian lakh/crore grouping. 49 curated cities with local cost-of-living estimates (11 US tiers and cities, 38 worldwide, including Bangalore, Chennai, Hyderabad, Pune, Dubai, Singapore, Lisbon) plus custom cities.
+- Readiness score formula: score = 0.8 × survival rate + 20 × min(1, cushion years ÷ 10), where cushion years = balance at retirement on the P80 (bad-markets) line ÷ first-year retirement spending. Survival counts a trial only if the balance stays above zero in every year. The headline "Ready at N" is the earliest age at which earned income can stop and survival still clears 80%.
 - Simulation: historical replay of every start year 1928 to 2023 (nominal or inflation-adjusted), or 10,000 Monte Carlo trials from the user's expected return and volatility. Outputs a fan of projected balances, a survival rate, a 0 to 100 readiness score with plain-language reasons, a return-by-inflation stress heatmap, and a deterministic cash-flow ledger for any percentile path.
 - Taxes: not a tax calculator. Each life stage carries a blended tax rate the user sets (for example 32% in Seattle, 22% in Bangalore) plus a capital-gains rate on property sales. It does not model US brackets, Indian slabs, filing status, or tax treaties.
 - Retirement accounts: EPF, NPS, PPF, 401(k), IRA balances go into the starting corpus. Pensions, Social Security, annuities and other guaranteed income are inflation-indexed income on a stage. No modelling of lock-ins, withdrawal limits or required minimum distributions.
@@ -17,6 +18,12 @@ The name is Sanskrit: bhavishya (future) + vitta (wealth). Built and maintained 
 - Voice: optional on-device voice control in English, Hindi, or a mix (iOS; Android 13+). Audio never leaves the phone.
 - News: "Artha" tab with curated retirement, FIRE, NRI, tax and market stories, filtered on-device, with "See how this affects my plan" what-ifs.
 - Data out: backup file of all scenarios, Markdown export of a scenario (for a second opinion from an AI assistant or an adviser), share image with amounts hidden by default.
+
+## Guides (plain HTML, citable)
+
+- How the readiness score works (methodology, formula, what is not modelled): https://bhavitta.com/how-it-works.html
+- Worked example, retire in Bangalore at 50 vs stay in Seattle, with the engine's numbers: https://bhavitta.com/retire-in-india-vs-us.html
+- All twelve features: https://bhavitta.com/features.html
 
 ## Links
 

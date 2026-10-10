@@ -7,10 +7,29 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image><image:loc>https://bhavitta.com/og-card.png</image:loc><image:title>Bhavitta — Will your retirement plan hold?</image:title></image:image>
+    <image:image><image:loc>https://bhavitta.com/screenshots/readiness.png</image:loc><image:title>Bhavitta readiness score card</image:title></image:image>
     <image:image><image:loc>https://bhavitta.com/screenshots/projections.png</image:loc><image:title>Bhavitta Projections screen with readiness sliders and fan chart</image:title></image:image>
     <image:image><image:loc>https://bhavitta.com/screenshots/timeline.png</image:loc><image:title>Bhavitta life-stage timeline</image:title></image:image>
     <image:image><image:loc>https://bhavitta.com/screenshots/scenarios.png</image:loc><image:title>Bhavitta scenarios list</image:title></image:image>
     <image:image><image:loc>https://bhavitta.com/screenshots/ledger.png</image:loc><image:title>Bhavitta year-by-year ledger</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://bhavitta.com/how-it-works.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bhavitta.com/retire-in-india-vs-us.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bhavitta.com/features.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://bhavitta.com/llms.txt</loc>

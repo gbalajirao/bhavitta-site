@@ -48,10 +48,6 @@
     "height": 512
    },
    "email": "bhavitta.help@gmail.com",
-   "founder": {
-    "@type": "Person",
-    "name": "Balaji Gururajan"
-   },
    "sameAs": [
     "https://www.instagram.com/bhavitta.help/",
     "https://www.youtube.com/@Bhavitta-planning",
@@ -61,6 +57,7 @@
   },
   {
    "@type": "WebSite",
+   "hasPart": [{"@type": "WebPage", "url": "https://bhavitta.com/how-it-works.html", "name": "How the readiness score works"}, {"@type": "WebPage", "url": "https://bhavitta.com/retire-in-india-vs-us.html", "name": "Retire in Bangalore at 50, or stay in Seattle?"}, {"@type": "WebPage", "url": "https://bhavitta.com/features.html", "name": "Everything Bhavitta does"}],
    "@id": "https://bhavitta.com/#website",
    "url": "https://bhavitta.com/",
    "name": "Bhavitta",
@@ -114,10 +111,7 @@
     "21 display currencies including lakh/crore grouping",
     "No account; all data stored on the phone"
    ],
-   "author": {
-    "@type": "Person",
-    "name": "Balaji Gururajan"
-   },
+   "author": {"@id": "https://bhavitta.com/#org"},
    "publisher": {
     "@id": "https://bhavitta.com/#org"
    },
@@ -238,201 +232,7 @@
  ]
 }
 </script>
-<style>
-  :root{
-    --night-1:#0B1220; --night-2:#17133F; --ink-deep:#0F0E23;
-    --cyan:#0EA5E9; --cyan-soft:#38BDF8; --violet:#8B5CF6; --violet-2:#6C63FF;
-    --emerald:#10B981; --emerald-2:#059669; --gold:#F59E0B;
-    --surface:#F6F7FB; --card:#FFFFFF; --line:#E7E9F0;
-    --text:#1E1B33; --text-2:#5B6072; --muted:#8A8FA3;
-    --radius:20px; --radius-lg:28px;
-    --shadow:0 18px 50px rgba(17,20,40,.12);
-    --maxw:1120px;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  html{scroll-behavior:smooth}
-  body{
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    color:var(--text); background:var(--surface); line-height:1.6;
-    -webkit-font-smoothing:antialiased;
-  }
-  a{color:inherit;text-decoration:none}
-  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
-  .eyebrow{
-    font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;
-    color:var(--cyan);
-  }
-  .btn{
-    display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:15px;
-    padding:13px 22px;border-radius:14px;border:1px solid transparent;cursor:pointer;
-    transition:transform .15s ease, box-shadow .15s ease;
-  }
-  .btn:hover{transform:translateY(-2px)}
-  .btn-primary{background:linear-gradient(135deg,var(--emerald),var(--emerald-2));color:#fff;box-shadow:0 10px 24px rgba(16,185,129,.35)}
-  .btn-ghost{border-color:rgba(255,255,255,.25);color:#fff;background:rgba(255,255,255,.06)}
-
-  /* ── Nav ── */
-  nav{position:sticky;top:0;z-index:50;backdrop-filter:saturate(160%) blur(12px);
-      background:rgba(11,18,32,.72);border-bottom:1px solid rgba(255,255,255,.06)}
-  nav .wrap{display:flex;align-items:center;justify-content:space-between;height:62px}
-  .brand{display:flex;align-items:center;gap:10px;color:#fff;font-weight:700;font-size:18px}
-  .brand .logo{width:28px;height:28px;border-radius:8px;display:block;
-    box-shadow:0 0 14px rgba(56,189,248,.45);border:1px solid rgba(255,255,255,.12)}
-  .nav-right{display:flex;align-items:center;gap:22px}
-  .nav-links{display:flex;gap:26px;color:rgba(255,255,255,.72);font-size:14px;font-weight:500}
-  .nav-links a:hover{color:#fff}
-  @media(max-width:720px){.nav-links{display:none}}
-  .nav-socials{display:flex;align-items:center;gap:14px}
-  .nav-socials a{display:inline-flex;color:rgba(255,255,255,.78);transition:color .15s ease,transform .15s ease}
-  .nav-socials a:hover{color:#fff;transform:translateY(-1px)}
-  .nav-socials svg{width:19px;height:19px;display:block}
-
-  /* ── Hero ── */
-  .hero{position:relative;overflow:hidden;color:#fff;
-    background:radial-gradient(1100px 480px at 78% -8%, rgba(14,165,233,.30), transparent 60%),
-               radial-gradient(900px 520px at 10% 0%, rgba(139,92,246,.22), transparent 55%),
-               linear-gradient(160deg,var(--night-1),var(--night-2));}
-  .hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:36px;align-items:center;
-    padding:74px 24px 90px}
-  @media(max-width:900px){.hero .wrap{grid-template-columns:1fr;text-align:center;padding-top:52px}}
-  .kicker-deva{font-size:14px;letter-spacing:.36em;color:rgba(56,189,248,.85);font-weight:600;margin-bottom:6px}
-  .name-note{font-size:13px;color:rgba(255,255,255,.5);font-style:italic;margin:0 0 16px}
-  @media(max-width:900px){.name-note{margin-left:auto;margin-right:auto}}
-  h1{font-size:clamp(38px,6vw,62px);line-height:1.04;font-weight:800;letter-spacing:-.02em;
-     background:linear-gradient(92deg,#fff 30%, #9FE6FF);-webkit-background-clip:text;background-clip:text;color:transparent}
-  .lede{margin-top:18px;font-size:clamp(16px,2.2vw,20px);color:rgba(255,255,255,.74);max-width:560px}
-  @media(max-width:900px){.lede{margin-left:auto;margin-right:auto}}
-  .hero-cta{display:flex;gap:14px;margin-top:30px;flex-wrap:wrap}
-  @media(max-width:900px){.hero-cta{justify-content:center}}
-  .badges{display:flex;gap:10px;margin-top:26px;flex-wrap:wrap}
-  @media(max-width:900px){.badges{justify-content:center}}
-  .badge{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:600;
-    color:rgba(255,255,255,.85);padding:7px 13px;border-radius:999px;
-    background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12)}
-  .badge svg{width:14px;height:14px}
-  .free-line{margin-top:18px;font-size:14.5px;color:rgba(255,255,255,.78);max-width:560px}
-  .free-line strong{color:#fff;font-weight:700}
-  @media(max-width:900px){.free-line{margin-left:auto;margin-right:auto}}
-  .nav-links .nav-store{color:#fff;font-weight:600}
-
-  /* ── Maker ── */
-  .maker{background:linear-gradient(180deg,#fff,#eef1f8)}
-  .maker .card{max-width:760px;margin:0 auto;background:var(--card);border:1px solid var(--line);
-    border-radius:var(--radius-lg);padding:36px;box-shadow:var(--shadow);display:grid;grid-template-columns:72px 1fr;gap:22px;align-items:start}
-  @media(max-width:600px){.maker .card{grid-template-columns:1fr;text-align:center}}
-  .maker .card img{width:72px;height:72px;border-radius:18px;border:1px solid var(--line);display:block}
-  @media(max-width:600px){.maker .card img{margin:0 auto}}
-  .maker h3{font-size:20px;font-weight:800;margin-bottom:8px}
-  .maker p{color:var(--text-2);font-size:15.5px}
-  .maker p+p{margin-top:10px}
-  .maker a{color:var(--emerald-2);font-weight:600}
-
-  /* ── FAQ ── */
-  .faq-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
-  @media(max-width:800px){.faq-grid{grid-template-columns:1fr}}
-  .faq-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:24px 26px}
-  .faq-item h3{font-size:17px;font-weight:700;margin-bottom:8px;letter-spacing:-.01em}
-  .faq-item p{color:var(--text-2);font-size:14.5px}
-  .faq-item p+p{margin-top:8px}
-
-  /* hero phones */
-  .hero-art{position:relative;height:480px}
-  @media(max-width:900px){.hero-art{height:540px;margin-top:18px}}
-  .phone{border-radius:34px;background:#0c0c14;padding:7px;
-    box-shadow:0 30px 70px rgba(0,0,0,.5);border:1px solid rgba(255,255,255,.10)}
-  .phone img{display:block;width:100%;border-radius:27px}
-  .hero-art .phone{position:absolute;width:230px}
-  .hero-art .p-back{right:30px;top:8px;transform:rotate(6deg);width:215px;opacity:.96}
-  .hero-art .p-front{left:24px;top:48px;transform:rotate(-5deg);z-index:2}
-  @media(max-width:900px){
-    .hero-art .p-front{left:50%;margin-left:-150px;width:248px;transform:rotate(-4deg)}
-    .hero-art .p-back{right:50%;margin-right:-150px;top:0;transform:rotate(7deg)}
-  }
-
-  /* ── Section scaffolding ── */
-  section{padding:84px 0}
-  .section-head{max-width:680px;margin:0 auto 50px;text-align:center}
-  .section-head h2{font-size:clamp(28px,4vw,40px);font-weight:800;letter-spacing:-.02em;margin-top:12px}
-  .section-head p{margin-top:14px;color:var(--text-2);font-size:17px}
-
-  /* ── Features grid ── */
-  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-  @media(max-width:900px){.grid{grid-template-columns:1fr 1fr}}
-  @media(max-width:600px){.grid{grid-template-columns:1fr}}
-  .feature{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
-    padding:26px;box-shadow:var(--shadow)}
-  .feature .ic{width:46px;height:46px;border-radius:13px;display:grid;place-items:center;margin-bottom:16px;color:#fff}
-  .feature h3{font-size:18px;font-weight:700;margin-bottom:7px}
-  .feature p{color:var(--text-2);font-size:14.5px}
-  .ic-1{background:linear-gradient(135deg,#0EA5E9,#6366F1)}
-  .ic-2{background:linear-gradient(135deg,#10B981,#0EA5E9)}
-  .ic-3{background:linear-gradient(135deg,#F59E0B,#EF4444)}
-  .ic-4{background:linear-gradient(135deg,#8B5CF6,#6C63FF)}
-  .ic-5{background:linear-gradient(135deg,#0EA5E9,#10B981)}
-  .ic-6{background:linear-gradient(135deg,#334155,#0F172A)}
-  .ic-7{background:linear-gradient(135deg,#1E6B5C,#B8860B)}
-
-  /* ── Showcase ── */
-  .showcase{background:linear-gradient(180deg,#fff, #eef1f8)}
-  .shots{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;align-items:end}
-  @media(max-width:900px){.shots{grid-template-columns:1fr 1fr}}
-  .shot{text-align:center}
-  .shot .phone{border-radius:28px;padding:6px}
-  .shot .phone img{border-radius:22px}
-  .shot span{display:block;margin-top:14px;font-weight:600;font-size:14px;color:var(--text-2)}
-  .platform-label{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
-    color:var(--muted);text-align:center;margin:36px 0 20px}
-  .platform-label:first-of-type{margin-top:0}
-
-  /* ── Steps ── */
-  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
-  @media(max-width:800px){.steps{grid-template-columns:1fr}}
-  .step{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:28px}
-  .step .n{font-size:13px;font-weight:800;color:var(--cyan);letter-spacing:.1em}
-  .step h3{margin:10px 0 6px;font-size:19px}
-  .step p{color:var(--text-2);font-size:15px}
-
-  /* ── Watch ── */
-  .watch{background:linear-gradient(180deg,#eef1f8,#fff)}
-  .video-row{display:flex;gap:40px;justify-content:center;flex-wrap:wrap;align-items:flex-start}
-  .video-col{flex:0 1 380px}
-  .video-embed{max-width:380px;margin:0 auto;aspect-ratio:1320/2868;border-radius:28px;
-    overflow:hidden;background:#0c0c14;box-shadow:0 30px 70px rgba(17,20,40,.22);
-    border:1px solid rgba(17,20,40,.08)}
-  .video-embed.android{aspect-ratio:1080/2400}
-  .video-embed iframe,.video-embed video{display:block;width:100%;height:100%;border:0;object-fit:cover}
-
-  /* ── Privacy band ── */
-  .privacy{color:#fff;background:radial-gradient(800px 360px at 80% 0%,rgba(16,185,129,.22),transparent 60%),linear-gradient(160deg,var(--ink-deep),#141233)}
-  .privacy .section-head h2,.privacy .section-head p{color:#fff}
-  .privacy .section-head p{color:rgba(255,255,255,.72)}
-  .priv-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:8px}
-  @media(max-width:800px){.priv-grid{grid-template-columns:1fr}}
-  .priv-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:var(--radius);padding:24px}
-  .priv-card h3{font-size:16px;margin-bottom:6px}
-  .priv-card p{color:rgba(255,255,255,.72);font-size:14.5px}
-
-  /* ── Support ── */
-  .support .card{max-width:680px;margin:0 auto;background:var(--card);border:1px solid var(--line);
-    border-radius:var(--radius-lg);padding:38px;text-align:center;box-shadow:var(--shadow)}
-  .support a.mail{color:var(--emerald-2);font-weight:700}
-  .socials{display:flex;justify-content:center;gap:14px;margin-top:24px;flex-wrap:wrap}
-  .social{display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:14px;
-    color:var(--text);padding:10px 16px;border-radius:999px;border:1px solid var(--line);
-    background:var(--surface);transition:transform .15s ease,border-color .15s ease}
-  .social:hover{transform:translateY(-2px);border-color:var(--cyan)}
-  .social svg{width:18px;height:18px}
-  .foot-socials{display:flex;gap:16px;align-items:center}
-  .foot-socials a{display:inline-flex}
-  .foot-socials svg{width:18px;height:18px;opacity:.7;transition:opacity .15s ease}
-  .foot-socials a:hover svg{opacity:1}
-
-  /* ── Footer ── */
-  footer{background:var(--ink-deep);color:rgba(255,255,255,.6);padding:40px 0;font-size:14px}
-  footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
-  footer a:hover{color:#fff}
-  .disclaimer{font-size:12.5px;color:var(--muted);max-width:var(--maxw);margin:18px auto 0;padding:0 24px;text-align:center}
-</style>
+<link rel="stylesheet" href="./site.css" />
 </head>
 <body>
 
@@ -442,11 +242,10 @@
     <div class="nav-right">
       <div class="nav-links">
         <a href="#features">Features</a>
-        <a href="#screens">Screens</a>
         <a href="#how">How it works</a>
-        <a href="#watch">Watch</a>
-        <a href="#privacy">Privacy</a>
+        <a href="#guides">Guides</a>
         <a href="#faq">FAQ</a>
+        <a href="#privacy">Privacy</a>
         <a href="#support">Support</a>
         <a class="nav-store" href="https://apps.apple.com/app/apple-store/id6781692447?pt=129056482&amp;ct=site&amp;mt=8" target="_blank" rel="noopener">App Store</a>
         <a class="nav-store" href="https://play.google.com/store/apps/details?id=com.gururajan.bhavitta&amp;referrer=utm_source%3Dbhavitta.com%26utm_medium%3Dweb%26utm_campaign%3Dsite" target="_blank" rel="noopener">Google Play</a>
@@ -495,8 +294,8 @@
       </div>
     </div>
     <div class="hero-art">
-      <div class="phone p-back"><img src="./screenshots/timeline.png" alt="Life-stage timeline" /></div>
-      <div class="phone p-front"><img src="./screenshots/projections.png" alt="Projection fan chart" /></div>
+      <div class="phone p-back"><img src="./screenshots/projections.png" alt="Projections screen with adjust sliders and fan chart" /></div>
+      <div class="phone p-front"><img src="./screenshots/readiness.png" alt="Readiness score card: 96, Ready at 39, with a plain-language reason" /></div>
     </div>
   </div>
 </header>
@@ -521,44 +320,9 @@
         <p>Replay decades of real market history (1928–2023, nominal or inflation-adjusted) or run 10,000 Monte Carlo trials. Both give you a probability fan and your true survival rate.</p>
       </div>
       <div class="feature">
-        <div class="ic ic-3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M3 15h18M9 3v18M15 3v18"/></svg></div>
-        <h3>Stress-test heatmap</h3>
-        <p>A return × inflation grid shows exactly how sensitive your plan is to the two assumptions that move the needle most.</p>
-      </div>
-      <div class="feature">
-        <div class="ic ic-4"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M4 5h16M4 12h16M4 19h16"/></svg></div>
-        <h3>Year-by-year ledger</h3>
-        <p>An amortization view of resolved cash flow — income, taxes, expenses, college, property, one-time events, and closing balance — for any percentile path, in today's dollars by default.</p>
-      </div>
-      <div class="feature">
-        <div class="ic ic-5"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M4 7h16v12H4zM8 7V5a4 4 0 018 0v2"/></svg></div>
-        <h3>Compare scenarios side by side</h3>
-        <p>One tap opens Compare with a plain-language winner line — "Moving to Bangalore at 50 lets you retire 4 years earlier" — overlaying up to three plans with success rates and closing balances together, or export Markdown for an AI second opinion.</p>
-      </div>
-      <div class="feature">
         <div class="ic ic-2"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M4 18a8 8 0 1116 0"/><path d="M12 18l4-5"/><circle cx="12" cy="18" r="1" fill="#fff" stroke="none"/></svg></div>
         <h3>One score for "am I ready?"</h3>
         <p>A single 0–100 readiness score sits above the chart, with a plain-language reason why and the changes that would move it most — retire later, spend less, or survive a bad first year. Share the result (amounts hidden by default) or set a check-in reminder, entirely on-device.</p>
-      </div>
-      <div class="feature">
-        <div class="ic ic-4"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 17v2a2 2 0 002 2h12a2 2 0 002-2v-2"/></svg></div>
-        <h3>Backups you own</h3>
-        <p>Back up every scenario to a single file and restore it on any phone — your plans survive a lost device without any cloud account.</p>
-      </div>
-      <div class="feature">
-        <div class="ic ic-6"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M12 3l7 4v5c0 4-3 7-7 9-4-2-7-5-7-9V7z"/></svg></div>
-        <h3>Private by design</h3>
-        <p>Everything is stored locally on your device. No accounts, no servers — your numbers never leave your phone. 21 display currencies, including Indian lakh/crore grouping.</p>
-      </div>
-      <div class="feature">
-        <div class="ic ic-5"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0014 0M12 18v4M8 22h8"/></svg></div>
-        <h3>Build and edit by voice</h3>
-        <p>Turn on voice control and speak a scenario into existence, add a stage, or adjust an input — English or Hindi, or a mix. Runs entirely on-device; your voice never leaves your phone.</p>
-      </div>
-      <div class="feature">
-        <div class="ic ic-7"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M4 4h13a3 3 0 013 3v13H7a3 3 0 01-3-3V4z"/><path d="M4 4v13a3 3 0 003 3M8 8h8M8 12h8M8 16h4"/></svg></div>
-        <h3>Curated news, filtered on-device</h3>
-        <p>Artha, the News tab, pulls retirement, FIRE, NRI, tax, and market stories from trusted sources and personalizes them locally to your plan. Tap "See how this affects my plan" on a relevant story to open it as a what-if. Live index, currency, and commodity tickers up top; what you read is never sent anywhere or tracked.</p>
       </div>
       <div class="feature">
         <div class="ic ic-1"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><line x1="4" y1="6" x2="20" y2="6"/><circle cx="14" cy="6" r="2" fill="#fff" stroke="none"/><line x1="4" y1="12" x2="20" y2="12"/><circle cx="8" cy="12" r="2" fill="#fff" stroke="none"/><line x1="4" y1="18" x2="20" y2="18"/><circle cx="17" cy="18" r="2" fill="#fff" stroke="none"/></svg></div>
@@ -566,11 +330,17 @@
         <p>Model a job loss, a market crash, retiring early or late, moving abroad, or a big expense — see the before/after instantly with direct retirement-age and spending sliders, then keep it in this plan or save it as a new scenario.</p>
       </div>
       <div class="feature">
-        <div class="ic ic-6"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M12 21s7-7.5 7-12a7 7 0 10-14 0c0 4.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
-        <h3>A library of life events</h3>
-        <p>Add a wedding, a baby, a raise, a sabbatical, or a move from a grouped picker instead of a blank form — or start from a ready-made life story, like retiring early or caring for parents, as its own scenario.</p>
+        <div class="ic ic-5"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M4 7h16v12H4zM8 7V5a4 4 0 018 0v2"/></svg></div>
+        <h3>Compare scenarios side by side</h3>
+        <p>One tap opens Compare with a plain-language winner line — "Moving to Bangalore at 50 lets you retire 4 years earlier" — overlaying up to three plans with success rates and closing balances together, or export Markdown for an AI second opinion.</p>
+      </div>
+      <div class="feature">
+        <div class="ic ic-6"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M12 3l7 4v5c0 4-3 7-7 9-4-2-7-5-7-9V7z"/></svg></div>
+        <h3>Private by design</h3>
+        <p>Everything is stored locally on your device. No accounts, no servers — your numbers never leave your phone. 21 display currencies, including Indian lakh/crore grouping.</p>
       </div>
     </div>
+    <p class="grid-more"><a href="./features.html">See all twelve features →</a></p>
   </div>
 </section>
 
@@ -655,6 +425,37 @@
   </div>
 </section>
 
+<!-- GUIDES -->
+<section id="guides" class="guides">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Guides</div>
+      <h2>Read before you trust a number</h2>
+      <p>How the score is computed, a complete worked example with the engine's own output, and the full feature list.</p>
+    </div>
+    <div class="guide-grid">
+      <a class="guide" href="./how-it-works.html">
+        <div class="eyebrow">Methodology</div>
+        <h3>How the readiness score works</h3>
+        <p>The year-by-year recurrence, every window of 1928–2023 history versus 10,000 Monte Carlo trials, the exact score formula, and what the model deliberately leaves out.</p>
+        <span class="more">Read the method →</span>
+      </a>
+      <a class="guide" href="./retire-in-india-vs-us.html">
+        <div class="eyebrow">Worked example</div>
+        <h3>Retire in Bangalore at 50, or stay in Seattle?</h3>
+        <p>One couple, two timelines, every number from the engine: the earliest safe stop-working age is 52 in Seattle and 47 in Bangalore, and spending, not returns, is why.</p>
+        <span class="more">See the numbers →</span>
+      </a>
+      <a class="guide" href="./features.html">
+        <div class="eyebrow">Features</div>
+        <h3>Everything Bhavitta does</h3>
+        <p>All twelve features in the order you meet them: timeline, two engines, score, stress test, ledger, compare, what-ifs, life events, voice, news, backups, privacy.</p>
+        <span class="more">See all features →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
 <!-- MAKER -->
 <section id="maker" class="maker">
   <div class="wrap">
@@ -666,7 +467,7 @@
       <img src="./icon-192.png" alt="Bhavitta app icon" />
       <div>
         <h3>Built and maintained by one independent developer</h3>
-        <p>Bhavitta is written by Balaji Gururajan, a software engineer, and is not backed by a bank, a
+        <p>Bhavitta is written by one independent software engineer and is not backed by a bank, a
           brokerage, or an advisory firm. It has nothing to sell you: no account to create, no subscription,
           no ads, and no lead to pass on. The whole simulation engine runs on your phone.</p>
         <p>Bug reports, feature requests, and "this number looks wrong" emails go straight to the developer at
@@ -796,6 +597,8 @@
     <div class="brand"><img class="logo" src="./icon-192.png" alt="Bhavitta app icon" /> Bhavitta</div>
     <div style="display:flex;gap:22px;align-items:center">
       <a href="#features">Features</a>
+      <a href="./how-it-works.html">How the score works</a>
+      <a href="./retire-in-india-vs-us.html">India vs US example</a>
       <a href="#privacy">Privacy</a>
       <a href="#faq">FAQ</a>
       <a href="#support">Support</a>
