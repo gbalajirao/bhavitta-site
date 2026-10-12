@@ -235,6 +235,9 @@
 .article td.num,.article th.num{text-align:right;font-variant-numeric:tabular-nums}
 .article tr:last-child td{border-bottom:none}
 .table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.shot{display:flex;flex-wrap:wrap;gap:22px;align-items:center;margin:26px 0}
+.shot img{width:300px;max-width:100%;height:auto;border-radius:28px;box-shadow:0 14px 36px rgba(15,23,42,.22);border:1px solid rgba(15,23,42,.08)}
+.shot figcaption{flex:1 1 260px;min-width:0;font-size:15px;line-height:1.6;color:var(--text-2)}
 .callout{border-left:4px solid var(--emerald);background:#ecfdf5;border-radius:12px;padding:14px 18px;margin:18px 0 22px;font-size:15.5px}
 .callout.warn{border-color:var(--gold);background:#fffbeb}
 .callout strong{font-weight:800}

@@ -26,7 +26,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png" />
 <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png" />
 <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
-<link rel="stylesheet" href="./site.css?v=4223e0a5" />
+<link rel="stylesheet" href="./site.css?v=93cab767" />
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -151,6 +151,11 @@
 </table></div>
 <p>Both plans as written are comfortably safe; a couple earning $250,000 and working to 65 with $900,000 already saved does not have a survival problem. The interesting line is the headline. The solver asks "what is the earliest age at which earned income can stop and the plan still clears 80%?" and gets <strong>52 in Seattle</strong> and <strong>47 in Bangalore</strong>. The app's own explanation for Plan B reads: <em>"At your planned retirement at 50, Social Security plus your savings, in Bangalore, cover spending. The risky years are 62–66, if markets fall early."</em></p>
 
+<figure class="shot">
+  <img src="./screenshots/example-projections.png" width="330" height="647" loading="lazy" alt="Bhavitta's Projections tab for the Move to Bangalore at 50 plan: readiness score 100, headline Ready at 47, with the Adjust sliders and the what-would-move-this list below it.">
+  <figcaption><strong>This is the readiness card, from the app.</strong> The Projections tab for the Bangalore plan: score 100 and "Ready at 47", the same headline as the table above. Below it, the Adjust sliders and "What would move this" show what a two-year-earlier retirement or a crash in year one does to the score. The "about $45k a year" line is a 4%-rule estimate from the bad-markets balance at the ready age, so it differs from the $59,500 the plan itself spends.</figcaption>
+</figure>
+
 <h2>The same question, year by year</h2>
 <p>Instead of one solved age, here is survival for each candidate stop-working age. The historical column is the default model; the Monte Carlo column is the deliberately conservative one, 7% expected return against history's roughly 9.8%.</p>
 <div class="table-scroll"><table>
@@ -183,6 +188,10 @@
   <li>On <strong>Scenarios</strong>, duplicate the plan, and in the copy change the move age or remove the move entirely.</li>
   <li>Select both and tap <strong>Compare</strong>. The winner line tells you which plan retires earlier, and the overlay shows both fans together. Then try the "Move abroad" and "Market crash" chips on either plan.</li>
 </ol>
+<figure class="shot">
+  <img src="./screenshots/example-compare.png" width="330" height="593" loading="lazy" alt="Bhavitta's Compare Scenarios sheet with Move to Bangalore at 50 and Stay in Seattle selected: the two median trajectories with their P10 to P90 bands, the line 'Move to Bangalore at 50 lets you retire 5 years earlier', and 100% success for both.">
+  <figcaption><strong>And this is step 5, Compare.</strong> Both plans on one chart, each with its median line and P10 to P90 band. The line under the chart says "Move to Bangalore at 50 lets you retire 5 years earlier", which is 52 minus 47. The "ends" figures are nominal dollars at age 90, not today's money, so they are larger than the today's-dollar balances in the tables.</figcaption>
+</figure>
 <div class="callout warn"><strong>Educational, not advice.</strong> The numbers above are the engine's output for one invented household using Bhavitta's default assumptions and its own cost-of-living estimates. They are not a forecast and not a recommendation to move, stay, or retire at any age. For your own decision, run your own numbers and talk to an adviser who knows both tax systems.</div>
 
 <div class="cta">
