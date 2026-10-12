@@ -242,6 +242,7 @@
 .article .cta h3{margin:0 0 8px;color:#fff;font-size:22px}
 .article .cta p{color:rgba(255,255,255,.72);margin-bottom:18px}
 .article .cta .btn{margin:4px 6px}
+.article .cta .btn-primary{color:#fff}
 .article figure{margin:18px 0 26px}
 .article figure img{width:100%;max-width:360px;display:block;margin:0 auto;border-radius:28px;box-shadow:var(--shadow)}
 .article figcaption{text-align:center;font-size:13.5px;color:var(--muted);margin-top:10px}
