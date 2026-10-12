@@ -55,7 +55,7 @@
    "description": "How Bhavitta computes a retirement readiness score: life-stage cash-flow model, historical replay of 1928–2023 S&P 500 returns, 10,000-trial Monte Carlo, survival rate, cushion test, and the earliest-retirement solver.",
    "url": "https://bhavitta.com/how-it-works.html",
    "datePublished": "2026-10-10",
-   "dateModified": "2026-10-10",
+   "dateModified": "2026-10-12",
    "author": {
     "@id": "https://bhavitta.com/#org"
    },
@@ -151,13 +151,33 @@
   <li><strong>A year-by-year ledger</strong> for any percentile path: opening balance, income, tax, each expense line, market gain and closing balance, in today's money by default.</li>
 </ul>
 
+<figure class="shot">
+  <img src="./screenshots/example-chart.png" width="330" height="333" loading="lazy" alt="Bhavitta's Projections chart for an example plan: the fan of balances with the percentile lines from typical to worst case, a dashed line marking the earliest feasible retirement age of 47, and rows for the stress test and the age-by-age ledger below it.">
+  <figcaption><strong>The fan, in the app.</strong> The chart on the Projections tab for the worked-example plan from the <a href="retire-in-india-vs-us.html">Seattle vs Bangalore guide</a>. The bold line is typical markets (P50), the shaded cloud behind it is the spread of outcomes, and the dashed vertical line marks the earliest retirement age the solver found. The stress test and the ledger open from the rows underneath.</figcaption>
+</figure>
+
+<figure class="shot">
+  <img src="./screenshots/example-ledger.png" width="330" height="717" loading="lazy" alt="Bhavitta's Ledger screen for the Move to Bangalore at 50 plan: one row per age with location, income, expense and closing balance on the bad-markets path, switching from Seattle to Bangalore at 50.">
+  <figcaption><strong>The year-by-year ledger.</strong> One row per age on the path you pick: here the bad-markets (P80) line. Income stops and the city changes at 50, and the closing balance carries on from there. Balances are shown in today's money, while income and expenses are the plan's own figures grown with inflation, so Bangalore at 50 reads about $80k against the $59,500 today's-money estimate.</figcaption>
+</figure>
+
 <h2>5. The readiness score</h2>
 <p>The 0 to 100 score combines the survival rate with a cushion test at your planned retirement age:</p>
 <div class="formula">score = 0.8 × survivalRate + 20 × min(1, cushionYears ÷ 10)<br>cushionYears = balance at retirement on the benchmark line (P80) ÷ first-year retirement spending</div>
 <p>So survival alone can earn at most 80 points; the last 20 come from arriving at retirement with at least ten years of spending on the <em>bad-markets</em> line. A plan that survives on paper but starts retirement thin scores in the 80s, which is the point. The headline next to the gauge comes from a second computation, the <strong>earliest-retirement solver</strong>: it zeroes your earned income (and its tax) from a candidate age onward, leaving everything else in place, including where you live, your home, college and Social Security, and finds the earliest age at which survival still clears the benchmark. That age is the "Ready at 52" in the headline; if no age clears it, the headline says how far short the plan is at your own planned age. The sentence under it names the income sources that cover spending and the riskiest stretch of years on the bad-markets path.</p>
 
+<figure class="shot">
+  <img src="./screenshots/example-projections.png" width="330" height="647" loading="lazy" alt="Bhavitta's readiness card for the example plan: a gauge reading 100, the headline Ready at 47, the Adjust sliders and the what-would-move-this list.">
+  <figcaption><strong>The score, in the app.</strong> The readiness card for the same example plan. The gauge is the 0 to 100 score from the formula above, "Ready at 47" is the solver's headline, and "vs bad markets" at the top right is the benchmark line (P80) the cushion test uses. Survival of 100% earns the first 80 points and a cushion of ten or more years of spending earns the other 20.</figcaption>
+</figure>
+
 <h2>6. Changing one thing</h2>
 <p>Three sliders under the score, starting corpus, retirement age and yearly spending, re-run the whole simulation on release and show the before and after. The <strong>what-if chips</strong> apply a named shock: a job loss (income gap), a market crash (a forced drawdown in a chosen year, applied identically to every trial and window), retiring earlier or later, a move abroad, a big expense. <strong>Compare</strong> overlays up to three scenarios and, with two selected, writes a one-line verdict such as "Moving to Bangalore at 50 lets you retire 4 years earlier", using retirement age first and survival rate as the tie-break.</p>
+<figure class="shot">
+  <img src="./screenshots/example-compare.png" width="330" height="593" loading="lazy" alt="Bhavitta's Compare Scenarios sheet with two plans selected, showing both median trajectories and the line that says which plan retires earlier.">
+  <figcaption><strong>Compare, in the app.</strong> Two plans on one chart with the one-line verdict under it. The Seattle vs Bangalore guide walks through this example in full.</figcaption>
+</figure>
+
 <p>The <strong>stress test</strong> is a five-by-five grid: expected return from two points below to two points above your baseline, inflation from one and a half points below to above, 200 trials per cell, coloured by survival. It shows which of the two assumptions your plan is actually sensitive to.</p>
 
 <h2>7. Spending shape</h2>
