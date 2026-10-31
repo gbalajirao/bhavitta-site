@@ -28,13 +28,14 @@
     transition:transform .15s ease, box-shadow .15s ease;
   }
   .btn:hover{transform:translateY(-2px)}
+  @media (prefers-reduced-motion: reduce){.btn,.btn:hover{transition:none;transform:none}}
   .btn-primary{background:linear-gradient(135deg,var(--emerald),var(--emerald-2));color:#fff;box-shadow:0 10px 24px rgba(16,185,129,.35)}
   .btn-ghost{border-color:rgba(255,255,255,.25);color:#fff;background:rgba(255,255,255,.06)}
 
   /* ── Nav ── */
-  nav{position:sticky;top:0;z-index:50;backdrop-filter:saturate(160%) blur(12px);
+  body>nav{position:sticky;top:0;z-index:50;backdrop-filter:saturate(160%) blur(12px);
       background:rgba(11,18,32,.72);border-bottom:1px solid rgba(255,255,255,.06)}
-  nav .wrap{display:flex;align-items:center;justify-content:space-between;height:62px}
+  body>nav .wrap{display:flex;align-items:center;justify-content:space-between;height:62px}
   .brand{display:flex;align-items:center;gap:10px;color:#fff;font-weight:700;font-size:18px}
   .brand .logo{width:28px;height:28px;border-radius:8px;display:block;
     box-shadow:0 0 14px rgba(56,189,248,.45);border:1px solid rgba(255,255,255,.12)}
@@ -266,3 +267,11 @@
 .more-guides{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;margin:-10px 0 30px;padding:12px 14px;border-radius:14px;background:#eef1f8;border:1px solid var(--line);font-size:14px}
 .more-guides span{font-weight:700;color:var(--text-2);font-size:12px;letter-spacing:.1em;text-transform:uppercase;margin-right:4px}
 .more-guides a{color:var(--emerald-2);font-weight:600;padding:4px 10px;border-radius:999px;background:var(--card);border:1px solid var(--line)}
+
+/* Review #107 (2026-11-01): images keep their CSS width with intrinsic
+   width/height attributes reserving the space; visible keyboard focus; a skip
+   link for keyboard and screen-reader users. */
+img{max-width:100%;height:auto}
+:focus-visible{outline:3px solid var(--emerald, #10B981);outline-offset:3px;border-radius:6px}
+.skip-link{position:absolute;left:-9999px;top:8px;z-index:1000;padding:10px 14px;border-radius:10px;background:#0B1220;color:#fff;font-weight:700;text-decoration:none}
+.skip-link:focus{left:12px}
