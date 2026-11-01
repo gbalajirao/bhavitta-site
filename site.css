@@ -275,3 +275,26 @@ img{max-width:100%;height:auto}
 :focus-visible{outline:3px solid var(--emerald, #10B981);outline-offset:3px;border-radius:6px}
 .skip-link{position:absolute;left:-9999px;top:8px;z-index:1000;padding:10px 14px;border-radius:10px;background:#0B1220;color:#fff;font-weight:700;text-decoration:none}
 .skip-link:focus{left:12px}
+
+/* ── Review #107 (2026-11-01): images, phone hero order, phone nav ── */
+picture{display:block}
+/* Phones: show the app right after the headline, lede and store buttons
+   instead of ~2 screens down, below the guides and fine print. */
+@media(max-width:900px){
+  .hero .wrap{display:flex;flex-direction:column;gap:0}
+  .hero-copy{display:contents}
+  .hero-copy>*{order:3}
+  .hero-copy>.kicker-deva,.hero-copy>.name-note,.hero-copy>h1,.hero-copy>.lede,.hero-copy>.hero-cta{order:1}
+  .hero-art{order:2;width:100%;height:560px;margin:22px 0 0}
+}
+/* Phones: keep every section link reachable as a scrollable second row
+   rather than hiding all but "Guides". */
+@media(max-width:720px){
+  body>nav .wrap{height:auto;min-height:56px;flex-wrap:wrap;column-gap:12px;padding-top:8px}
+  .nav-right{display:contents}
+  .nav-socials{margin-left:auto}
+  .nav-links{display:flex;order:3;width:100%;gap:20px;overflow-x:auto;white-space:nowrap;
+    padding:6px 0 10px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .nav-links::-webkit-scrollbar{display:none}
+  .nav-mobile{display:none}
+}
