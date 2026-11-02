@@ -127,7 +127,7 @@
 <p>A plan is a sequence of <strong>life stages</strong> from your current age to the end of the planning horizon. Each location stage has:</p>
 <ul>
   <li><strong>A city and a lifestyle tier.</strong> Picking, say, Seattle at the Comfortable tier fills in an estimated annual living cost in today's US dollars and that city's typical local inflation rate. 49 curated cities are included; every estimate is editable and you can add your own city.</li>
-  <li><strong>Earned income and a blended tax rate</strong> for the years you work there. The tax rate is a single percentage applied to that stage's income. Bhavitta is not a tax calculator; it does not model brackets, slabs, or filing status.</li>
+  <li><strong>Earned income and a blended tax rate</strong> for the years you work there. The tax rate is a single percentage applied to that stage's income. Bhavitta is not a tax calculator: for an Indian city a helper estimates the rate from the Indian slabs (new or old regime), but there are no US brackets or filing status.</li>
   <li><strong>Household size</strong>, which scales the living cost.</li>
 </ul>
 <p>On top of location stages you layer <strong>overlays</strong>: a home you own (mortgage, property tax, payoff age, sale with appreciation, selling cost and capital-gains rate), a property you rent out, a child's four years of college, a pension or Social Security (indexed guaranteed income from a start age), a recurring cost such as supporting parents, and <strong>one-time events</strong> such as a wedding, a windfall, or a down payment.</p>
@@ -188,12 +188,12 @@
 
 <h2>8. What the model does not do</h2>
 <ul>
-  <li>No tax brackets, slabs, filing status, or treaty rules; one blended rate per stage, plus a capital-gains rate on property sales.</li>
-  <li>No account types. EPF, NPS, PPF, 401(k) and IRA balances are simply part of the starting corpus; lock-ins, withdrawal limits and required minimum distributions are not modelled.</li>
+  <li>No US tax brackets, filing status, or treaty rules; one blended rate per stage (estimated from the Indian slabs for an Indian city, if you ask), plus a capital-gains rate on property sales.</li>
+  <li>No US account types. 401(k) and IRA balances are part of the starting corpus, and withdrawal limits and required minimum distributions are not modelled. EPF, PPF and NPS are the exception: each can be its own account that grows at a fixed rate and pays out at its own age, outside the market-exposed pool.</li>
   <li>One portfolio return. There is no asset allocation, bond ladder or glide path; the return you set, or history, applies to the whole balance.</li>
   <li>Historical replay uses US equity history for every plan, including plans lived in India.</li>
-  <li>Healthcare, insurance and long-term care are not special; add them as a recurring cost or a one-time event if they matter to you.</li>
-  <li>Display currency is a presentation conversion of dollar amounts; the rupee-depreciation input is the only currency-risk lever.</li>
+  <li>Long-term care is not special; add it as a recurring cost or a one-time event. Health insurance is a life event whose premium grows at its own rate (10% a year by default in India, 7% in the US).</li>
+  <li>Display currency is a presentation conversion of dollar amounts; the rupee-depreciation input is the only currency-risk lever. The Indian return presets are rupee returns, so choosing one sets rupee depreciation to 0%.</li>
 </ul>
 <p class="note">Defaults, in case you want to compare with your own spreadsheet: expected return 7%, volatility 12%, US inflation 3%, India inflation 6%, rupee depreciation 3%, Monte Carlo 10,000 trials, benchmark P80 at an 80% survival bar. All are editable in Inputs.</p>
 
@@ -211,6 +211,7 @@
       <a href="./#features">Features</a>
       <a href="./how-it-works.html">How the score works</a>
       <a href="./retire-in-india-vs-us.html">India vs US example</a>
+      <a href="./retire-in-india-mumbai-vs-pune.html">Mumbai vs Pune example</a>
       <a href="./#privacy">Privacy</a>
       <a href="./#faq">FAQ</a>
       <a href="./#support">Support</a>

@@ -59,7 +59,7 @@
   },
   {
    "@type": "WebSite",
-   "hasPart": [{"@type": "WebPage", "url": "https://bhavitta.com/how-it-works.html", "name": "How the readiness score works"}, {"@type": "WebPage", "url": "https://bhavitta.com/retire-in-india-vs-us.html", "name": "Retire in Bangalore at 50, or stay in Seattle?"}, {"@type": "WebPage", "url": "https://bhavitta.com/features.html", "name": "Everything Bhavitta does"}],
+   "hasPart": [{"@type": "WebPage", "url": "https://bhavitta.com/how-it-works.html", "name": "How the readiness score works"}, {"@type": "WebPage", "url": "https://bhavitta.com/retire-in-india-vs-us.html", "name": "Retire in Bangalore at 50, or stay in Seattle?"}, {"@type": "WebPage", "url": "https://bhavitta.com/retire-in-india-mumbai-vs-pune.html", "name": "Mumbai or Pune? Retiring in India at 55"}, {"@type": "WebPage", "url": "https://bhavitta.com/features.html", "name": "Everything Bhavitta does"}],
    "@id": "https://bhavitta.com/#website",
    "url": "https://bhavitta.com/",
    "name": "Bhavitta",
@@ -170,7 +170,7 @@
      "name": "Does it handle India and US taxes?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "It is not a tax calculator. Each life stage carries a blended tax rate you set, for example 32% while working in Seattle and 22% in Bangalore, applied to that stage's income, plus a capital-gains rate on property sales. It does not model US brackets, Indian slabs, filing status, or tax treaties. Use it to test whether a plan holds, not to compute a tax bill."
+      "text": "It is not a tax calculator. Each life stage carries a blended tax rate you set, for example 32% while working in Seattle and 22% in Bangalore, applied to that stage's income, plus a capital-gains rate on property sales. For an Indian city with income, a helper estimates that rate from the Indian slabs (new or old regime, with the standard deduction, 87A rebate, surcharge and cess). It does not model US brackets, filing status, or tax treaties. Use it to test whether a plan holds, not to compute a tax bill."
      }
     },
     {
@@ -178,7 +178,7 @@
      "name": "What about EPF, NPS, PPF, 401(k), Social Security, or a pension?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Account balances such as EPF, NPS, PPF, 401(k), or an IRA go into your starting corpus. A pension, Social Security, an annuity, or any other guaranteed income is entered as inflation-indexed income on the stage where it starts. The app does not model account-specific rules such as lock-ins, withdrawal limits, or required minimum distributions."
+      "text": "EPF, PPF and NPS can be their own accounts: each grows at its own rate while you contribute and pays out at its own age (NPS partly as an annuity), so the lock-in is modelled. Gratuity is a one-time payout at retirement. A 401(k) or an IRA goes into your starting corpus. A pension, Social Security or an annuity is income on the stage where it starts, indexed to inflation, or fixed in rupees for an EPS pension, which the app can estimate. US withdrawal limits and required minimum distributions are not modelled."
      }
     },
     {
@@ -309,8 +309,8 @@
   <div class="wrap">
     <div class="section-head">
       <div class="eyebrow">Guides</div>
-      <h2>Three things worth reading first</h2>
-      <p>How the score is computed, a complete worked example with the engine's own output, and the full feature list.</p>
+      <h2>Four things worth reading first</h2>
+      <p>How the score is computed, two complete worked examples with the engine's own output, and the full feature list.</p>
     </div>
     <div class="guide-grid">
       <a class="guide" href="./how-it-works.html">
@@ -323,6 +323,12 @@
         <div class="eyebrow">Worked example</div>
         <h3>Retire in Bangalore at 50, or stay in Seattle?</h3>
         <p>One couple, two timelines, every number from the engine: the earliest safe stop-working age is 52 in Seattle and 46 in Bangalore, and spending, not returns, is why.</p>
+        <span class="more">See the numbers →</span>
+      </a>
+      <a class="guide" href="./retire-in-india-mumbai-vs-pune.html">
+        <div class="eyebrow">Worked example · India</div>
+        <h3>Mumbai or Pune? Retiring in India at 55</h3>
+        <p>A salaried couple in rupees, with EPF, PPF, NPS, a fixed EPS pension, rising health premiums and Indian tax slabs: 38% survival staying in Mumbai, 87% moving to Pune.</p>
         <span class="more">See the numbers →</span>
       </a>
       <a class="guide" href="./features.html">
@@ -501,11 +507,11 @@
       </div>
       <div class="faq-item">
         <h3>Does it handle India and US taxes?</h3>
-        <p>It is not a tax calculator. Each life stage carries a blended tax rate you set, for example 32% while working in Seattle and 22% in Bangalore, applied to that stage's income, plus a capital-gains rate on property sales. It does not model US brackets, Indian slabs, filing status, or tax treaties. Use it to test whether a plan holds, not to compute a tax bill.</p>
+        <p>It is not a tax calculator. Each life stage carries a blended tax rate you set, for example 32% while working in Seattle and 22% in Bangalore, applied to that stage's income, plus a capital-gains rate on property sales. For an Indian city with income, a helper estimates that rate from the Indian slabs (new or old regime, with the standard deduction, 87A rebate, surcharge and cess). It does not model US brackets, filing status, or tax treaties. Use it to test whether a plan holds, not to compute a tax bill.</p>
       </div>
       <div class="faq-item">
         <h3>What about EPF, NPS, PPF, 401(k), Social Security, or a pension?</h3>
-        <p>Account balances such as EPF, NPS, PPF, 401(k), or an IRA go into your starting corpus. A pension, Social Security, an annuity, or any other guaranteed income is entered as inflation-indexed income on the stage where it starts. The app does not model account-specific rules such as lock-ins, withdrawal limits, or required minimum distributions.</p>
+        <p>EPF, PPF and NPS can be their own accounts: each grows at its own rate while you contribute and pays out at its own age (NPS partly as an annuity), so the lock-in is modelled. Gratuity is a one-time payout at retirement. A 401(k) or an IRA goes into your starting corpus. A pension, Social Security or an annuity is income on the stage where it starts, indexed to inflation, or fixed in rupees for an EPS pension, which the app can estimate. US withdrawal limits and required minimum distributions are not modelled.</p>
       </div>
       <div class="faq-item">
         <h3>How does the simulation work?</h3>
@@ -598,6 +604,7 @@
       <a href="#features">Features</a>
       <a href="./how-it-works.html">How the score works</a>
       <a href="./retire-in-india-vs-us.html">India vs US example</a>
+      <a href="./retire-in-india-mumbai-vs-pune.html">Mumbai vs Pune example</a>
       <a href="#privacy">Privacy</a>
       <a href="#faq">FAQ</a>
       <a href="#support">Support</a>
