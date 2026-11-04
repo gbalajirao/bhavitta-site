@@ -2,7 +2,7 @@
 
 > Bhavitta is a free, private, on-device retirement-readiness check and planning app for iPhone (iOS 18+) and Android. You map your whole financial life as a timeline of life stages, and the app simulates it with 10,000 Monte Carlo trials or by replaying real market history from 1928 to 2025, then gives a 0 to 100 readiness score, a probability fan of outcomes, a stress-test heatmap and a year-by-year ledger. There is no account and no server: the plan never leaves the phone.
 
-The name is Sanskrit: bhavishya (future) + vitta (wealth). Built and maintained by one independent developer. Not backed by a bank, brokerage, or advisory firm. Not financial advice.
+The name is Sanskrit: bhavishya (future) + vitta (wealth). Built and maintained by one independent developer, Balaji Gururajan, who also writes the guides. Not backed by a bank, brokerage, or advisory firm. Not financial advice.
 
 This file is the full text of every guide on bhavitta.com, generated from the pages (SiteTools/site_seo.py). The short index is https://bhavitta.com/llms.txt.
 
@@ -562,6 +562,8 @@ Educational, not advice. The numbers above are the engine's output for one inven
 URL: https://bhavitta.com/features.html
 
 Everything in Bhavitta, on one page. The home page shows the six most people come for; these are all twelve, in the order you meet them in the app. Every one of them runs on your phone with no account.
+
+The same four tabs on Android. Free on both, no account; build your own plan in about five minutes.
 
 #### Life-stage timeline
 

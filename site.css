@@ -203,10 +203,14 @@
 .guide{display:block;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:26px 26px 24px;box-shadow:0 6px 20px rgba(17,20,40,.05);transition:transform .15s ease,box-shadow .15s ease}
 .guide:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
 .guide .eyebrow{margin-bottom:10px}
-.guide h3{font-size:19px;font-weight:800;letter-spacing:-.01em;margin-bottom:8px}
+.guide h2,.guide h3{font-size:19px;font-weight:800;letter-spacing:-.01em;margin-bottom:8px}
 .guide p{color:var(--text-2);font-size:14.5px}
 .guide .more{display:inline-block;margin-top:14px;color:var(--emerald-2);font-weight:700;font-size:14px}
 .grid-more{text-align:center;margin-top:28px}
+.guide .when{display:block;margin-top:12px;color:var(--text-2);font-size:12.5px;letter-spacing:.01em}
+.more-guides.guide-pills{margin:26px 0 0}
+.more-guides a.all{background:var(--emerald-2);border-color:var(--emerald-2);color:#fff}
+.guides-hub .section-head{margin-bottom:26px}
 .grid-more a{color:var(--emerald-2);font-weight:700;font-size:15px}
 
 /* ── Article pages ── */
@@ -218,6 +222,7 @@
 .article-hero .hero-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
 .article-hero .hero-links .btn{padding:12px 20px;font-size:15px}
 .article-hero .meta{margin-top:18px;font-size:13px;color:rgba(255,255,255,.55)}
+.article-hero .meta a{color:rgba(255,255,255,.85);font-weight:600;text-decoration:underline;text-underline-offset:2px}
 .article{max-width:820px;margin:0 auto;padding:48px 24px 72px;font-size:17px;line-height:1.7}
 .article h2{font-size:clamp(24px,3.4vw,32px);font-weight:800;letter-spacing:-.02em;margin:46px 0 14px}
 .article h2:first-child{margin-top:0}
