@@ -22,6 +22,9 @@ The name is Sanskrit: bhavishya (future) + vitta (wealth). Built and maintained 
 
 ## Guides (plain HTML, citable)
 
+The full text of every guide, as Markdown in one file: https://bhavitta.com/llms-full.txt
+
+- How much do you need to retire in India: the corpus a couple needs to retire at 45, 50 or 55 in Mumbai, Bangalore, Delhi, Goa, Hyderabad, Pune or Chennai for an 80% or 90% chance of lasting to 90, from the engine in rupees (about ₹2.5–4 crore at 55 at 80%; implied safe withdrawal rate 2.7–3.6%): https://bhavitta.com/retirement-corpus-india.html
 - How the readiness score works (methodology, formula, what is not modelled): https://bhavitta.com/how-it-works.html
 - Worked example, retire in Bangalore at 50 vs stay in Seattle, with the engine's numbers: https://bhavitta.com/retire-in-india-vs-us.html
 - What the app models for retirement in India (rupee plans, resident city costs and inflation, rupee return presets, Indian tax slabs, EPF/PPF/NPS, EPS, gratuity, health insurance, and what it still leaves out): https://bhavitta.com/retirement-planning-india.html

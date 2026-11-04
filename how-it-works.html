@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-FgkeYtzQoVEOdhGu4kIVNZXz36GgLy36YRfz7uaBLTU='; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self'; connect-src 'self' https://eu.i.posthog.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; form-action 'none'" />
 <meta name="referrer" content="strict-origin-when-cross-origin" />
-<title>How the Bhavitta readiness score works — historical replay, Monte Carlo, and the formula</title>
+<title>How is a retirement readiness score calculated? Bhavitta's method and formula</title>
 <meta name="description" content="What Bhavitta actually computes: a year-by-year cash-flow model of your life stages, run through every window of 1928–2025 market history or 10,000 Monte Carlo trials, and how the 0–100 readiness score, survival rate and earliest-retirement age are derived. Includes what the model deliberately does not do." />
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
 <link rel="canonical" href="https://bhavitta.com/how-it-works.html" />
@@ -57,7 +57,7 @@
    "description": "How Bhavitta computes a retirement readiness score: life-stage cash-flow model, historical replay of 1928–2025 S&P 500 returns, 10,000-trial Monte Carlo, survival rate, cushion test, and the earliest-retirement solver.",
    "url": "https://bhavitta.com/how-it-works.html",
    "datePublished": "2026-10-10",
-   "dateModified": "2026-11-01",
+   "dateModified": "2026-11-04",
    "author": {
     "@id": "https://bhavitta.com/#org"
    },
@@ -70,6 +70,60 @@
    },
    "inLanguage": "en",
    "isAccessibleForFree": true
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://bhavitta.com/how-it-works.html#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What is a retirement readiness score?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A 0 to 100 summary of whether a plan holds. In Bhavitta, up to 80 points come from the survival rate and up to 20 from arriving at retirement with at least ten years of spending on the bad-markets (P80) line."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What does survival rate mean in a retirement simulation?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The share of trials, or history windows, in which the balance stays above zero in every year of the plan, not just at the end. A path that is broke for twenty years and then rescued by a house sale does not count."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is the difference between historical replay and Monte Carlo?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Historical replay runs the plan through every contiguous window of S&P 500 total returns from 1928 to 2025, with nothing random. Monte Carlo runs 10,000 trials, each drawing yearly returns from the expected return and volatility you set (7% and 12% by default), seeded from the plan so the result is repeatable."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What does P80 mean?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The bad-markets line: at each age, the balance that eight in ten trials beat. Bhavitta judges plans on it by default. P50 is typical markets, P90 very bad and P95 the worst case."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What does \"Ready at 52\" mean?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The earliest age at which your earned income and its tax can stop, with everything else in the plan unchanged, and survival still clears the 80% benchmark. If no age clears it, the headline says how far short the plan is at your planned age."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Why does a plan that survives score only in the 80s?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Survival alone earns at most 80 points. The last 20 need ten years of spending on the bad-markets line at your planned retirement age, so a plan that survives on paper but starts retirement thin scores in the 80s."
+     }
+    }
+   ]
   }
  ]
 }
@@ -113,11 +167,13 @@
       <a class="store-badge" href="https://apps.apple.com/app/apple-store/id6781692447?pt=129056482&amp;ct=site&amp;mt=8" target="_blank" rel="noopener"><img src="./badges/app-store.svg" width="144" height="48" alt="Download on the App Store" /></a>
       <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.gururajan.bhavitta&amp;referrer=utm_source%3Dbhavitta.com%26utm_medium%3Dweb%26utm_campaign%3Dsite" target="_blank" rel="noopener"><img src="./badges/google-play.png" width="161" height="48" alt="Get it on Google Play" /></a>
     </div>
-    <p class="meta">Published 10 October 2026 · Updated 1 November 2026 · Reflects Bhavitta 2.8 · 9 min read</p>
+    <p class="meta">Published 10 October 2026 · Updated 4 November 2026 · Reflects Bhavitta 2.8 · 9 min read</p>
   </div>
 </header>
 <main id="content" class="article">
-<div class="more-guides"><span>More guides</span><a href="./retirement-planning-india.html">India guide</a><a href="./retire-in-india-mumbai-vs-pune.html">Mumbai vs Pune</a><a href="./retire-in-india-vs-us.html">Bangalore vs Seattle</a><a href="./features.html">All 12 features</a><a href="./#faq">FAQ</a></div>
+<div class="more-guides"><span>More guides</span><a href="./retirement-corpus-india.html">How much to retire in India</a><a href="./retirement-planning-india.html">India guide</a><a href="./retire-in-india-mumbai-vs-pune.html">Mumbai vs Pune</a><a href="./retire-in-india-vs-us.html">Bangalore vs Seattle</a><a href="./features.html">All 12 features</a><a href="./#faq">FAQ</a></div>
+
+<div class="callout answer"><strong>Short answer.</strong> Bhavitta's readiness score is 0.8 × survival rate + 20 × min(1, cushion years ÷ 10). Survival is the share of 1928–2025 history windows, or of 10,000 Monte Carlo trials, in which the balance stays above zero in every year. Cushion years are the bad-markets (P80) balance at retirement divided by the first year's spending. "Ready at N" is the earliest age you could stop earning and still clear 80% survival.</div>
 
 
 <h2>The question the app answers</h2>
@@ -137,7 +193,7 @@
 <p>For each year of the plan the engine resolves the active stage and computes net cash flow: earned income minus tax, minus living expense, college, property and recurring costs, plus guaranteed income, rental income, home-sale proceeds and one-time credits. Then it rolls the balance forward:</p>
 <div class="formula">balance(t+1) = (balance(t) + netCashFlow(t)) × (1 + return(t))   when the sum is positive<br>balance(t+1) =  balance(t) + netCashFlow(t)                      otherwise</div>
 <p>Two deliberate choices sit in that recurrence. A plan that fails is allowed to <strong>go negative</strong>, so the ledger and chart show how deep the shortfall is instead of clamping at zero. And a deficit <strong>neither earns nor compounds</strong>; it is carried and can be paid back down by a later inflow such as a home sale or Social Security.</p>
-<p><strong>Indexing.</strong> Every amount you type is a today's-money figure. Income, living costs, guaranteed income and property tax grow with the active location's inflation rate from the start of the plan. Costs for an Indian city are stored in dollars and grow at India's inflation <em>less</em> the rupee-depreciation rate you set (defaults 6% and 3%, so about 2.9% a year in dollar terms). A separate <strong>display deflator</strong> converts any nominal balance back to today's money, switching rate the moment the active location changes, which is why a US-to-Bangalore plan reads sensibly in either basis.</p>
+<p><strong>Indexing.</strong> Every amount you type is a today's-money figure. Income, living costs, guaranteed income and property tax grow with the active location's inflation rate from the start of the plan. Costs for an Indian city are stored in dollars and grow at the city's inflation <em>less</em> the rupee-depreciation rate you set (defaults 5% and 3%, so about 1.9% a year in dollar terms). A separate <strong>display deflator</strong> converts any nominal balance back to today's money, switching rate the moment the active location changes, which is why a US-to-Bangalore plan reads sensibly in either basis.</p>
 
 <h2>3. Two ways to generate returns</h2>
 <h3>Historical replay (the default)</h3>
@@ -197,6 +253,20 @@
 </ul>
 <p class="note">Defaults, in case you want to compare with your own spreadsheet: expected return 7%, volatility 12%, US inflation 3%, Indian city inflation 5% (Delhi and Goa 4.5%), rupee depreciation 3%, Monte Carlo 10,000 trials, benchmark P80 at an 80% survival bar. New plans in rupees start instead on Balanced India (9.5% return, 13% volatility) with rupee depreciation at 0%; see the <a href="./retirement-planning-india.html">India guide</a>. All are editable in Inputs.</p>
 
+<h2>Common questions</h2>
+<h3>What is a retirement readiness score?</h3>
+<p>A 0 to 100 summary of whether a plan holds. In Bhavitta, up to 80 points come from the survival rate and up to 20 from arriving at retirement with at least ten years of spending on the bad-markets (P80) line.</p>
+<h3>What does survival rate mean in a retirement simulation?</h3>
+<p>The share of trials, or history windows, in which the balance stays above zero in every year of the plan, not just at the end. A path that is broke for twenty years and then rescued by a house sale does not count.</p>
+<h3>What is the difference between historical replay and Monte Carlo?</h3>
+<p>Historical replay runs the plan through every contiguous window of S&amp;P 500 total returns from 1928 to 2025, with nothing random. Monte Carlo runs 10,000 trials, each drawing yearly returns from the expected return and volatility you set (7% and 12% by default), seeded from the plan so the result is repeatable.</p>
+<h3>What does P80 mean?</h3>
+<p>The bad-markets line: at each age, the balance that eight in ten trials beat. Bhavitta judges plans on it by default. P50 is typical markets, P90 very bad and P95 the worst case.</p>
+<h3>What does "Ready at 52" mean?</h3>
+<p>The earliest age at which your earned income and its tax can stop, with everything else in the plan unchanged, and survival still clears the 80% benchmark. If no age clears it, the headline says how far short the plan is at your planned age.</p>
+<h3>Why does a plan that survives score only in the 80s?</h3>
+<p>Survival alone earns at most 80 points. The last 20 need ten years of spending on the bad-markets line at your planned retirement age, so a plan that survives on paper but starts retirement thin scores in the 80s.</p>
+
 <div class="cta">
   <h3>Run it with your own numbers</h3>
   <p>Free on iPhone and Android. No account; your plan never leaves your phone.</p>
@@ -213,6 +283,7 @@
       <a href="./retire-in-india-vs-us.html">India vs US example</a>
       <a href="./retire-in-india-mumbai-vs-pune.html">Mumbai vs Pune example</a>
       <a href="./retirement-planning-india.html">India guide</a>
+      <a href="./retirement-corpus-india.html">How much to retire in India</a>
       <a href="./#privacy">Privacy</a>
       <a href="./#faq">FAQ</a>
       <a href="./#support">Support</a>

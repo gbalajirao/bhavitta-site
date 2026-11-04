@@ -1,0 +1,614 @@
+# Bhavitta
+
+> Bhavitta is a free, private, on-device retirement-readiness check and planning app for iPhone (iOS 18+) and Android. You map your whole financial life as a timeline of life stages, and the app simulates it with 10,000 Monte Carlo trials or by replaying real market history from 1928 to 2025, then gives a 0 to 100 readiness score, a probability fan of outcomes, a stress-test heatmap and a year-by-year ledger. There is no account and no server: the plan never leaves the phone.
+
+The name is Sanskrit: bhavishya (future) + vitta (wealth). Built and maintained by one independent developer. Not backed by a bank, brokerage, or advisory firm. Not financial advice.
+
+This file is the full text of every guide on bhavitta.com, generated from the pages (SiteTools/site_seo.py). The short index is https://bhavitta.com/llms.txt.
+
+
+---
+
+# How much do you need to retire in India? Corpus by city at 45, 50 and 55
+
+URL: https://bhavitta.com/retirement-corpus-india.html
+Last updated: 2026-11-04
+
+Short answer. For a couple living a comfortable resident lifestyle, retiring at 55 takes about ₹2.5–4 crore in today's money for an 80% chance the money lasts to 90: from ₹2.45 crore in Chennai and ₹2.5 crore in Pune to ₹3.05 crore in Bangalore and ₹3.95 crore in Mumbai. Retiring at 45 takes ₹2.95–4.7 crore. That is 28 to 36 times the first year's spending, a withdrawal rate of 2.7–3.6%, well under the 4% rule.
+
+"How much do I need to retire?" usually gets answered with "25 times your expenses", a rule worked out on US market returns and US inflation. In India both are different: prices rise about 5% a year, health premiums faster, and a retirement at 50 has to last 40 years. The tables below come from Bhavitta's own engine, the same one the app runs, for a couple in each of the seven Indian cities the app has resident cost estimates for. Each figure is the smallest corpus, to the nearest ₹5 lakh, that survives to 90 in at least 80% (or 90%) of 10,000 simulated market paths.
+
+### How much corpus do you need to retire at 55, 50 or 45?
+
+Corpus at the day you stop working, in today's rupees, for an 80% chance it lasts to 90. That 80% is the bar the app uses for "ready".
+
+| City | Spending in year one | Retire at 55 | Retire at 50 | Retire at 45 |
+|---|---|---|---|---|
+| Mumbai | ₹13.3L | ₹3.95 Cr | ₹4.35 Cr | ₹4.70 Cr |
+| Bangalore | ₹10.1L | ₹3.05 Cr | ₹3.35 Cr | ₹3.60 Cr |
+| Delhi | ₹9.4L | ₹2.70 Cr | ₹2.90 Cr | ₹3.15 Cr |
+| Goa | ₹9.4L | ₹2.65 Cr | ₹2.90 Cr | ₹3.15 Cr |
+| Hyderabad | ₹8.8L | ₹2.70 Cr | ₹2.95 Cr | ₹3.20 Cr |
+| Pune | ₹8.1L | ₹2.50 Cr | ₹2.75 Cr | ₹2.95 Cr |
+| Chennai | ₹8.1L | ₹2.45 Cr | ₹2.70 Cr | ₹2.95 Cr |
+
+Spending in year one is the app's resident cost of living for a couple in that city plus a ₹40,000 health-insurance premium. Delhi and Goa need a little less than their spending suggests because their prices rise 4.5% a year, not 5%.
+
+### What if you want a 90% chance?
+
+The same households, held to a stricter bar: the money lasts to 90 in nine of every ten market paths.
+
+| City | Retire at 55 | Retire at 50 | Retire at 45 |
+|---|---|---|---|
+| Mumbai | ₹4.75 Cr | ₹5.25 Cr | ₹5.65 Cr |
+| Bangalore | ₹3.60 Cr | ₹4.05 Cr | ₹4.35 Cr |
+| Delhi | ₹3.15 Cr | ₹3.50 Cr | ₹3.80 Cr |
+| Goa | ₹3.20 Cr | ₹3.50 Cr | ₹3.75 Cr |
+| Hyderabad | ₹3.15 Cr | ₹3.55 Cr | ₹3.90 Cr |
+| Pune | ₹2.95 Cr | ₹3.30 Cr | ₹3.60 Cr |
+| Chennai | ₹2.95 Cr | ₹3.30 Cr | ₹3.60 Cr |
+
+Going from 80% to 90% costs roughly another 20% of corpus everywhere. Which bar to use is a judgement about how much a bad decade would hurt and how easily you could cut spending or earn again.
+
+### Is the 4% rule safe in India?
+
+Not for an early retirement on these assumptions. Dividing the first year's spending by the corpus in the 80% table gives the withdrawal rate each plan can afford:
+
+| Retire at | 80% chance | 90% chance | Corpus as a multiple of spending (80%) |
+|---|---|---|---|
+| 55 | 3.3–3.6% | 2.8–3.0% | 28–31× |
+| 50 | 3.0–3.3% | 2.5–2.7% | 31–34× |
+| 45 | 2.7–3.0% | 2.3–2.5% | 33–36× |
+
+Three things push the Indian figure below 4%. The gap between returns and inflation is narrower: the app's Balanced India preset averages 9.5% a year against 5% inflation, with 13% volatility. Health insurance grows at 10% a year, so it is a small cost at 55 and a large one at 85. And the horizon is long: 35 years from 55, 45 years from 45. The often-quoted "25× expenses" is the 4% rule in another form; on these numbers it falls well short.
+
+### What the numbers assume
+
+- A couple, already retired. The corpus is what they hold the day earned income stops. No salary, rent income, pension or annuity after that.
+- Resident cost of living from the app's estimates for a comfortable couple, including rent: ₹12.9 lakh a year in Mumbai, ₹9.7 lakh in Bangalore, ₹9 lakh in Delhi and Goa, ₹8.4 lakh in Hyderabad, ₹7.7 lakh in Pune and Chennai (today's money). Each city inflates at its own rate from state CPI-Urban data.
+- Health insurance at ₹40,000 a year today, rising 10% a year.
+- Returns from the app's Balanced India Monte Carlo preset: 9.5% a year on average, 13% volatility, all in rupees. 10,000 trials per figure, each a different sequence of yearly returns.
+- Survival means the balance stays above zero in every year to 90, not just at the end.
+- EPF, PPF and NPS are inside the corpus. The table treats all savings as one pool you can draw from. If part of it is still locked (see below), you need more outside it.
+- No tax in retirement. Tax on capital gains and interest is not modelled here. Add a tax rate to the retirement stage in the app if your withdrawals will be taxed.
+
+### What changes the answer most
+
+- Where you live. Mumbai needs about 60% more than Pune or Chennai for the same life, more than the difference between retiring at 45 and at 55. The Mumbai vs Pune worked example follows one couple through that choice with EPF, PPF, NPS and an EPS pension.
+- Owning your home. The resident estimates include rent. A paid-off home takes a large share out of yearly spending, and the corpus falls roughly in proportion.
+- A pension. Even a fixed EPS pension of about ₹1 lakh a year from 58 reduces what the corpus has to cover, though it buys less every year.
+- Money you cannot touch yet. EPF pays out at 58, PPF matures after 15 years and NPS mostly at 60. Retire at 50 and the years until then come from the liquid part of your savings alone.
+- Dollar savings. An NRI retiring to India with a US portfolio faces rupee depreciation as well as returns; see Bangalore at 50 vs Seattle.
+
+### Common questions
+
+#### Is ₹2 crore enough to retire in India?
+
+Not for a couple at these resident cost estimates. Even at 55, the smallest corpus that reaches an 80% chance is ₹2.45 crore (Chennai). ₹2 crore can work with lower spending than the estimates here, for example in a home you own, in a smaller city, or alongside a pension.
+
+#### Is ₹3 crore enough to retire in India?
+
+At 55, yes in Pune, Chennai, Goa, Delhi and Hyderabad, where ₹2.45–2.70 crore reaches an 80% chance. Not in Bangalore (₹3.05 crore) or Mumbai (₹3.95 crore). At 45, ₹3 crore is enough only in Pune and Chennai.
+
+#### Is ₹5 crore enough to retire in India?
+
+Yes, in every one of the seven cities at 45, 50 or 55 for an 80% chance; the highest figure is ₹4.70 crore for Mumbai at 45. For a 90% chance, Mumbai needs ₹5.25 crore at 50 and ₹5.65 crore at 45.
+
+#### How much do you need to retire in Mumbai?
+
+About ₹3.95 crore at 55, ₹4.35 crore at 50 and ₹4.70 crore at 45, in today's money, for a couple spending ₹13.3 lakh a year including health insurance, with an 80% chance the money lasts to 90.
+
+#### Should EPF, PPF and NPS count toward the retirement corpus?
+
+Yes, but not as cash on day one. These tables count them inside the corpus. If you retire before 58 or 60, your liquid savings alone have to carry you until EPF and NPS pay out. The app models each scheme as its own account with its own payout age, so it shows that dip.
+
+#### What is a safe withdrawal rate in India?
+
+On these assumptions, about 3.3–3.6% of the corpus in the first year for an 80% chance when retiring at 55, and 2.7–3.0% when retiring at 45. For a 90% chance it is 2.8–3.0% at 55 and 2.3–2.5% at 45. The amount then rises with inflation each year.
+
+### Run your own number
+
+- Set the currency to INR at the top of the app. New plans start with Indian defaults: resident cost of living, city inflation and the Balanced India return preset.
+- On the Start tab, enter your age, savings, income and city.
+- Add EPF, PPF, NPS, Health insurance and any pension from "Add a life event" on My Plan.
+- The Projections tab shows your chance of lasting to 90 and the earliest age you could stop working at 80%.
+
+Educational, not advice. These figures are the engine's output for invented households using Bhavitta's defaults and its own cost-of-living estimates. They are not a forecast and not a recommendation to retire at any age or with any amount. Returns, inflation, scheme rules and tax change; talk to a SEBI-registered adviser about your own situation.
+
+---
+
+# How is a retirement readiness score calculated? Bhavitta's method and formula
+
+URL: https://bhavitta.com/how-it-works.html
+Last updated: 2026-11-04
+
+Short answer. Bhavitta's readiness score is 0.8 × survival rate + 20 × min(1, cushion years ÷ 10). Survival is the share of 1928–2025 history windows, or of 10,000 Monte Carlo trials, in which the balance stays above zero in every year. Cushion years are the bad-markets (P80) balance at retirement divided by the first year's spending. "Ready at N" is the earliest age you could stop earning and still clear 80% survival.
+
+### The question the app answers
+
+Bhavitta answers two questions about a plan: will the money last to the end of the plan, and from what age could you stop working and still have it last. Everything on this page exists to make those two answers honest and reproducible. The engine is a single compiled Swift package that runs on your phone, on iOS natively and on Android through WebAssembly, so the same plan gives the same result on both.
+
+### 1. Your plan is a timeline, not a form
+
+A plan is a sequence of life stages from your current age to the end of the planning horizon. Each location stage has:
+
+- A city and a lifestyle tier. Picking, say, Seattle at the Comfortable tier fills in an estimated annual living cost in today's US dollars and that city's typical local inflation rate. 49 curated cities are included; every estimate is editable and you can add your own city.
+- Earned income and a blended tax rate for the years you work there. The tax rate is a single percentage applied to that stage's income. Bhavitta is not a tax calculator: for an Indian city a helper estimates the rate from the Indian slabs (new or old regime), but there are no US brackets or filing status.
+- Household size, which scales the living cost.
+
+On top of location stages you layer overlays: a home you own (mortgage, property tax, payoff age, sale with appreciation, selling cost and capital-gains rate), a property you rent out, a child's four years of college, a pension or Social Security (indexed guaranteed income from a start age), a recurring cost such as supporting parents, and one-time events such as a wedding, a windfall, or a down payment.
+
+Years you leave uncovered do not break the model. An uncovered span after a location stage keeps that location and its living costs but drops earned income to zero: you still live there, you just no longer work there. Only a gap before your very first stage is filled with a generic mid-cost US baseline.
+
+### 2. Every year, one cash-flow line
+
+For each year of the plan the engine resolves the active stage and computes net cash flow: earned income minus tax, minus living expense, college, property and recurring costs, plus guaranteed income, rental income, home-sale proceeds and one-time credits. Then it rolls the balance forward:
+
+balance(t+1) = (balance(t) + netCashFlow(t)) × (1 + return(t)) when the sum is positive / balance(t+1) = balance(t) + netCashFlow(t) otherwise
+
+Two deliberate choices sit in that recurrence. A plan that fails is allowed to go negative, so the ledger and chart show how deep the shortfall is instead of clamping at zero. And a deficit neither earns nor compounds; it is carried and can be paid back down by a later inflow such as a home sale or Social Security.
+
+Indexing. Every amount you type is a today's-money figure. Income, living costs, guaranteed income and property tax grow with the active location's inflation rate from the start of the plan. Costs for an Indian city are stored in dollars and grow at the city's inflation less the rupee-depreciation rate you set (defaults 5% and 3%, so about 1.9% a year in dollar terms). A separate display deflator converts any nominal balance back to today's money, switching rate the moment the active location changes, which is why a US-to-Bangalore plan reads sensibly in either basis.
+
+### 3. Two ways to generate returns
+
+#### Historical replay (the default)
+
+The plan is run through every contiguous window of real market history. The embedded series is nominal annual total return on the S&P 500, price plus dividends, 1928 to 2025, from Aswath Damodaran's public dataset: 98 years, geometric mean about 10.0%, standard deviation about 19.3%. A 30-year plan therefore gets 69 trajectories, one starting in each of 1928, 1929, and so on; a 50-year plan gets 49. Nothing is randomised; it is deterministic, and it is the most faithful picture of what markets have actually done to a plan like yours, including the sequence-of-returns risk of retiring into 1929, 1966, or 2000.
+
+A second source, Shiller real, deflates each year's return by US CPI so the plan runs in constant dollars with living costs held flat. The two are not comparable in dollar magnitude; use one or the other.
+
+#### Monte Carlo
+
+10,000 trials. Each year of each trial draws a return from a normal distribution with the expected return and volatility you set; the defaults are a deliberately conservative 7% and 12%. Draws are seeded from the plan itself, so the same plan always produces the same fan and the score does not jitter between opens.
+
+Why the two models disagree. Raw history compounds at about 10%; the Monte Carlo default assumes 7%. Over forty years that gap is large, and it is the whole difference. Historical is kept raw, with no recentering, because it is the record; if you want the two to agree, raise the Monte Carlo expected return toward 10%, or treat Monte Carlo as your stress case.
+
+### 4. What comes out
+
+- A fan of balances. At every age the trials (or windows) are sorted and five lines are read off: P10, the optimistic upside only one in ten beats; P50, typical markets; P80, bad markets, the app's default benchmark; P90, very bad; P95, the worst case. Ten more quantile bands draw the probability cloud behind them.
+- Survival rate. The share of trials in which the balance stayed above zero in every year of the plan, not just the last one. A path that is broke for twenty years and then rescued by a house sale does not count as surviving.
+- A year-by-year ledger for any percentile path: opening balance, income, tax, each expense line, market gain and closing balance, in today's money by default.
+
+### 5. The readiness score
+
+The 0 to 100 score combines the survival rate with a cushion test at your planned retirement age:
+
+score = 0.8 × survivalRate + 20 × min(1, cushionYears ÷ 10) / cushionYears = balance at retirement on the benchmark line (P80) ÷ first-year retirement spending
+
+So survival alone can earn at most 80 points; the last 20 come from arriving at retirement with at least ten years of spending on the bad-markets line. A plan that survives on paper but starts retirement thin scores in the 80s, which is the point. The headline next to the gauge comes from a second computation, the earliest-retirement solver: it zeroes your earned income (and its tax) from a candidate age onward, leaving everything else in place, including where you live, your home, college and Social Security, and finds the earliest age at which survival still clears the benchmark. That age is the "Ready at 52" in the headline; if no age clears it, the headline says how far short the plan is at your own planned age. The sentence under it names the income sources that cover spending and the riskiest stretch of years on the bad-markets path.
+
+### 6. Changing one thing
+
+Three sliders under the score, starting corpus, retirement age and yearly spending, re-run the whole simulation on release and show the before and after. The what-if chips apply a named shock: a job loss (income gap), a market crash (a forced drawdown in a chosen year, applied identically to every trial and window), retiring earlier or later, a move abroad, a big expense. Compare overlays up to three scenarios and, with two selected, writes a one-line verdict such as "Moving to Bangalore at 50 lets you retire 6 years earlier", using retirement age first and survival rate as the tie-break.
+
+The stress test is a five-by-five grid: expected return from two points below to two points above your baseline, inflation from one and a half points below to above, 200 trials per cell, coloured by survival. It shows which of the two assumptions your plan is actually sensitive to.
+
+### 7. Spending shape
+
+By default spending is constant real: flat in today's money, rising only with inflation. The optional Bernicke model eases real spending by 1.5% a year after 56 and levels off at 76, the "go-go, slow-go, no-go" pattern seen in retiree surveys. It usually raises survival; treat it as a view, not a promise.
+
+### 8. What the model does not do
+
+- No US tax brackets, filing status, or treaty rules; one blended rate per stage (estimated from the Indian slabs for an Indian city, if you ask), plus a capital-gains rate on property sales.
+- No US account types. 401(k) and IRA balances are part of the starting corpus, and withdrawal limits and required minimum distributions are not modelled. EPF, PPF and NPS are the exception: each can be its own account that grows at a fixed rate and pays out at its own age, outside the market-exposed pool (see the India guide).
+- One portfolio return. There is no asset allocation, bond ladder or glide path; the return you set, or history, applies to the whole balance.
+- Historical replay uses US equity history for every plan, including plans lived in India; for rupee savings use the Indian Monte Carlo presets.
+- Long-term care is not special; add it as a recurring cost or a one-time event. Health insurance is a life event whose premium grows at its own rate (10% a year by default in India, 7% in the US).
+- Display currency is a presentation conversion of dollar amounts; the rupee-depreciation input is the only currency-risk lever. The Indian return presets are rupee returns, so choosing one sets rupee depreciation to 0%.
+
+Defaults, in case you want to compare with your own spreadsheet: expected return 7%, volatility 12%, US inflation 3%, Indian city inflation 5% (Delhi and Goa 4.5%), rupee depreciation 3%, Monte Carlo 10,000 trials, benchmark P80 at an 80% survival bar. New plans in rupees start instead on Balanced India (9.5% return, 13% volatility) with rupee depreciation at 0%; see the India guide. All are editable in Inputs.
+
+### Common questions
+
+#### What is a retirement readiness score?
+
+A 0 to 100 summary of whether a plan holds. In Bhavitta, up to 80 points come from the survival rate and up to 20 from arriving at retirement with at least ten years of spending on the bad-markets (P80) line.
+
+#### What does survival rate mean in a retirement simulation?
+
+The share of trials, or history windows, in which the balance stays above zero in every year of the plan, not just at the end. A path that is broke for twenty years and then rescued by a house sale does not count.
+
+#### What is the difference between historical replay and Monte Carlo?
+
+Historical replay runs the plan through every contiguous window of S&P 500 total returns from 1928 to 2025, with nothing random. Monte Carlo runs 10,000 trials, each drawing yearly returns from the expected return and volatility you set (7% and 12% by default), seeded from the plan so the result is repeatable.
+
+#### What does P80 mean?
+
+The bad-markets line: at each age, the balance that eight in ten trials beat. Bhavitta judges plans on it by default. P50 is typical markets, P90 very bad and P95 the worst case.
+
+#### What does "Ready at 52" mean?
+
+The earliest age at which your earned income and its tax can stop, with everything else in the plan unchanged, and survival still clears the 80% benchmark. If no age clears it, the headline says how far short the plan is at your planned age.
+
+#### Why does a plan that survives score only in the 80s?
+
+Survival alone earns at most 80 points. The last 20 need ten years of spending on the bad-markets line at your planned retirement age, so a plan that survives on paper but starts retirement thin scores in the 80s.
+
+---
+
+# Retirement planning in India: EPF, PPF, NPS, EPS, tax and city costs, in rupees
+
+URL: https://bhavitta.com/retirement-planning-india.html
+Last updated: 2026-11-04
+
+Short answer. Planning a retirement in India means modelling what most calculators leave out: rupee returns, each city's own cost of living and inflation (5% a year; 4.5% in Delhi and Goa), tax from the Indian slabs, EPF, PPF and NPS locked until 58 or 60, an EPS pension fixed in rupees, gratuity, and health premiums that rise about 10% a year. Bhavitta 2.9 models all of these, free and on your phone. For the corpus they add up to, see how much you need to retire in India.
+
+Bhavitta began as a planner for Indians in the US weighing a move home, so its first model of India was a cheaper city on a dollar plan. That works for an NRI with a US portfolio. It does not work for someone who earns, saves and retires in India: their savings earn rupee returns, half their retirement money is locked in EPF, PPF and NPS, their pension is a fixed rupee amount, and their tax comes from the Indian slabs. Version 2.9 adds all of that. This page lists each piece, the default the app starts from, and where it comes from. For the same pieces on one real-looking household, see the Mumbai vs Pune worked example.
+
+Everything below ships in Bhavitta 2.9 on iPhone and Android, rolling out in November 2026. It all switches on when the app's currency is INR.
+
+### 1. Plans that start in rupees
+
+When the display currency is INR (picked automatically on a phone set to English (India) or Hindi, or chosen at the top of any tab), new plans start from Indian defaults instead of US ones. Amounts show in lakh and crore (₹41,80,000; ₹4.2L; ₹2.8Cr). Guided Start asks its questions with rupee-sized answers, the life events and life stories come in rupees (a ₹20 lakh wedding, a ₹1.2 crore home with a ₹9 lakh a year EMI, ₹10 lakh a year private college, ₹3 lakh a year parents' care, a move to Goa), and "See a sample readiness check" opens a resident household in Pune that reads about 80%.
+
+New India plans also start on the Balanced India return preset with rupee depreciation at 0% (section 3), so the whole plan is in rupees from the first screen.
+
+### 2. What life costs in an Indian city
+
+The seven Indian cities in the app (Bangalore, Chennai, Delhi, Goa, Hyderabad, Mumbai, Pune) carry a fourth lifestyle tier, Resident (typical Indian household), alongside the three NRI and expat lifestyles they already had. For a couple it is about ₹8 to 13 lakh a year: ₹7.7 lakh in Pune, ₹12.9 lakh in Mumbai. It is built from the government's Household Consumption Expenditure Survey 2023-24 (urban spending near the top of each state's range) plus the rent on a two-bedroom flat.
+
+Each city also has its own inflation, from its state's urban consumer-price index over the last ten years: 5% for Bangalore, Chennai, Hyderabad, Mumbai and Pune, 4.5% for Delhi and Goa. Any stage can override it as Local inflation.
+
+### 3. Returns in rupees
+
+With INR selected, Inputs offers three Monte Carlo presets, each a yearly return with its volatility:
+
+| Preset | Return | Volatility | Roughly |
+|---|---|---|---|
+| Indian equity | 11% | 20% | All in Indian stocks |
+| Balanced India | 9.5% | 13% | Stocks and debt; the default for new India plans |
+| Conservative India | 8% | 7% | Mostly debt and deposits |
+
+These are rupee returns, so picking one also sets rupee depreciation to 0%, and the app says so under the buttons. Rupee depreciation is for the opposite case, a dollar portfolio funding an Indian life: it lowers Indian costs in dollar terms by the rate you expect the rupee to fall. Leave it at 0% unless your money is in dollars.
+
+The Historical model replays US market history (the S&P 500 since 1928). Indian index history isn't in the app yet, because the index data is licensed, so for a rupee portfolio use the presets.
+
+### 4. Tax from the Indian slabs
+
+For a stage in an Indian city with income, Estimate from Indian tax slabs works out the effective rate for the FY2025-26 new or old regime, with the standard deduction, the section 87A rebate, surcharge and the 4% cess (for the old regime, it also takes your deductions such as 80C, 80D and HRA as one figure, and uses the senior-citizen slabs from 60), and fills in the stage's tax rate with one tap. Guided Start uses it for its default, which is why a ₹25 lakh income starts at about 13% and ₹35 lakh at about 18%. The engine still applies one rate per stage, so if your income changes a lot between stages, run the helper on each.
+
+### 5. EPF, PPF and NPS as their own accounts
+
+These used to be part of the starting balance, as if you could spend them tomorrow. Now each is its own account: it grows at its own fixed rate while you and your employer contribute, and pays out at its own age. Add them from "Add a life event" → Retirement savings; each starts from a typical default you then edit:
+
+| Account | Balance | Yours / employer's a year | Rate | Pays out |
+|---|---|---|---|---|
+| EPF | ₹8L | ₹1.8L / ₹1.8L | 8.0% | At 58, all as a lump sum |
+| PPF | ₹5L | ₹1.5L / — | 7.1% | At maturity, 15 years out |
+| NPS | ₹3L | ₹1L / ₹1L | 10% | At 60: 60% lump sum, the rest buys an annuity at 6.5% |
+
+Your contribution comes out of each year's cash flow; the lump sum lands in your portfolio tax-free at the payout age; an NPS annuity is paid every year after, taxed at that year's rate. Contributions follow your working life: a job loss or a sabbatical pauses EPF (yours and the employer's) and the employer's NPS share for those years, PPF carries on, and retiring later keeps contributions going until the payout. The ledger shows each account's contributions, payouts and annuity as their own lines.
+
+### 6. An EPS pension that stays fixed
+
+In the Pension / Social Security editor, Estimate EPS pension applies the EPS formula: pensionable salary (capped at the ₹25,000 wage ceiling) × years of service ÷ 70, at least ₹1,000 a month, from 58, and 4% less for each year you take it early (no earlier than 50). It needs ten years of service. It is labelled an estimate, because service before September 2026 may still be valued at the old ₹15,000 ceiling.
+
+Using the estimate also turns on Fixed in rupees (no yearly increase): EPS does not rise with prices, so at 5% inflation it buys about half as much at 72 as it did at 58. Social Security and other pensions stay inflation-linked; the switch only appears when the currency is INR.
+
+### 7. Gratuity and health insurance
+
+Gratuity (in the Money group of life events) is a one-time payout at retirement: 15/26 of your last monthly basic for each year of service, nothing under five years, with a calculator in the editor and a reminder that up to ₹20 lakh is tax-free. Its default is a ₹1 lakh basic and 20 years.
+
+Health insurance is a yearly premium that grows at its own rate, not with general prices: ₹40,000 a year rising 10% a year by default (in the US, $8,000 rising 7%). Over 45 years that difference is large: the same ₹40,000 becomes about ₹29 lakh a year by 90 in the rupees of that year, and it is often what decides whether a plan holds in its last decade.
+
+### What it still doesn't do
+
+- No Indian market history. Historical replay is US-only; Indian plans use the Monte Carlo presets.
+- One tax rate per stage. The slab helper sets it, but there is no capital-gains tax on the portfolio, and no separate tax on withdrawals.
+- One investment portfolio. No separate mutual fund, FD or gold buckets, and no glide path; the return you pick applies to the whole balance.
+- Amounts are stored in dollars. The app converts at the rate in Inputs to show and accept rupees, so change that rate and every plan's rupee figures move with it.
+
+The full list of what the engine leaves out, India or not, is on How the readiness score works.
+
+### Common questions
+
+#### What return should you assume for retirement planning in India?
+
+The app offers three rupee presets: Indian equity at 11% a year with 20% volatility, Balanced India at 9.5% with 13% (the default for new India plans), and Conservative India at 8% with 7%. Each is editable.
+
+#### What does a retired couple spend in an Indian city?
+
+The app's resident estimates for a comfortable couple, including rent, are about ₹7.7 lakh a year in Pune and Chennai, ₹8.4 lakh in Hyderabad, ₹9 lakh in Delhi and Goa, ₹9.7 lakh in Bangalore and ₹12.9 lakh in Mumbai, in today's money.
+
+#### How is the EPS pension calculated?
+
+Pensionable salary, capped at the ₹25,000 wage ceiling, times years of service, divided by 70, a month, with a minimum of ₹1,000 a month. It starts at 58, is 4% lower for each year taken early (no earlier than 50) and needs ten years of service. It does not rise with inflation.
+
+#### How much gratuity will you get?
+
+15/26 of your last monthly basic pay for each year of service, and nothing under five years. Up to ₹20 lakh is tax-free. A ₹1.2 lakh basic after 25 years gives about ₹17.3 lakh.
+
+#### How fast do health insurance premiums rise in India?
+
+The app assumes 10% a year by default, about twice general inflation. Over 45 years a ₹40,000 premium becomes about ₹29 lakh a year by 90, in the rupees of that year.
+
+#### Does rupee depreciation matter if your savings are in India?
+
+No. Leave it at 0%. Rupee depreciation is for a dollar portfolio funding an Indian life; picking one of the rupee return presets sets it to 0% automatically.
+
+### See it on one household
+
+The Mumbai vs Pune worked example puts every piece above on one salaried couple, both 45, retiring at 55: 38% survival if they stay in Mumbai, 87% if they move to Pune. If you are an NRI with a dollar portfolio weighing a move back, Bangalore at 50 vs Seattle is the example for you.
+
+Educational, not advice. Scheme rates, the EPS formula, tax slabs and cost-of-living estimates are the app's defaults as of November 2026; they change, and your own will differ. Check the current rules and talk to a SEBI-registered adviser about your situation.
+
+---
+
+# How much do you need to retire in Mumbai vs Pune at 55? A worked example in rupees
+
+URL: https://bhavitta.com/retire-in-india-mumbai-vs-pune.html
+Last updated: 2026-11-04
+
+Short answer. For a couple who are both 45, with ₹60 lakh invested plus EPF, PPF and NPS and ₹25 lakh a year of income, retiring at 55 and staying in Mumbai lasts to 90 in only 38% of market paths. Moving to Pune at 55 lifts that to 87% and a readiness score of 89, "Ready at 55". Pune's lower cost of living, about ₹5 lakh a year less for two, does more than a few extra years of saving would.
+
+Most retirement calculators were built for someone else's country. They assume a single inflation rate, a tax rate you type in, a pension that rises with prices, and savings that sit in one account until you need them. A salaried couple in Mumbai has none of that: their costs depend on the city, their health premium climbs faster than inflation, most of their savings are locked in EPF, PPF and NPS until 58 or 60, and the EPS pension is a fixed rupee amount. Here is one such couple's question, worked in Bhavitta in rupees, with every number the app produced.
+
+### The couple and the two plans
+
+- Both 45, planning to 90. Household of two, living in Mumbai.
+- ₹60 lakh invested today, outside their retirement accounts.
+- ₹25 lakh a year gross income. The app's Indian tax helper puts the new-regime tax at 12.8% of that.
+- Resident cost of living from the app's estimates: ₹12.9 lakh a year for the two of them in Mumbai, ₹7.7 lakh in Pune, in today's money. Both cities inflate at 5% a year.
+- EPF ₹20 lakh today, ₹1.8 lakh a year each from them and the employer, 8%, paid at 58. PPF ₹8 lakh, ₹1.5 lakh a year, 7.1%, maturing at 60. NPS ₹5 lakh, ₹1 lakh a year each, 10%, at 60, with 60% taken as a lump sum and the rest buying an annuity at 6.5%.
+- EPS pension of about ₹1.07 lakh a year from 58 (25 years of service at the ₹25,000 wage ceiling), fixed in rupees: it does not rise with prices.
+- Gratuity of ₹17.3 lakh at 55 (15/26 of a ₹1.2 lakh monthly basic for 25 years), tax-free under the ₹20 lakh limit.
+- Health insurance at ₹40,000 a year today, rising 10% a year.
+- Returns: the app's Balanced India Monte Carlo preset, 9.5% a year with 13% volatility, everything in rupees. The bar is 80% survival, judged on the bad-markets (P80) line.
+|  | Plan A — Stay in Mumbai | Plan B — Move to Pune at 55 |
+|---|---|---|
+| Ages 45 to 54 | Mumbai, working | Mumbai, working |
+| Ages 55 to 90 | Mumbai, retired | Pune, retired |
+| Planned retirement age | 55 | 55 |
+
+### What the readiness card says
+
+Monte Carlo, 10,000 trials, each one a different sequence of yearly returns around the 9.5% mean.
+
+|  | Stay in Mumbai | Move to Pune at 55 |
+|---|---|---|
+| Survival at 55 | 38% | 87% |
+| Readiness score | 45 | 89 |
+| Headline | Not ready yet: short by 43% at 55 | Ready at 55 |
+| First-year retirement spending, today's ₹ | ₹13.5L | ₹8.4L |
+| Typical (P50) balance at 80, today's ₹ | ₹72L | ₹2.8 Cr |
+| Bad-markets (P80) balance at 80, today's ₹ | runs out | ₹1.15 Cr |
+
+Same couple, same savings, same retirement age; the only difference is where they spend the next 35 years. In Mumbai the plan holds in fewer than four of every ten market paths, and in a bad-markets path the money runs out before 80. In Pune it clears the 80% bar at 55. The app's explanation for the Pune plan: "Pension or Social Security plus your savings cover spending from age 55. The risky years are 85–89, if markets fall early."
+
+Survival, score and headline are what the app shows for these two plans. The spending and balance rows come from the same engine and inputs run outside the app; Monte Carlo is seeded from the plan, so those runs can differ from the app's by a point.
+
+### Five things an Indian plan has to get right
+
+Each of these is a feature added in Bhavitta 2.9; the India guide has the full list, the defaults and where they come from.
+
+#### 1. Your city's inflation, not the country's
+
+Each Indian city in the app carries its own rate from state CPI-Urban data: 5% for Mumbai, Pune, Bangalore, Chennai and Hyderabad, 4.5% for Delhi and Goa. Any stage can override it as Local inflation. A ₹12.9 lakh Mumbai budget at 5% is about ₹91 lakh a year by 85, in the rupees of that year.
+
+#### 2. Health insurance that grows faster than everything else
+
+The Health insurance life event grows at its own rate, 10% a year by default, against 5% general inflation. For this couple the premium is ₹40,000 now, about ₹1 lakh at 55 and ₹29 lakh a year by 90 in the rupees of that year; in today's money that is ₹64,000 at 55 and almost ₹3 lakh at 90. A plan that inflates health at the general rate understates the late years, which is exactly where both plans here are weakest.
+
+#### 3. Money you can't touch until 58 or 60
+
+EPF, PPF and NPS are separate accounts in the app, not part of the investment pool. They grow at their own rates while you contribute and pay out on their own schedule: EPF about ₹1.35 crore at 58, then PPF and the NPS lump sum together about ₹1.08 crore at 60, plus an NPS annuity of about ₹2.2 lakh a year (rupees of that year). Between 55 and 58 the couple lives on the portfolio and the gratuity alone, which is why the bad-markets balance dips in those years before the payouts land.
+
+#### 4. A pension that doesn't keep up
+
+EPS pays a fixed rupee amount. The app's Estimate EPS pension sets the pension stage to Fixed in rupees, so the ₹1.07 lakh a year buys less every year: at 5% inflation it is worth about half as much at 72 as at 58. Treating it as inflation-linked, as many calculators do, flatters a plan by a lot over 30 years.
+
+#### 5. Tax under either regime
+
+For a stage with income, Estimate from Indian tax slabs computes the effective rate for the new or old regime, with the standard deduction, the 87A rebate, surcharge and cess. On ₹25 lakh under the new regime it is 12.8%; with large old-regime deductions it can be lower. The engine applies one rate per stage, so re-run the helper if your income changes much.
+
+### What if they retire at 50 or 52?
+
+Survival for each stop-working age, with the move to Pune still at 55:
+
+| Stop working at | Stay in Mumbai | Move to Pune at 55 |
+|---|---|---|
+| 50 | 2% | 19% |
+| 52 | 11% | 53% |
+| 55 | 40% | 86% |
+
+Rows use 2,000 trials each, so the 55 row can differ by a point or two from the 10,000-trial figures above. Working past 55 is not shown: in these plans earned income already ends at 55.
+
+### Why does Pune do so much better?
+
+- The city is the lever. Moving the same retirement from Mumbai to Pune cuts spending by about ₹5 lakh a year in today's money and takes the plan from 38% to 87%. Saving more for a few years does less than that.
+- Everything here is in rupees. The Indian return presets are rupee returns, so the app treats the whole plan in rupees and sets rupee depreciation to 0%. If part of your money is in dollars, set that up deliberately; the Historical model replays US market history and suits a dollar portfolio.
+- The weak years are the late ones. Health costs climb and the EPS pension shrinks in real terms, so both plans are most fragile in the 80s. A small change to health growth or to spending after 75 moves the answer; try both.
+- Dollar savings change the picture. For an NRI moving back with a US portfolio, see Bangalore at 50 vs Seattle.
+- Neither plan is a recommendation. The example leaves out tax on the portfolio's gains, property, children's education, parents' care and a second home. Each is a stage or a life event you can add.
+
+### Common questions
+
+#### Can you retire at 55 in Mumbai with ₹60 lakh plus EPF, PPF and NPS?
+
+Not reliably, for this couple. Only 38% of 10,000 Monte Carlo paths last to 90, the readiness score is 45, and in a bad-markets path the money runs out before 80. The same savings in Pune reach 87%.
+
+#### How much cheaper is it to retire in Pune than in Mumbai?
+
+In the app's resident estimates, a couple spends about ₹7.7 lakh a year in Pune against ₹12.9 lakh in Mumbai, in today's money: about ₹5 lakh a year less. Both cities inflate at 5% a year.
+
+#### When do EPF, PPF and NPS pay out?
+
+In this example EPF pays out at 58 (about ₹1.35 crore), PPF at maturity at 60, and NPS at 60, with 60% as a lump sum and the rest buying an annuity at 6.5%. Between 55 and 58 the couple lives on the portfolio and the gratuity alone.
+
+#### Does the EPS pension increase with inflation?
+
+No. EPS pays a fixed rupee amount, so the ₹1.07 lakh a year here buys about half as much at 72 as at 58 at 5% inflation. The app's Estimate EPS pension sets the pension to Fixed in rupees.
+
+#### How much do you need to retire in Mumbai?
+
+For a couple spending ₹13.3 lakh a year including health insurance, about ₹3.95 crore at 55 for an 80% chance the money lasts to 90, ₹4.35 crore at 50 and ₹4.70 crore at 45. The corpus by city table has all seven Indian cities.
+
+### Build it yourself
+
+- Set the currency to INR at the top of the app. New plans then start with Indian defaults: resident cost of living, city inflation and the Balanced India return preset.
+- On the Start tab, answer the guided questions with your age, savings, income and city. The tax default comes from the Indian slabs.
+- On My Plan, add EPF, PPF and NPS from "Add a life event" → Retirement savings, and edit each balance and contribution. Add Health insurance and Gratuity from the Money group.
+- Add a Pension stage and tap Estimate EPS pension.
+- On Scenarios, make a copy, change its retirement city to Pune (or any of the seven Indian cities), select both and tap Compare.
+
+Educational, not advice. The numbers above are the engine's output for one invented household using Bhavitta's defaults and its own cost-of-living estimates. They are not a forecast and not a recommendation to move, stay, or retire at any age. Scheme rates, tax rules and the EPS formula change; check the current ones and talk to a SEBI-registered adviser about your own situation.
+
+---
+
+# Can you retire in India at 50 on US savings? Bangalore vs Seattle, a worked example
+
+URL: https://bhavitta.com/retire-in-india-vs-us.html
+Last updated: 2026-11-01
+
+Short answer. A Seattle couple, both 40, with $900,000 saved and $250,000 a year of income, could stop working at 52 at the earliest if they stay in Seattle, and at 46 if they plan to retire in Bangalore, on 1928–2025 market history with an 80% survival bar. Both plans as written, working to 65 in Seattle or moving at 50, are safe. Spending is what moves the age: $142,500 a year in Seattle against $54,100 in Bangalore.
+
+This is the question a lot of Indian professionals in the US eventually ask, and it is hard to answer in a spreadsheet because the two lives have different costs, different inflation, a currency between them, and the same portfolio. Here is one couple's version of it, built in Bhavitta with the app's defaults and its own city estimates, with every number the engine produced. Change any input and the answer changes; that is the point of the app, and the reason this page ends with a download link rather than a conclusion.
+
+Living and saving in India rather than moving there from the US? The Mumbai vs Pune example works a resident plan in rupees, with EPF, PPF, NPS and Indian tax.
+
+### The couple and the two plans
+
+- Both 40, planning to 90. Household of two.
+- $900,000 invested today, all treated as one portfolio.
+- $250,000 household income in Seattle, a 32% blended tax rate while working.
+- Comfortable lifestyle. Bhavitta's Seattle estimate at that tier is $142,500 a year for two in today's money; its Bangalore estimate is $54,100.
+- $30,000 a year of Social Security from 67, indexed, in both plans.
+- Defaults everywhere else: 7% expected return and 12% volatility for Monte Carlo, 3% US inflation, 5% Bangalore inflation (each Indian city carries its own rate), 3% a year rupee depreciation, constant-real spending, 80% survival benchmark on the bad-markets (P80) line.
+|  | Plan A — Stay in Seattle | Plan B — Move to Bangalore at 50 |
+|---|---|---|
+| Ages 40 to 49 | Seattle, working | Seattle, working |
+| Ages 50 to 64 | Seattle, working | Bangalore, no earned income |
+| Ages 65 to 90 | Seattle, retired | Bangalore, retired |
+| Planned retirement age | 65 | 50 |
+
+### What the readiness card says
+
+Historical replay, the app's default, runs each plan through all 49 fifty-year windows of S&P 500 history since 1928.
+
+|  | Stay in Seattle | Move to Bangalore at 50 |
+|---|---|---|
+| Survival at the planned retirement age | 100% | 100% |
+| Readiness score | 100 | 100 |
+| Headline | Ready at 52 | Ready at 46 |
+| Earliest age clearing the 80% bar | 52 (82%) | 46 (92%) |
+| First-year retirement spending, today's $ | $142,500 | $54,100 |
+| Typical (P50) balance at 80, today's $ | $21.4M | $19.5M |
+| Bad-markets (P80) balance at 80, today's $ | $14.6M | $14.2M |
+
+Both plans as written are comfortably safe; a couple earning $250,000 and working to 65 with $900,000 already saved does not have a survival problem. The interesting line is the headline. The solver asks "what is the earliest age at which earned income can stop and the plan still clears 80%?" and gets 52 in Seattle and 46 in Bangalore. The app's own explanation for Plan B reads: "At your planned retirement at 50, Pension or Social Security plus your savings, in Bangalore, cover spending. The risky years are 62–66, if markets fall early."
+
+### How does survival change with the stop-working age?
+
+Instead of one solved age, here is survival for each candidate stop-working age. The historical column is the default model; the Monte Carlo column is the deliberately conservative one, 7% expected return against history's roughly 10%.
+
+| Stop working at | Seattle, historical | Seattle, Monte Carlo | Bangalore, historical | Bangalore, Monte Carlo |
+|---|---|---|---|---|
+| 45 | 27% | 0% | 78% | 30% |
+| 48 | 45% | 2% | 96% | 72% |
+| 50 | 63% | 7% | 100% | 91% |
+| 52 | 82% | 11% | 100% | 91% |
+| 55 | 94% | 24% | 100% | 91% |
+| 58 | 100% | 40% | 100% | 91% |
+| 60 | 100% | 53% | 100% | 91% |
+| 62 | 100% | 63% | 100% | 91% |
+| 65 | 100% | 76% | 100% | 91% |
+
+In Plan B the move itself ends earned income at 50, so "stop working at 55" is the same plan as "stop at 50"; the Bangalore columns flatten from 50 onward. Monte Carlo figures below the solver rows used 2,000 trials per cell; the headline rows used 10,000.
+
+### Why does Bangalore retire six years earlier?
+
+- Spending is the lever, not returns. Dropping the retirement budget from $142,500 to $54,100 a year moves the earliest safe stop-working age from 52 to 46 on history, and from "work to 65 and still land at 76%" to "stop at 50 at 91%" on the conservative model. No return assumption in the app does that much.
+- The models disagree on how safe, not on which plan wins. History says both plans are fine from the mid-fifties; Monte Carlo at 7% says Seattle needs work past 65. Which one you believe is a view about future US equity returns, and the app lets you hold either.
+- Rupee depreciation is doing quiet work. Bangalore costs rise at 5% in rupees but about 1.9% in dollars under the default 3% depreciation. Set depreciation to 0% and Bangalore inflates at 5% in dollars, and the gap between the plans narrows; set it higher and it widens. Worth a slider pass. If your savings are in rupees rather than dollars, depreciation should be 0%; the India guide explains when to use it.
+- Neither plan is a recommendation. The example leaves out Indian income tax on the portfolio's gains after the move, NRI-to-resident tax status, health insurance in either country, property, children, and the parents everyone in this situation is actually planning around. Each of those is a stage or an overlay you add; health insurance, EPF, PPF and NPS now have their own (see the India guide).
+
+### Common questions
+
+#### Can you retire in India at 50 on US savings?
+
+For this couple, yes. Moving to Bangalore at 50 survives every 1928–2025 history window and 91% of the conservative Monte Carlo trials, and the earliest safe stop-working age is 46. Staying in Seattle, the earliest is 52.
+
+#### How much cheaper is retiring in Bangalore than in Seattle?
+
+At the comfortable tier, the app estimates $142,500 a year for two in Seattle and $54,100 in Bangalore, in today's dollars: about 60% less.
+
+#### How does rupee depreciation affect retiring in India on dollar savings?
+
+Bangalore costs rise 5% a year in rupees, but with the default 3% a year rupee depreciation only about 1.9% a year in dollars. Set depreciation to 0% and the gap between the plans narrows; set it higher and it widens.
+
+#### Why do historical replay and Monte Carlo give different answers?
+
+History compounds at about 10% a year; the Monte Carlo default assumes a conservative 7% with 12% volatility. On Monte Carlo, Seattle working to 65 lands at 76% survival, and Bangalore from 50 at 91%.
+
+#### Does the example include Indian tax after moving back?
+
+No. It leaves out Indian income tax on the portfolio's gains after the move, NRI-to-resident tax status, health insurance, property and parents' care. Each can be added in the app as a stage or a life event.
+
+### Build it yourself in five minutes
+
+- On the Start tab, answer the guided questions with your age, savings, income and city, or begin from the ready-made "Retire early" life story.
+- On My Plan, make sure your working-years stage ends at the age you would move. Add a second location stage for Bangalore, or any of the 49 cities, from that age to the end, with zero income.
+- Add a Social Security or pension overlay with your own estimate and start age.
+- On Scenarios, duplicate the plan, and in the copy change the move age or remove the move entirely.
+- Select both and tap Compare. The verdict at the top tells you which plan retires earlier, each row shows its retirement age and year, and the overlay shows both fans together. Then try the "Move abroad" and "Market crash" chips on either plan.
+
+Educational, not advice. The numbers above are the engine's output for one invented household using Bhavitta's default assumptions and its own cost-of-living estimates. They are not a forecast and not a recommendation to move, stay, or retire at any age. For your own decision, run your own numbers and talk to an adviser who knows both tax systems.
+
+---
+
+# Bhavitta features: a free retirement planning simulator for iPhone and Android
+
+URL: https://bhavitta.com/features.html
+
+Everything in Bhavitta, on one page. The home page shows the six most people come for; these are all twelve, in the order you meet them in the app. Every one of them runs on your phone with no account.
+
+#### Life-stage timeline
+
+Map every chapter as a stage — any of 49 curated cities (11 in the US, 38 worldwide) or one of your own, each at a Premium, Comfortable, or Modest lifestyle, plus college, retirement, and owning or renting. Gaps auto-fill so the model never breaks.
+
+#### Two simulation models
+
+Replay decades of real market history (1928–2025, nominal or inflation-adjusted) or run 10,000 Monte Carlo trials. Both give you a probability fan and your true survival rate.
+
+#### Stress-test heatmap
+
+A return × inflation grid shows exactly how sensitive your plan is to the two assumptions that move the needle most.
+
+#### Year-by-year ledger
+
+An amortization view of resolved cash flow — income, taxes, expenses, college, property, one-time events, and closing balance — for any percentile path, in today's dollars by default.
+
+#### Compare scenarios side by side
+
+One tap opens Compare with a plain-language winner line — "Moving to Bangalore at 50 lets you retire 4 years earlier" — overlaying up to three plans with success rates and closing balances together, or export Markdown for an AI second opinion.
+
+#### One score for "am I ready?"
+
+A single 0–100 readiness score sits above the chart, with a plain-language reason why and the changes that would move it most — retire later, spend less, or survive a bad first year. Share the result (amounts hidden by default) or set a check-in reminder, entirely on-device.
+
+#### Backups you own
+
+Back up every scenario to a single file and restore it on any phone — your plans survive a lost device without any cloud account.
+
+#### Private by design
+
+Everything is stored locally on your device. No accounts, no servers — your numbers never leave your phone. 21 display currencies, including Indian lakh/crore grouping. In rupees, plans start from Indian defaults: see the India guide.
+
+#### Build and edit by voice
+
+Turn on voice control and speak a scenario into existence, add a stage, or adjust an input — English or Hindi, or a mix. Runs entirely on-device; your voice never leaves your phone.
+
+#### Curated news, filtered on-device
+
+Artha, the News tab, pulls retirement, FIRE, NRI, tax, and market stories from trusted sources and personalizes them locally to your plan. Tap "See how this affects my plan" on a relevant story to open it as a what-if. Live index, currency, and commodity tickers up top; what you read is never sent anywhere or tracked.
+
+#### Try a what-if in one tap
+
+Model a job loss, a market crash, retiring early or late, moving abroad, or a big expense — see the before/after instantly with direct retirement-age and spending sliders, then keep it in this plan or save it as a new scenario.
+
+#### A library of life events
+
+Add a wedding, a baby, a raise, a sabbatical, or a move from a grouped picker instead of a blank form — or start from a ready-made life story, like retiring early or caring for parents, as its own scenario.
+
+Want the mechanics behind the score and the fan chart? Read how the readiness score works, or see a complete worked example: Bangalore at 50 vs Seattle for an NRI with dollar savings, or Mumbai vs Pune for a resident plan in rupees. Everything the app models for India is in the India guide.
