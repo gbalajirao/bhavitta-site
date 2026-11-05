@@ -328,6 +328,223 @@ Educational, not advice. These figures are the engine's output for invented hous
 
 ---
 
+# Health insurance in retirement in India: how much it adds to your corpus
+
+URL: https://bhavitta.com/health-insurance-retirement-india.html
+Last updated: 2026-11-05
+
+Short answer. For a couple retiring at 55 in Bangalore, a ₹40,000 health-insurance premium that rises 10% a year adds about ₹30 lakh to the corpus they need: ₹3.05 crore instead of ₹2.75 crore for an 80% chance of lasting to 90. If premiums rise 13% a year it adds ₹45 lakh; a ₹80,000 premium adds ₹55 lakh. Retiring at 45, the same three cost ₹35 lakh, ₹75 lakh and ₹70 lakh. By 85 the premium is about ₹7 lakh a year, 14% of the couple's spending, up from 4% at 55.
+
+Health cover is the expense that grows fastest in an Indian retirement. Employer group cover ends when the job does, a family floater has to be bought and renewed at retirement-age prices, and premiums rise faster than general inflation because both medical costs and your age push them up. Most retirement calculators fold health into a single inflation rate. Bhavitta models it as its own yearly cost with its own growth rate, so the tables below show what it adds on its own. Every figure is from the app's engine: 10,000 simulated market paths, in rupees.
+
+### How much does health insurance add to the corpus?
+
+The smallest corpus, to the nearest ₹5 lakh, that lasts to 90 in at least 80% of paths for a Bangalore couple at the app's resident cost of living, by premium:
+
+| Health insurance | Retire at 55 | Retire at 45 |
+|---|---|---|
+| None (for comparison) | ₹2.75 Cr | ₹3.25 Cr |
+| ₹40,000 a year, rising 10% (the app's default) | ₹3.05 Cr (+₹30L) | ₹3.60 Cr (+₹35L) |
+| ₹40,000 a year, rising 13% | ₹3.20 Cr (+₹45L) | ₹4.00 Cr (+₹75L) |
+| ₹80,000 a year, rising 10% | ₹3.30 Cr (+₹55L) | ₹3.95 Cr (+₹70L) |
+
+The growth rate matters as much as the starting premium. From 45, three extra points of premium growth cost more than doubling the premium, because they compound over 45 years instead of 35.
+
+### What will the premium be at 65, 75 and 85?
+
+A ₹40,000 premium at 55, rising 10% a year, set against Bangalore's 5% general inflation:
+
+| Age | Premium that year | In today's money | In today's money, at 13% |
+|---|---|---|---|
+| 55 | ₹40,000 | ₹40,000 | ₹40,000 |
+| 65 | ₹1.04 lakh | ₹64,000 | ₹83,000 |
+| 75 | ₹2.69 lakh | ₹1.01 lakh | ₹1.74 lakh |
+| 85 | ₹6.98 lakh | ₹1.61 lakh | ₹3.62 lakh |
+| 90 | ₹11.2 lakh | ₹2.04 lakh | ₹5.23 lakh |
+
+For the corpus guide's Bangalore couple, health insurance is 4% of yearly spending at 55, 8% at 70 and 14% at 85. A plan that looks comfortable at 60 can be squeezed at 80 by this one line.
+
+### What the numbers assume
+
+- A couple with no further income, retiring at 45 or 55 in Bangalore at the app's resident cost of living (₹9.7 lakh a year today, rising 5% a year).
+- Health insurance as a separate yearly cost from the day they retire: ₹40,000 today by default, rising 10% a year. Industry surveys put Indian medical inflation at 10–13% a year.
+- Returns from the app's Balanced India Monte Carlo preset: 9.5% a year on average, 13% volatility. 10,000 trials per figure.
+- Survival means the balance stays above zero in every year to 90. 80% is the bar the app uses for "ready".
+- No claims, co-pays or uncovered bills. The premium is the only health cost here. Out-of-pocket costs come on top, and a one-time bill can be added in the app as a life event.
+
+### Common questions
+
+#### How much does health insurance add to my retirement corpus in India?
+
+For a couple retiring at 55 in Bangalore, a ₹40,000 premium rising 10% a year adds about ₹30 lakh to the corpus needed for an 80% chance of lasting to 90. Retiring at 45 it adds about ₹35 lakh. Faster-rising or larger premiums add ₹45–75 lakh.
+
+#### How fast do health insurance premiums rise in India?
+
+Industry surveys put Indian medical inflation at about 10–13% a year, and premiums also step up with age bands. The app uses 10% a year by default; you can change it on the health-insurance item in your plan.
+
+#### What will my health insurance premium be at 80?
+
+A ₹40,000 premium at 55 rising 10% a year is about ₹4.3 lakh a year at 80 in that year's money, or roughly ₹1.3 lakh in today's money after 5% general inflation. At 13% a year it would be about ₹2.5 lakh in today's money.
+
+#### Does employer health insurance continue after retirement?
+
+Group cover through an employer usually ends when employment ends, so a retiree needs individual or family cover bought at their age. Buying before retirement, while still healthy, avoids fresh waiting periods on existing conditions. Check your own policy's terms.
+
+#### Should health insurance be part of the retirement corpus calculation?
+
+Yes, as its own line. A premium rising 10% a year is four times its starting size in today's money by 85; folded into 5% general inflation it would stay flat. Modelled separately, it adds ₹30–75 lakh to the corpus in these examples.
+
+### Run your own number
+
+- Set the currency to INR and build your plan on the Start tab.
+- On My Plan, tap "Add a life event" and choose Health insurance. Set your premium and how fast you expect it to rise.
+- Copy the plan, change the growth rate to 13%, and tap Compare to see what faster medical inflation does to your chance.
+
+Educational, not advice. These figures are the engine's output for invented households using Bhavitta's defaults and its own cost-of-living estimates. They are not a forecast and not a recommendation to retire at any age or with any amount. Returns, inflation, scheme rules and tax change; talk to a SEBI-registered adviser about your own situation.
+
+---
+
+# Which Indian city lets you retire earliest? Same salary, seven cities
+
+URL: https://bhavitta.com/earliest-retirement-city-india.html
+Last updated: 2026-11-05
+
+Short answer. On the same salary and savings, a couple can stop working years earlier in Pune, Chennai, Delhi, Goa or Hyderabad than in Bangalore or Mumbai. At 35 with ₹50 lakh saved and ₹30 lakh a year before tax, the app's engine gives an earliest retirement age of 47 in Pune, 48 in Chennai, Delhi and Goa, 49 in Hyderabad, 51 in Bangalore and 57 in Mumbai, for an 80% chance the money lasts to 90.
+
+Where you live changes two things at once: how much you spend and how much of your salary you can save. Those compound together over a working life, so a city that costs ₹5 lakh a year more can cost a decade of work. The tables below take one couple, put them in each of the seven Indian cities the app has resident cost estimates for, and ask the app's solver for the earliest age they could stop working with an 80% chance of the money lasting to 90.
+
+### Which Indian city lets you retire earliest?
+
+A couple at 35 who work and retire in the same city, at the app's resident cost of living, with health insurance from today:
+
+| City | Living cost, year one | ₹20L salary, ₹25L saved | ₹30L salary, ₹50L saved | ₹50L salary, ₹1 Cr saved |
+|---|---|---|---|---|
+| Pune | ₹7.7L | 55 | 47 | 42 |
+| Chennai | ₹7.7L | 55 | 48 | 42 |
+| Delhi | ₹9.0L | 57 | 48 | 42 |
+| Goa | ₹9.0L | 57 | 48 | 42 |
+| Hyderabad | ₹8.4L | 56 | 49 | 42 |
+| Bangalore | ₹9.7L | 60 | 51 | 44 |
+| Mumbai | ₹12.9L | Not before 65 | 57 | 47 |
+
+Salaries are gross, taxed under the new regime (9.6%, 15.9% and 22.0% effective). A one-year difference between cities with similar costs is within the simulation's noise; the gaps of three years and more are not.
+
+### Why does Mumbai cost so many years?
+
+Mumbai's resident cost estimate is about ₹5 lakh a year above Pune's, mostly rent. On a ₹30 lakh salary that is nearly a third less saved every year, and a larger pot needed at the end: about ₹3.95 crore at 55 in Mumbai against ₹2.5 crore in Pune (see the corpus-by-city guide). The two effects together turn 47 into 57. Higher incomes narrow the gap, because rent becomes a smaller share of what you earn: on ₹50 lakh a year the difference is five years.
+
+### What the numbers assume
+
+- A couple at 35 who keep the same job, in the same city, until they stop. Salary rises with the city's inflation, and nothing extra is saved beyond what is left after tax and living costs.
+- Resident cost of living from the app's estimates for a comfortable couple, including rent, at each city's own inflation rate (5%; Delhi and Goa 4.5%).
+- Health insurance at ₹40,000 a year today, rising 10% a year.
+- Returns from the Balanced India Monte Carlo preset: 9.5% a year on average, 13% volatility. 10,000 trials.
+- EPF, PPF and NPS are not modelled separately here; all savings are one pool. No children, home purchase or other big expenses.
+
+### Common questions
+
+#### Which is the cheapest city in India to retire in?
+
+Of the seven cities the app has resident cost estimates for, Pune and Chennai are the cheapest at about ₹7.7 lakh a year for a comfortable couple, including rent. Delhi and Goa cost more today but have lower inflation (4.5% against 5%), so over a long retirement they end up close to Hyderabad.
+
+#### Can I retire earlier if I move from Bangalore to Pune?
+
+On these assumptions, yes. A couple at 35 with ₹50 lakh saved and ₹30 lakh a year could stop at 51 in Bangalore and 47 in Pune. Moving only at retirement also helps; see retiring in a metro, then moving.
+
+#### How much do you need to retire in Mumbai vs Bangalore?
+
+About ₹3.95 crore in Mumbai and ₹3.05 crore in Bangalore for a couple retiring at 55, in today's money, for an 80% chance of lasting to 90. The full table is in the corpus-by-city guide.
+
+#### At what age can I retire on a ₹30 lakh salary in India?
+
+For a couple at 35 with ₹50 lakh already saved, between 47 (Pune) and 57 (Mumbai) on these assumptions, for an 80% chance the money lasts to 90. Your own age depends on how much you spend and save; the app finds it for your numbers.
+
+### Run your own number
+
+- Set the currency to INR and enter your age, savings, salary and city on the Start tab.
+- The Projections tab shows the earliest age you could stop working at 80%.
+- Copy the plan, change the city on My Plan, and tap Compare to see how many years a move is worth.
+
+Educational, not advice. These figures are the engine's output for invented households using Bhavitta's defaults and its own cost-of-living estimates. They are not a forecast and not a recommendation to retire at any age or with any amount. Returns, inflation, scheme rules and tax change; talk to a SEBI-registered adviser about your own situation.
+
+---
+
+# Retire in Mumbai, then move to a cheaper city: how much a later move saves
+
+URL: https://bhavitta.com/retire-metro-then-move-india.html
+Last updated: 2026-11-05
+
+Short answer. Moving later still saves a lot. A Mumbai couple retiring at 55 needs about ₹3.95 crore to stay in Mumbai, but ₹3 crore if they move to Pune at 65, ₹3.2 crore if they move at 70 and ₹3.45 crore at 75, for an 80% chance the money lasts to 90. On a fixed ₹3 crore, moving at 65 lifts their chance from 55% to 80%.
+
+Many people want to spend the active first decade of retirement where their friends, family and doctors are, and move somewhere quieter and cheaper later, often a hometown. The question is whether a late move is worth planning for, or whether only moving on day one makes a difference. Bhavitta models a retirement as a series of stages, each with its own city, so a move at 65 or 70 is just a second stage. Every figure below comes from the app's engine: 10,000 simulated market paths, in rupees.
+
+### How much does a later move save?
+
+The corpus at 55, to the nearest ₹5 lakh, for an 80% chance of lasting to 90, by when the couple moves:
+
+| When they move | Mumbai → Pune | Bangalore → Chennai |
+|---|---|---|
+| Never | ₹3.95 Cr | ₹3.05 Cr |
+| At 75 | ₹3.45 Cr | ₹2.90 Cr |
+| At 70 | ₹3.20 Cr | ₹2.80 Cr |
+| At 65 | ₹3.00 Cr | ₹2.65 Cr |
+| At 60 | ₹2.75 Cr | ₹2.60 Cr |
+| At 55, straight away | ₹2.50 Cr | ₹2.45 Cr |
+
+Moving from Mumbai at 65 saves almost ₹1 crore, two-thirds of what moving on day one saves. The step is smaller from Bangalore because Bangalore and Chennai are closer in cost.
+
+### What does ₹3 crore buy a Mumbai couple?
+
+Chance the money lasts to 90 for a couple retiring at 55 in Mumbai with ₹3 crore, by when they move to Pune:
+
+| When they move | Chance of lasting to 90 |
+|---|---|
+| Never | 55% |
+| At 75 | 68% |
+| At 70 | 73% |
+| At 65 | 80% |
+| At 60 | 86% |
+| At 55 | 90% |
+
+### Why a late move still matters
+
+Spending later in retirement is larger than it looks today, because it has had decades of inflation. A Mumbai couple's ₹12.9 lakh a year at 55 is over ₹40 lakh a year in that year's money by 80. Cutting the bill for the last 25 years of a 35-year retirement removes the biggest numbers in the plan. Health insurance does not change with the move, so it becomes a larger share of what is left.
+
+### What the numbers assume
+
+- A couple retiring at 55 with no further income, at the app's resident cost of living for each city (₹12.9 lakh a year in Mumbai, ₹9.7 lakh in Bangalore, ₹7.7 lakh in Pune and Chennai, today's money), each at its own inflation rate.
+- No moving costs and no sale or purchase of a home. If a move frees up a Mumbai flat, the proceeds would add to the corpus; the app can model that as a home sale.
+- Health insurance at ₹40,000 a year today, rising 10% a year, before and after the move.
+- Returns from the Balanced India Monte Carlo preset: 9.5% a year on average, 13% volatility. 10,000 trials.
+
+### Common questions
+
+#### Should I retire in Mumbai and move to my hometown later?
+
+On these numbers, a later move is worth a lot. A Mumbai couple retiring at 55 on ₹3 crore has a 55% chance of lasting to 90 if they stay, and 80% if they move to a Pune-cost city at 65. Your own answer depends on your hometown's costs and what you would do with a Mumbai home.
+
+#### How much do you save by moving from Mumbai to Pune in retirement?
+
+Moving at retirement cuts the corpus needed at 55 from about ₹3.95 crore to ₹2.5 crore. Moving at 65 cuts it to ₹3 crore, and at 70 to ₹3.2 crore.
+
+#### Can I model a move partway through retirement?
+
+Yes. In Bhavitta each stage of life has its own city, so a retirement in Mumbai until 64 and in Pune from 65 is two stages. The app's "Move" life event adds the second one.
+
+#### Does moving to a cheaper city reduce health insurance costs?
+
+Not much. Premiums depend mostly on age, cover and insurer, not the city, so the premium becomes a bigger share of a smaller budget after the move. These examples keep it the same before and after.
+
+### Run your own number
+
+- Set the currency to INR and build your plan with your retirement city on the Start tab.
+- On My Plan, tap "Add a life event", choose Move, pick the city and set the age.
+- Copy the plan with and without the move and tap Compare. If you own a home in the first city, add its sale as an event in the year you move.
+
+Educational, not advice. These figures are the engine's output for invented households using Bhavitta's defaults and its own cost-of-living estimates. They are not a forecast and not a recommendation to retire at any age or with any amount. Returns, inflation, scheme rules and tax change; talk to a SEBI-registered adviser about your own situation.
+
+---
+
 # How is a retirement readiness score calculated? Bhavitta's method and formula
 
 URL: https://bhavitta.com/how-it-works.html
