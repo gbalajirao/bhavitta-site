@@ -24,6 +24,7 @@ The name is Sanskrit: bhavishya (future) + vitta (wealth). Built and maintained 
 
 Every guide, newest first: https://bhavitta.com/guides.html
 The full text of every guide, as Markdown in one file: https://bhavitta.com/llms-full.txt
+RSS feed of the guides, newest first: https://bhavitta.com/feed.xml
 
 - Is ₹3 crore enough to retire in India: the chance ₹2–6 crore lasts to 90 for a couple spending ₹75,000 to ₹2 lakh a month and stopping work at 40, 45, 50 or 55, from the engine in rupees (₹3 crore on ₹1 lakh a month: 46% from 45, 62% from 55; ₹1 lakh a month needs about ₹4.4 crore from 45), and the corpus needed for an 80% chance (about 30× yearly spending from 55, 37× from 45): https://bhavitta.com/is-3-crore-enough-to-retire-india.html
 - Moving back to India from the US: the dollar corpus an NRI couple needs to retire in India at 45, 50 or 55 on ₹1.5–4 lakh a month, on cautious 7% returns and on US market history (₹2.5 lakh a month from 50: about $975,000 or $575,000), how rupee depreciation changes it, keeping savings in dollars vs converting to rupees, and US Social Security: https://bhavitta.com/moving-back-to-india-from-us.html
