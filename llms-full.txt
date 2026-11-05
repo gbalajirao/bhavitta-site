@@ -9,6 +9,215 @@ This file is the full text of every guide on bhavitta.com, generated from the pa
 
 ---
 
+# Is ₹3 crore enough to retire in India? Chance by spending and age
+
+URL: https://bhavitta.com/is-3-crore-enough-to-retire-india.html
+Last updated: 2026-11-05
+
+Short answer. It depends mostly on what you spend. For a couple spending ₹1 lakh a month, ₹3 crore lasts to 90 in only 46% of market paths if they stop work at 45, 53% at 50 and 62% at 55. On ₹75,000 a month it reaches 83% from 55, enough by the app's 80% bar. To spend ₹1 lakh a month with an 80% chance you need about ₹4.4 crore at 45, ₹4.05 crore at 50 and ₹3.7 crore at 55, in today's money.
+
+"Is ₹3 crore enough?" is one of the most common questions on Indian FIRE and personal-finance forums, and the replies usually split between "easily" and "not even close". Both can be right, because the answer turns on two things the question leaves out: how much you spend each month and how many years the money has to last. The tables below come from Bhavitta's own engine, the same one the app runs: 10,000 simulated market paths for each figure, in rupees, for a couple who stop working at 40, 45, 50 or 55 and need the money to last to 90.
+
+### What chance does ₹3 crore give you?
+
+The share of 10,000 market paths in which ₹3 crore lasts to 90, by monthly spending and the age you stop working. Spending is in today's rupees and rises with inflation; health insurance is on top.
+
+| Monthly spending | Stop at 40 | Stop at 45 | Stop at 50 | Stop at 55 |
+|---|---|---|---|---|
+| ₹75,000 | 66% | 72% | 78% | 83% |
+| ₹1 lakh | 41% | 46% | 53% | 62% |
+| ₹1.5 lakh | 10% | 12% | 15% | 20% |
+| ₹2 lakh | 1% | 1% | 2% | 3% |
+
+So ₹3 crore is enough for a couple spending up to about ₹75,000 a month from their mid-fifties. Stopping at 45 on ₹1 lakh a month is closer to a coin toss.
+
+### How much do you need for ₹1 lakh a month?
+
+The smallest corpus, to the nearest ₹5 lakh, that lasts to 90 in at least 80% of paths:
+
+| Monthly spending | Stop at 40 | Stop at 45 | Stop at 50 | Stop at 55 |
+|---|---|---|---|---|
+| ₹75,000 | ₹3.65 Cr | ₹3.40 Cr | ₹3.10 Cr | ₹2.85 Cr |
+| ₹1 lakh | ₹4.70 Cr | ₹4.40 Cr | ₹4.05 Cr | ₹3.70 Cr |
+| ₹1.5 lakh | ₹6.70 Cr | ₹6.40 Cr | ₹5.90 Cr | ₹5.40 Cr |
+| ₹2 lakh | ₹8.80 Cr | ₹8.30 Cr | ₹7.75 Cr | ₹7.10 Cr |
+
+A quick rule from this table: you need about 30 times your yearly spending if you stop at 55, 34 times at 50, 37 times at 45 and close to 40 times at 40. The "25 times expenses" rule, which is the US 4% rule in another form, falls short in every row.
+
+### What about ₹2, ₹4, ₹5 or ₹6 crore?
+
+For a couple stopping work at 45, the chance of the money lasting to 90:
+
+| Monthly spending | ₹2 Cr | ₹3 Cr | ₹4 Cr | ₹5 Cr | ₹6 Cr |
+|---|---|---|---|---|---|
+| ₹75,000 | 31% | 72% | 88% | 95% | 98% |
+| ₹1 lakh | 10% | 46% | 73% | 87% | 94% |
+| ₹1.5 lakh | 0% | 12% | 36% | 60% | 75% |
+| ₹2 lakh | 0% | 1% | 13% | 31% | 51% |
+
+The jump from ₹2 crore to ₹3 crore matters more than any later step: on ₹75,000 a month it takes the chance from 31% to 72%. Past about 35 times spending, each extra crore buys less.
+
+### What the numbers assume
+
+- A couple with no further income. The corpus is everything they hold the day they stop working: no salary, rent, pension or annuity after that.
+- Monthly spending in today's rupees, rising with Bangalore's inflation of 5% a year (state CPI-Urban). Health insurance comes on top: ₹40,000 a year today, rising 10% a year.
+- Returns from the app's Balanced India Monte Carlo preset: 9.5% a year on average, 13% volatility, all in rupees. 10,000 trials per figure.
+- Survival means the balance stays above zero in every year to 90, not just at the end. 80% is the bar the app uses for "ready".
+- EPF, PPF and NPS count inside the corpus. If part of it is locked until 58 or 60, the liquid part has to carry you until then.
+- No tax in retirement. Add a tax rate to the retirement stage in the app if your withdrawals will be taxed.
+
+### What changes the answer most
+
+- Spending, by far. Going from ₹1 lakh to ₹1.5 lakh a month adds about ₹2 crore to what you need, more than retiring ten years later saves.
+- Owning your home. Rent is usually the biggest monthly line. A paid-off home can take ₹25,000–50,000 off the monthly figure, which at 45 is worth roughly ₹1–2 crore of corpus.
+- A bad first few years. The app's "A crash in your first year" line shows how much an early downturn costs. It is the main reason the multiples here are higher than the 4% rule.
+- Any income at all. A pension, rent or a few years of part-time work shortens the stretch the corpus has to cover alone.
+- Where you live. The city sets both the cost and the inflation rate; the corpus-by-city guide gives the number for seven Indian cities, and Mumbai vs Pune follows one couple through the choice.
+
+### Common questions
+
+#### Is ₹3 crore enough to retire at 45 in India?
+
+For a couple spending ₹1 lakh a month, no: ₹3 crore lasts to 90 in 46% of 10,000 simulated market paths. On ₹75,000 a month it is 72%, just short of the 80% bar. To spend ₹1 lakh a month from 45 with an 80% chance you need about ₹4.4 crore.
+
+#### Is ₹3 crore enough to retire at 55?
+
+On ₹75,000 a month, yes: 83% of paths last to 90. On ₹1 lakh a month it is 62%, and you would need about ₹3.7 crore for an 80% chance.
+
+#### How much monthly income can ₹3 crore give?
+
+Roughly ₹75,000 a month in today's money, rising with inflation, for a couple from about 55 with an 80% chance of lasting to 90. Stopping earlier means less: ₹75,000 a month from 45 needs ₹3.4 crore.
+
+#### Is ₹2 crore enough to retire in India?
+
+Not for a couple spending ₹75,000 a month or more: ₹2 crore lasts to 90 in 31% of paths from 45 and 45% from 55. It can work with lower spending, a paid-off home, a pension, or a later start.
+
+#### Is ₹5 crore enough to retire at 45?
+
+For ₹1 lakh a month, yes: 87% of paths last to 90. For ₹1.5 lakh a month it is 60%; that lifestyle needs about ₹6.4 crore from 45.
+
+#### How many times my annual expenses do I need to retire in India?
+
+On these assumptions, about 30 times your yearly spending to stop at 55, 34 times at 50, 37 times at 45 and close to 40 times at 40, for an 80% chance of lasting to 90. That is a withdrawal rate of 2.5–3.3%, below the 4% often quoted.
+
+### Run your own number
+
+- Set the currency to INR at the top of the app. New plans start with Indian defaults: resident cost of living, city inflation and the Balanced India return preset.
+- On the Start tab, enter your age, savings, income and city. To use your own monthly figure, open the city stage on My Plan and type your yearly spending.
+- Add Health insurance, EPF, PPF, NPS and any pension from "Add a life event".
+- The Projections tab shows your chance of lasting to 90, the earliest age you could stop at 80%, and a savings slider to try ₹3 crore against your own spending.
+
+Educational, not advice. These figures are the engine's output for invented households using Bhavitta's defaults and its own cost-of-living estimates. They are not a forecast and not a recommendation to retire at any age or with any amount. Returns, inflation, scheme rules and tax change; talk to a SEBI-registered adviser about your own situation.
+
+---
+
+# Moving back to India from the US: how much do you need to retire?
+
+URL: https://bhavitta.com/moving-back-to-india-from-us.html
+Last updated: 2026-11-05
+
+Short answer. For a couple moving to Bangalore at 50 and spending ₹2.5 lakh a month, about $975,000 (₹8.4 crore) gives an 80% chance the money lasts to 90 on cautious returns of 7% a year, and about $575,000 if US markets repeat their history. On ₹1.5 lakh a month it is $600,000 (or $350,000); on ₹4 lakh a month, $1.55 million (or $925,000). A falling rupee works in your favour while your savings stay in dollars.
+
+"How much do I need to move back?" comes up constantly among NRIs in the US, and it is harder than the usual retirement question because two currencies are involved. Your savings earn in dollars, your life costs rupees, and the exchange rate moves between them every year. The tables below come from Bhavitta's own engine, the same one the app runs, for a couple who stop working and move to Bangalore with a dollar portfolio. Each figure is the smallest corpus, in $25,000 steps, that lasts to 90 in at least 80% of simulated market paths.
+
+### How much do you need to move back at 45, 50 or 55?
+
+With cautious returns: the app's default Monte Carlo setting for a dollar portfolio, 7% a year on average with 12% volatility, 10,000 trials. Spending is in today's rupees.
+
+| Monthly spending | Move at 45 | Move at 50 | Move at 55 |
+|---|---|---|---|
+| ₹1.5 lakh | $650k | $600k | $575k |
+| ₹2.5 lakh | $1.05M | $975k | $925k |
+| ₹4 lakh | $1.65M | $1.55M | $1.45M |
+
+With US market history: the app's Historical setting, which replays every stretch of US market returns since 1928.
+
+| Monthly spending | Move at 45 | Move at 50 | Move at 55 |
+|---|---|---|---|
+| ₹1.5 lakh | $375k | $350k | $350k |
+| ₹2.5 lakh | $625k | $575k | $575k |
+| ₹4 lakh | $975k | $925k | $900k |
+
+The gap between the two tables is the honest range. History has been generous to US stocks; a planner who wants a margin of safety uses the first table. In both, the corpus works out to a first-year withdrawal of about 3.5% on cautious returns and 6% on history.
+
+### Why does a falling rupee help?
+
+Your costs are in rupees. If the rupee loses 3% a year against the dollar, as it has on average for the last decade, then each year a dollar buys more rupees and Bangalore's 5% inflation feels like about 2% in dollar terms. The dollar corpus needed at 50 on ₹2.5 lakh a month, by how fast the rupee falls:
+
+| Rupee falls each year | Cautious returns | US market history |
+|---|---|---|
+| 0% (rupee holds) | $1.65M | $825k |
+| 2% | $1.15M | $650k |
+| 3% (the app's default) | $975k | $575k |
+| 4% | $850k | $525k |
+| 5% | $750k | $500k |
+
+This is the single biggest assumption in an NRI plan. If the rupee held steady for 40 years, the cautious figure would rise by two-thirds. The app lets you set the rate yourself in Inputs.
+
+### Keep it in dollars or convert to rupees?
+
+The same couple at 50 on ₹2.5 lakh a month, with the money either left in a dollar portfolio or converted at ₹86 on arrival and invested in rupees (the app's Balanced India preset: 9.5% a year, 13% volatility, no currency effect). Chance of lasting to 90:
+
+| Savings | Dollars, cautious | Dollars, history | Converted to rupees |
+|---|---|---|---|
+| $1M (₹8.6 Cr) | 82% | 96% | 71% |
+| $1.5M (₹12.9 Cr) | 97% | 100% | 93% |
+| $2M (₹17.2 Cr) | 99% | 100% | 98% |
+
+On these defaults the dollar portfolio wins because 7% returns against roughly 2% dollar-terms inflation leaves a wider margin than 9.5% against 5% in rupees. That conclusion rests entirely on the rupee continuing to fall about 3% a year; at 0% the two are much closer. Many people who move back hold some of each, and the app can model both as separate plans.
+
+### What about US Social Security?
+
+If you have enough US work credits, Social Security can be paid to you in India. The dollar corpus needed at 50 on ₹2.5 lakh a month, with a benefit starting at 67:
+
+| Social Security from 67 | Cautious returns | US market history |
+|---|---|---|
+| None | $975k | $575k |
+| $12,000 a year | $850k | $550k |
+| $24,000 a year | $700k | $500k |
+
+### What the numbers assume
+
+- A couple with no further income after the move: no salary, rent, pension or annuity unless stated.
+- Monthly spending in today's rupees at Bangalore's 5% inflation. Health insurance comes on top: ₹40,000 a year today, rising 10% a year in rupees.
+- Rupee depreciation of 3% a year against the dollar, the app's default (the rupee fell about 2.7% a year over the last decade and about 4.5% a year since 1990).
+- Exchange rate of ₹86 to the dollar today.
+- Survival means the balance stays above zero in every year to 90.
+- No tax in either country, and no currency-conversion costs. Both matter for NRIs: Indian tax residency, the RNOR period after you return, US tax for citizens and green-card holders, and how India taxes foreign funds can all change what you keep.
+
+### Common questions
+
+#### How much money do I need to move back to India from the US?
+
+For a couple retiring to Bangalore at 50 on ₹2.5 lakh a month, about $975,000 for an 80% chance of lasting to 90 on cautious 7% returns, or $575,000 if US markets repeat their history. On ₹1.5 lakh a month it is $600,000 (or $350,000).
+
+#### Is $1 million enough to retire in India?
+
+For a couple spending ₹2.5 lakh a month from 50, yes: $1 million kept in dollars lasts to 90 in 82% of paths on cautious returns and 96% on US market history. Converted to ₹8.6 crore and invested in rupees it is 71%. On ₹4 lakh a month you would need about $1.55 million.
+
+#### Should I convert my US savings to rupees when I move back?
+
+On the app's defaults, keeping the money in dollars gave the better chance (82% vs 71% on $1 million), because a rupee falling 3% a year makes Indian costs cheaper in dollar terms. If the rupee stopped falling the advantage would shrink. This is a modelled comparison, not a recommendation; tax and fund rules differ by person.
+
+#### How does rupee depreciation affect an NRI retirement plan?
+
+A faster-falling rupee lowers the dollar corpus you need, because your rupee costs take fewer dollars each year. For ₹2.5 lakh a month from 50, cautious returns need $1.65 million if the rupee holds steady, $975,000 at 3% a year and $750,000 at 5% a year.
+
+#### Can I get US Social Security if I retire in India?
+
+US Social Security is generally payable to US citizens living in India, and a benefit lowers what your savings must cover. In the model, $24,000 a year from 67 cuts the cautious corpus for ₹2.5 lakh a month from $975,000 to $700,000. Check your own eligibility with the Social Security Administration.
+
+### Run your own number
+
+- Keep the currency on USD for a dollar portfolio, or switch the display to INR to see it in rupees.
+- On My Plan, add a Move to your Indian city at the age you plan to go back. Set your own yearly spending on the city stage if you know it.
+- In Inputs, set the rupee depreciation rate you believe, and add Social Security and India Health insurance from "Add a life event".
+- Copy the plan, change one thing (the year you move, the city, rupees instead of dollars) and tap Compare. The Bangalore at 50 vs staying in Seattle example walks through the whole decision.
+
+Educational, not advice. These figures are the engine's output for invented households using Bhavitta's defaults and its own cost-of-living estimates. They are not a forecast and not a recommendation to retire at any age or with any amount. Returns, inflation, scheme rules and tax change; talk to a SEBI-registered adviser about your own situation.
+
+---
+
 # How much do you need to retire in India? Corpus by city at 45, 50 and 55
 
 URL: https://bhavitta.com/retirement-corpus-india.html
@@ -78,7 +287,9 @@ Three things push the Indian figure below 4%. The gap between returns and inflat
 - Owning your home. The resident estimates include rent. A paid-off home takes a large share out of yearly spending, and the corpus falls roughly in proportion.
 - A pension. Even a fixed EPS pension of about ₹1 lakh a year from 58 reduces what the corpus has to cover, though it buys less every year.
 - Money you cannot touch yet. EPF pays out at 58, PPF matures after 15 years and NPS mostly at 60. Retire at 50 and the years until then come from the liquid part of your savings alone.
-- Dollar savings. An NRI retiring to India with a US portfolio faces rupee depreciation as well as returns; see Bangalore at 50 vs Seattle.
+- Dollar savings. An NRI retiring to India with a US portfolio faces rupee depreciation as well as returns; see how much you need to move back from the US and Bangalore at 50 vs Seattle.
+
+If you know your monthly spending rather than your city, Is ₹3 crore enough? gives the chance for ₹75,000 to ₹2 lakh a month at each retirement age.
 
 ### Common questions
 
