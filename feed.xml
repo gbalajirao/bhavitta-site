@@ -6,8 +6,38 @@
   <atom:link href="https://bhavitta.com/feed.xml" rel="self" type="application/rss+xml" />
   <description>Retirement guides for India, NRIs and FIRE, with every figure from Bhavitta's own engine.</description>
   <language>en</language>
-  <lastBuildDate>Thu, 05 Nov 2026 06:00:00 +0530</lastBuildDate>
+  <lastBuildDate>Sat, 07 Nov 2026 06:00:00 +0530</lastBuildDate>
   <image><url>https://bhavitta.com/icon-192.png</url><title>Bhavitta guides</title><link>https://bhavitta.com/guides.html</link></image>
+  <item>
+    <title>What if the market crashes the year you retire?</title>
+    <link>https://bhavitta.com/market-crash-first-year-retirement-india.html</link>
+    <guid isPermaLink="true">https://bhavitta.com/market-crash-first-year-retirement-india.html</guid>
+    <pubDate>Sat, 07 Nov 2026 05:54:00 +0530</pubDate>
+    <dc:creator>Balaji Gururajan</dc:creator>
+    <category>India</category>
+    <description>A 30% or 40% fall at 55, 60, 70 or 80, what each does to a ₹3.05 crore plan, and what gets it back on track. Every figure from the engine, in rupees.</description>
+    <media:content url="https://bhavitta.com/screenshots/web/example-crash-compare.png" medium="image" />
+  </item>
+  <item>
+    <title>Equity or debt after retirement: which makes the money last?</title>
+    <link>https://bhavitta.com/equity-vs-debt-after-retirement-india.html</link>
+    <guid isPermaLink="true">https://bhavitta.com/equity-vs-debt-after-retirement-india.html</guid>
+    <pubDate>Sat, 07 Nov 2026 05:53:00 +0530</pubDate>
+    <dc:creator>Balaji Gururajan</dc:creator>
+    <category>India</category>
+    <description>The same couple on all-equity, balanced and conservative returns, at 45 and 55: the chance the money lasts, and what it takes to be nearly sure. Every figure from the engine, in rupees.</description>
+    <media:content url="https://bhavitta.com/screenshots/web/example-mix-compare.png" medium="image" />
+  </item>
+  <item>
+    <title>College, weddings, cars: how one-time costs change your corpus</title>
+    <link>https://bhavitta.com/one-time-costs-retirement-india.html</link>
+    <guid isPermaLink="true">https://bhavitta.com/one-time-costs-retirement-india.html</guid>
+    <pubDate>Sat, 07 Nov 2026 05:52:00 +0530</pubDate>
+    <dc:creator>Balaji Gururajan</dc:creator>
+    <category>India</category>
+    <description>A child&#x27;s college, a wedding, two cars and home repairs, alone and together, and what each adds to the corpus a couple at 55 needs. Every figure from the engine, in rupees.</description>
+    <media:content url="https://bhavitta.com/screenshots/web/example-costs-compare.png" medium="image" />
+  </item>
   <item>
     <title>Is ₹3 crore enough to retire in India?</title>
     <link>https://bhavitta.com/is-3-crore-enough-to-retire-india.html</link>
@@ -72,7 +102,7 @@
     <title>How the readiness score works</title>
     <link>https://bhavitta.com/how-it-works.html</link>
     <guid isPermaLink="true">https://bhavitta.com/how-it-works.html</guid>
-    <pubDate>Wed, 04 Nov 2026 05:54:00 +0530</pubDate>
+    <pubDate>Wed, 04 Nov 2026 05:51:00 +0530</pubDate>
     <dc:creator>Balaji Gururajan</dc:creator>
     <category>How it works</category>
     <description>A plain-language walk through the simulation engine: what goes in, what the recurrence does each year, how the two return models differ, and exactly how the score, the survival rate and the &quot;Ready at&quot; age are computed.</description>
@@ -82,7 +112,7 @@
     <title>Retirement planning in India, in rupees</title>
     <link>https://bhavitta.com/retirement-planning-india.html</link>
     <guid isPermaLink="true">https://bhavitta.com/retirement-planning-india.html</guid>
-    <pubDate>Wed, 04 Nov 2026 05:53:00 +0530</pubDate>
+    <pubDate>Wed, 04 Nov 2026 05:50:00 +0530</pubDate>
     <dc:creator>Balaji Gururajan</dc:creator>
     <category>India</category>
     <description>What Bhavitta 2.9 models for a life lived in India: rupee returns, city costs and inflation, Indian tax slabs, EPF, PPF and NPS, a fixed EPS pension, gratuity and health insurance. The defaults, where they come from, and what is still missing.</description>
@@ -92,7 +122,7 @@
     <title>Mumbai or Pune? Retiring in India at 55</title>
     <link>https://bhavitta.com/retire-in-india-mumbai-vs-pune.html</link>
     <guid isPermaLink="true">https://bhavitta.com/retire-in-india-mumbai-vs-pune.html</guid>
-    <pubDate>Wed, 04 Nov 2026 05:52:00 +0530</pubDate>
+    <pubDate>Wed, 04 Nov 2026 05:49:00 +0530</pubDate>
     <dc:creator>Balaji Gururajan</dc:creator>
     <category>India</category>
     <description>One salaried couple, two cities, everything in rupees: EPF, PPF and NPS lock-ins, a fixed EPS pension, health premiums that outrun inflation, and Indian tax slabs. Every number from the engine.</description>
@@ -102,7 +132,7 @@
     <title>Retire in Bangalore at 50, or stay in Seattle?</title>
     <link>https://bhavitta.com/retire-in-india-vs-us.html</link>
     <guid isPermaLink="true">https://bhavitta.com/retire-in-india-vs-us.html</guid>
-    <pubDate>Wed, 04 Nov 2026 05:51:00 +0530</pubDate>
+    <pubDate>Wed, 04 Nov 2026 05:48:00 +0530</pubDate>
     <dc:creator>Balaji Gururajan</dc:creator>
     <category>Worked example</category>
     <description>One couple, two timelines, every number from the engine. Historical replay and Monte Carlo side by side, and what actually moves the answer.</description>

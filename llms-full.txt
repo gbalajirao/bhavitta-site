@@ -545,6 +545,204 @@ Educational, not advice. These figures are the engine's output for invented hous
 
 ---
 
+# What if the market crashes the year you retire? Sequence risk in India
+
+URL: https://bhavitta.com/market-crash-first-year-retirement-india.html
+Last updated: 2026-11-07
+
+Short answer. A market fall in the first years of retirement does far more damage than the same fall later. For a Bangalore couple retiring at 55 on ₹3.05 crore, a plan with an 81% chance of lasting to 90 drops to 37% if their portfolio falls 30% in the first year, 48% if it falls at 60, 61% at 70 and 72% at 80. To keep 80% with a 30% fall at 55 they would need about ₹4.55 crore instead of ₹3.05 crore, or to cut their living spending by about a third.
+
+This is sequence-of-returns risk. Two retirees can earn the same average return over 35 years and end up in very different places, because the order matters once you are withdrawing. A fall at 55 hits the largest balance you will ever have, and every year's withdrawal after it comes out of a smaller pot that has less left to recover with. The same fall at 80 hits a pot that has already done most of its work. Every figure below is from the app's engine: 10,000 simulated market paths, in rupees, with the crash replacing one year's return and every other year left to chance.
+
+### How much does a crash in the first year hurt?
+
+The chance that ₹3.05 crore lasts to 90 for a Bangalore couple retiring at 55, by the age the fall happens:
+
+| Fall happens at | 30% fall | 40% fall |
+|---|---|---|
+| No fall (for comparison) | 81% | 81% |
+| 55, the first year | 37% | 21% |
+| 57 | 41% | 26% |
+| 60 | 48% | 33% |
+| 65 | 55% | 44% |
+| 70 | 61% | 54% |
+| 80 | 72% | 70% |
+
+Even a 20% fall in the first year takes the plan from 81% to 54%. A 40% fall at 80 costs about 11 points; the same fall at 55 costs 60.
+
+### What gets the plan back to 80%?
+
+- A bigger corpus. With a 30% fall at 55 built in, the corpus needed for 80% rises from ₹3.05 crore to about ₹4.55 crore. That is the price of being sure about the worst first year, and it is why the readiness score in the app can be judged "vs bad markets".
+- Spending less after the fall. Cutting living costs by 10% only gets the plan to 49%. Getting back to 80% takes living costs of about 64% of the plan, roughly ₹6.2 lakh a year instead of ₹9.7 lakh, with health insurance unchanged. Flexible spending helps, but one 10% trim is not enough after a fall this size.
+- A mix that falls less. A 30% fall is what a mostly-equity portfolio might see in a bad year; the Nifty 50 lost more than half its value in 2008. A debt-heavy portfolio would fall much less. The equity vs debt guide sizes the fall to each mix.
+
+### What the numbers assume
+
+- A couple retiring at 55 in Bangalore with no further income, at the app's resident cost of living (₹9.7 lakh a year today, rising 5% a year), with health insurance at ₹40,000 a year rising 10%.
+- Returns from the app's Balanced India Monte Carlo preset: 9.5% a year on average, 13% volatility. 10,000 trials per figure.
+- The fall replaces that one year's return in every trial: the whole portfolio loses 30% (or 40%, or 20%) that year, and the years after it are random as usual. The engine does not assume a rebound.
+- Survival means the balance stays above zero every year to 90. 80% is the bar the app uses for "ready".
+
+### Common questions
+
+#### What is sequence of returns risk?
+
+It is the risk that bad returns arrive early in retirement, while you are withdrawing from your largest balance. Two retirees with the same average return can have very different outcomes depending on the order. For a Bangalore couple at 55 on ₹3.05 crore, a 30% fall in year one cuts the chance of lasting to 90 from 81% to 37%; the same fall at 80 cuts it to 72%.
+
+#### What if the market crashes the year I retire?
+
+In this example, the plan goes from an 81% chance of lasting to 90 to 37%. Getting back to 80% would take about ₹1.5 crore more at the start, or living on roughly two-thirds of the planned budget. A smaller fall, or a more conservative mix that falls less, does less damage.
+
+#### How much more corpus do I need to protect against a crash?
+
+For this couple, about ₹4.55 crore instead of ₹3.05 crore keeps an 80% chance even with a 30% fall in the first year. Your own figure depends on your spending, city and mix; the app's market-crash what-if computes it for your plan.
+
+#### Is a crash later in retirement less dangerous?
+
+Yes. A 30% fall at 70 leaves this plan at 61%, and at 80 at 72%, against 37% at 55. By then fewer years of withdrawals depend on the balance that fell.
+
+### Test your own plan
+
+- Set the currency to INR and build your plan on the Start tab.
+- On Projections, the Adjust card's "A crash in your first year" row shows how many points a 30% fall at your retirement age would cost.
+- For a different size or age, tap Market crash under "Try a shock" and set the age and the drop. Tap Save as new scenario to keep it, then Compare it with the original on Scenarios.
+
+Educational, not advice. These figures are the engine's output for invented households using Bhavitta's defaults and its own cost-of-living estimates. They are not a forecast and not a recommendation to retire at any age or with any amount. Returns, inflation, scheme rules and tax change; talk to a SEBI-registered adviser about your own situation.
+
+---
+
+# Equity or debt after retirement in India: which makes the money last?
+
+URL: https://bhavitta.com/equity-vs-debt-after-retirement-india.html
+Last updated: 2026-11-07
+
+Short answer. More equity after retirement raises what you are likely to leave behind but lowers the chance the money lasts. For a Bangalore couple retiring at 55 on ₹3.05 crore, an all-Indian-equity portfolio lasts to 90 in 73% of the app's market paths, a balanced one in 81% and a conservative, debt-heavy one in 85%, on the app's return assumptions. For a 95% chance, equity needs ₹6.15 crore, balanced ₹4.20 crore and conservative ₹3.50 crore. The equity plan's middle outcome still ends with more than twice as much money.
+
+The usual advice is to own less equity as you age. The usual counter-argument is that a 35-year retirement needs growth. Both are right about different things: equity raises the average and widens the spread, and once you are withdrawing every year, the bad end of the spread is what runs a plan out. The tables below run the same couple through Bhavitta's three Indian return presets, 10,000 simulated market paths each, in rupees. They compare the presets' assumptions, not specific funds, and they are not a recommendation of any mix.
+
+### How long does the money last with equity, balanced or debt?
+
+The chance of lasting to 90 on a fixed corpus, and the smallest corpus (to the nearest ₹5 lakh) that reaches 80% and 95%:
+
+| Preset (average return / volatility) | Retire at 55 on ₹3.05 Cr | For 80% | For 95% |
+|---|---|---|---|
+| Indian equity (11% / 20%) | 73% | ₹3.55 Cr | ₹6.15 Cr |
+| Balanced India (9.5% / 13%) | 81% | ₹3.05 Cr | ₹4.20 Cr |
+| Conservative India (8% / 7%) | 85% | ₹2.95 Cr | ₹3.50 Cr |
+| Preset | Retire at 45 on ₹4.5 Cr | For 80% | For 95% |
+|---|---|---|---|
+| Indian equity | 82% | ₹4.20 Cr | ₹7.80 Cr |
+| Balanced India | 91% | ₹3.60 Cr | ₹5.10 Cr |
+| Conservative India | 97% | ₹3.55 Cr | ₹4.30 Cr |
+
+The gap grows with the bar. At 80% the three presets are within ₹60 lakh of each other at 55; at 95% all-equity needs ₹2.65 crore more than conservative. Being nearly sure is what volatility makes expensive.
+
+### Why does the lower-return mix last longer?
+
+Three reasons, all visible in the engine. Volatility drags down the return you actually compound: an 11% average with 20% swings grows a lump sum at roughly 9% a year, close to the balanced preset. Withdrawals lock in losses, because selling after a fall sells more units at a lower price. And the spread cuts both ways: the equity plan's typical path ends richer, but its worst paths run out sooner.
+
+The flip side is a crash. Sized to each mix, a 2008-style first year (equity down 40%, balanced down 25%, conservative down 10%) leaves the equity plan at 32%, balanced at 46% and conservative at 58%. See what a crash in the first year does.
+
+### What the numbers assume
+
+- A couple retiring in Bangalore with no further income, at the app's resident cost of living (₹9.7 lakh a year today, rising 5% a year), with health insurance at ₹40,000 a year rising 10%.
+- The app's three Indian presets, nominal and before tax: Indian equity 11% average with 20% volatility, Balanced India 9.5% / 13%, Conservative India 8% / 7%. Real returns after 5% inflation are about 6%, 4.5% and 3%. If your debt earns less than 8% after tax, the conservative row is optimistic.
+- The mix stays fixed for the whole retirement; there is no glide path or rebalancing schedule in these figures.
+- Survival means the balance stays above zero every year to 90. 10,000 trials per figure.
+
+### Common questions
+
+#### How much equity should a retiree hold in India?
+
+There is no single answer, and this is not advice on your own mix. On the app's assumptions, a debt-heavy mix gives the best chance of the money lasting for a couple at 55 on ₹3.05 crore (85% against 73% all-equity), while more equity leaves more behind in the typical case. The trade-off shifts with how much you have, how long it must last and what your debt earns.
+
+#### Is 100% equity safe after retirement?
+
+It raises the typical outcome and the risk of running out together. For this couple, all-equity has a 73% chance of lasting to 90 against 85% for a conservative mix, and a 40% fall in the first year takes it to 32%.
+
+#### Why does a lower-return portfolio last longer in retirement?
+
+Because withdrawals turn volatility into permanent losses: after a fall you sell more units to fund the same spending, and they are gone when prices recover. A steadier portfolio with a slightly lower average can therefore outlast a more volatile one, especially when you want a high chance of success.
+
+#### Can I change the return assumptions in Bhavitta?
+
+Yes. Inputs has the three Indian presets, and you can set your own average return and volatility. Copy your plan for each mix and use Compare to see both side by side.
+
+### Run your own comparison
+
+- Set the currency to INR and build your plan on the Start tab.
+- Open Inputs and pick a return preset, or set your own average and volatility.
+- Copy the plan on Scenarios, give the copy a different preset, and tap Compare.
+
+Educational, not advice. These figures are the engine's output for invented households using Bhavitta's defaults and its own cost-of-living estimates. They are not a forecast and not a recommendation to retire at any age or with any amount. Returns, inflation, scheme rules and tax change; talk to a SEBI-registered adviser about your own situation.
+
+---
+
+# College, weddings, cars: how one-time costs change your retirement corpus
+
+URL: https://bhavitta.com/one-time-costs-retirement-india.html
+Last updated: 2026-11-07
+
+Short answer. Big one-time costs add to the corpus almost rupee for rupee, and together they add up fast. For a Bangalore couple retiring at 55, a child's last four years of college (₹8 lakh a year) add about ₹30 lakh to the corpus they need, a wedding at 60 (₹20 lakh today) about ₹20 lakh, two cars about ₹25 lakh and a round of home repairs about ₹15 lakh. All four together lift the corpus from ₹3.05 crore to ₹3.95 crore; without the extra ₹90 lakh, the chance of lasting to 90 falls from 81% to 53%.
+
+Most retirement calculators ask for monthly spending and stop there. Indian retirements often carry a few large, lumpy costs on top: the end of a child's education, a wedding, a car or two, a house that needs work. They are easy to leave out because they are not "spending", and each one looks affordable on its own. The tables below add them to a plan one at a time and then together, using the app's engine: 10,000 simulated market paths, in rupees.
+
+### How much do one-time costs add to the corpus?
+
+For a Bangalore couple retiring at 55, the chance that ₹3.05 crore lasts to 90 and the smallest corpus, to the nearest ₹5 lakh, that reaches 80%:
+
+| Cost (today's price) | Chance on ₹3.05 Cr | Corpus for 80% |
+|---|---|---|
+| None (for comparison) | 81% | ₹3.05 Cr |
+| College, ₹8 lakh a year from 55 to 58 | 72% | ₹3.35 Cr (+₹30L) |
+| Wedding at 60, ₹20 lakh | 75% | ₹3.25 Cr (+₹20L) |
+| A car at 60 and another at 70, ₹12 lakh each | 75% | ₹3.30 Cr (+₹25L) |
+| Home repairs at 65, ₹15 lakh | 77% | ₹3.20 Cr (+₹15L) |
+| All four | 53% | ₹3.95 Cr (+₹90L) |
+
+The four costs add ₹90 lakh in today's money between them, and the extra corpus needed is about the same. Each costs a few points of survival on its own; together they cost 28.
+
+### Enter the price in the year you pay it
+
+A one-time cost in Bhavitta is entered as the amount you will pay in that year, not today's price. A ₹20 lakh wedding five years from now costs about ₹25.5 lakh then at 5% inflation; a ₹12 lakh car bought 15 years from now costs about ₹24.9 lakh. The figures above use those grown amounts: ₹25.5 lakh for the wedding, ₹15.3 lakh and ₹24.9 lakh for the cars and ₹24.4 lakh for the repairs. College is different: it is a yearly cost entered in today's money, and the app grows it with inflation itself.
+
+The further away the cost, the more this matters. Entering today's ₹20 lakh for a wedding five years away moves this plan by about one point; for a car fifteen years away, today's price would be about half the real one.
+
+### What the numbers assume
+
+- A couple retiring at 55 in Bangalore with no further income, at the app's resident cost of living (₹9.7 lakh a year today, rising 5% a year), with health insurance at ₹40,000 a year rising 10%.
+- The costs: college fees of ₹8 lakh a year in today's money for four years from 55; a wedding at 60, cars at 60 and 70 and home repairs at 65, each at today's price grown 5% a year to the year it is paid.
+- Returns from the app's Balanced India Monte Carlo preset: 9.5% a year on average, 13% volatility. 10,000 trials per figure.
+- Survival means the balance stays above zero every year to 90. 80% is the bar the app uses for "ready".
+
+### Common questions
+
+#### How do I plan for my child's wedding in my retirement corpus?
+
+Add it as its own cost in the year you expect to pay, at that year's price. For a Bangalore couple retiring at 55, a wedding costing ₹20 lakh today and paid at 60 (about ₹25.5 lakh then) adds about ₹20 lakh to the corpus they need for an 80% chance of lasting to 90.
+
+#### Should children's education be part of the retirement corpus?
+
+If the fees fall after you stop working, yes. Four years of college at ₹8 lakh a year from the first year of retirement adds about ₹30 lakh to the corpus in this example, and costs 9 points of survival on ₹3.05 crore.
+
+#### How much extra corpus do I need for big expenses in retirement?
+
+Roughly their total in today's money. College, a wedding, two cars and home repairs come to about ₹90 lakh at today's prices in this example, and the corpus needed rises by ₹90 lakh, from ₹3.05 crore to ₹3.95 crore.
+
+#### Does it matter when a one-time cost happens?
+
+Less than you might expect for a single cost. A wedding at 56 and one at 70 each leave this plan at 75%: the later one costs more rupees but comes out of a pot that has had longer to grow. What matters more is the total, and remembering to include them at all.
+
+### Add your own costs
+
+- Set the currency to INR and build your plan on the Start tab.
+- On My Plan, tap "Add a life event" and choose Wedding, Kids' college or Big purchase. Set the age and the amount you expect to pay that year.
+- Copy the plan without the costs on Scenarios and tap Compare to see what they cost you.
+
+Educational, not advice. These figures are the engine's output for invented households using Bhavitta's defaults and its own cost-of-living estimates. They are not a forecast and not a recommendation to retire at any age or with any amount. Returns, inflation, scheme rules and tax change; talk to a SEBI-registered adviser about your own situation.
+
+---
+
 # How is a retirement readiness score calculated? Bhavitta's method and formula
 
 URL: https://bhavitta.com/how-it-works.html
