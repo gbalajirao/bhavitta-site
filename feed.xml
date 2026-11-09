@@ -137,6 +137,7 @@
     <dc:creator>Balaji Gururajan</dc:creator>
     <category>How it works</category>
     <category>How Bhavitta works</category>
+    <category>Most read</category>
     <description>A plain-language walk through the simulation engine: what goes in, what the recurrence does each year, how the two return models differ, and exactly how the score, the survival rate and the &quot;Ready at&quot; age are computed.</description>
     <media:content url="https://bhavitta.com/screenshots/web/example-chart.png" medium="image" />
   </item>
@@ -148,6 +149,7 @@
     <dc:creator>Balaji Gururajan</dc:creator>
     <category>India</category>
     <category>How Bhavitta works</category>
+    <category>Most read</category>
     <description>What Bhavitta 2.9 models for a life lived in India: rupee returns, city costs and inflation, Indian tax slabs, EPF, PPF and NPS, a fixed EPS pension, gratuity and health insurance. The defaults, where they come from, and what is still missing.</description>
     <media:content url="https://bhavitta.com/screenshots/web/india-tax.png" medium="image" />
   </item>
@@ -170,6 +172,7 @@
     <dc:creator>Balaji Gururajan</dc:creator>
     <category>Worked example</category>
     <category>Moving back from abroad</category>
+    <category>Most read</category>
     <description>One couple, two timelines, every number from the engine. Historical replay and Monte Carlo side by side, and what actually moves the answer.</description>
     <media:content url="https://bhavitta.com/screenshots/web/example-projections.png" medium="image" />
   </item>
