@@ -22,6 +22,8 @@ Short answer. It depends mostly on what you spend. For a couple spending ₹1 la
 
 The share of 10,000 market paths in which ₹3 crore lasts to 90, by monthly spending and the age you stop working. Spending is in today's rupees and rises with inflation; health insurance is on top.
 
+*Share of 10,000 simulated paths in which ₹3 crore lasted to 90. Couple, no income after stopping; spending in today's rupees rising with Bangalore inflation (5%); health insurance ₹40,000 a year rising 10% on top; Balanced India Monte Carlo (9.5% mean, 13% volatility), 10,000 trials; must last every year to 90. Bhavitta 2.9 engine.*
+
 | Monthly spending | Stop at 40 | Stop at 45 | Stop at 50 | Stop at 55 |
 |---|---|---|---|---|
 | ₹75,000 | 66% | 72% | 78% | 83% |
@@ -29,7 +31,9 @@ The share of 10,000 market paths in which ₹3 crore lasts to 90, by monthly spe
 | ₹1.5 lakh | 10% | 12% | 15% | 20% |
 | ₹2 lakh | 1% | 1% | 2% | 3% |
 
-So ₹3 crore is enough for a couple spending up to about ₹75,000 a month from their mid-fifties. Stopping at 45 on ₹1 lakh a month is closer to a coin toss.
+So ₹3 crore is enough for a couple spending up to about ₹75,000 a month from their mid-fifties. Stopping at 45 on ₹1 lakh a month is closer to a coin toss. Download this table (CSV).
+
+Try this ₹3 crore scenario in Bhavitta. Set the currency to INR and build a plan for a couple aged 45 with ₹3 crore saved and no income, living in Bangalore. On My Plan, open the Bangalore stage and set yearly spending to ₹12 lakh (₹1 lakh a month). From "Add a life event", add Health insurance at ₹40,000 a year, rising 10%. The plan's chance should come out at about 46%; then drag the savings slider on Projections to find your own number. Free on App Store · Google Play.
 
 ### How much do you need for ₹1 lakh a month?
 
@@ -138,11 +142,15 @@ With US market history: the app's Historical setting, which replays every stretc
 | ₹2.5 lakh | $625k | $575k | $575k |
 | ₹4 lakh | $975k | $925k | $900k |
 
+Try this scenario in Bhavitta. Keep the currency on USD and build a plan for a couple aged 50 with $1 million saved and no income, living in Bangalore; a dollar plan starts on the cautious defaults (7% returns, 12% volatility, the rupee falling 3% a year). Switch the display to INR, open the Bangalore stage on My Plan and set yearly spending to ₹30 lakh (₹2.5 lakh a month), then add Health insurance from "Add a life event". The chance should land near the 82% in the table below. Free on App Store · Google Play.
+
 The gap between the two tables is the honest range. History has been generous to US stocks; a planner who wants a margin of safety uses the first table. In both, the corpus works out to a first-year withdrawal of about 3.5% on cautious returns and 6% on history.
 
 ### Why does a falling rupee help?
 
 Your costs are in rupees. If the rupee loses 3% a year against the dollar, as it has on average for the last decade, then each year a dollar buys more rupees and Bangalore's 5% inflation feels like about 2% in dollar terms. The dollar corpus needed at 50 on ₹2.5 lakh a month, by how fast the rupee falls:
+
+*Smallest dollar corpus, in $25,000 steps, that lasted to 90 in at least 80% of simulated paths, for a couple moving to Bangalore at 50 and spending ₹2.5 lakh a month in today's rupees. Rupee spending converted at the scenario's ₹86 to the dollar; Bangalore inflation 5%; India health insurance ₹40,000 a year rising 10%; cautious = Monte Carlo 7% mean, 12% volatility, 10,000 trials; history = every US market window since 1928. Bhavitta 2.9 engine.*
 
 | Rupee falls each year | Cautious returns | US market history |
 |---|---|---|
@@ -152,11 +160,11 @@ Your costs are in rupees. If the rupee loses 3% a year against the dollar, as it
 | 4% | $850k | $525k |
 | 5% | $750k | $500k |
 
-This is the single biggest assumption in an NRI plan. If the rupee held steady for 40 years, the cautious figure would rise by two-thirds. The app lets you set the rate yourself in Inputs.
+This is the single biggest assumption in an NRI plan. If the rupee held steady for 40 years, the cautious figure would rise by two-thirds. The app lets you set the rate yourself in Inputs. Download this table (CSV).
 
 ### Keep it in dollars or convert to rupees?
 
-The same couple at 50 on ₹2.5 lakh a month, with the money either left in a dollar portfolio or converted at ₹86 on arrival and invested in rupees (the app's Balanced India preset: 9.5% a year, 13% volatility, no currency effect). Chance of lasting to 90:
+The same couple at 50 on ₹2.5 lakh a month, with the money either left in a dollar portfolio or converted at the scenario's ₹86 on arrival and invested in rupees (the app's Balanced India preset: 9.5% a year, 13% volatility, no currency effect). Chance of lasting to 90:
 
 | Savings | Dollars, cautious | Dollars, history | Converted to rupees |
 |---|---|---|---|
@@ -168,7 +176,7 @@ On these defaults the dollar portfolio wins because 7% returns against roughly 2
 
 ### What about US Social Security?
 
-If you have enough US work credits, Social Security can be paid to you in India. The dollar corpus needed at 50 on ₹2.5 lakh a month, with a benefit starting at 67:
+If you have enough US work credits, Social Security can be paid to you in India; check your own case with the Social Security Administration's payments-outside-the-US screening tool. The dollar corpus needed at 50 on ₹2.5 lakh a month, with a benefit starting at 67:
 
 | Social Security from 67 | Cautious returns | US market history |
 |---|---|---|
@@ -180,8 +188,8 @@ If you have enough US work credits, Social Security can be paid to you in India.
 
 - A couple with no further income after the move: no salary, rent, pension or annuity unless stated.
 - Monthly spending in today's rupees at Bangalore's 5% inflation. Health insurance comes on top: ₹40,000 a year today, rising 10% a year in rupees.
-- Rupee depreciation of 3% a year against the dollar, the app's default (the rupee fell about 2.7% a year over the last decade and about 4.5% a year since 1990).
-- Exchange rate of ₹86 to the dollar today.
+- Rupee depreciation of 3% a year against the dollar, the app's default (on annual averages of the Federal Reserve's INR/USD rate, FRED series EXINUS, the rupee fell about 3.1% a year from 2015 to 2025 and 4.7% a year from 1990 to 2025).
+- Exchange rate of ₹86 to the dollar: the app's fixed conversion rate, and the input behind every figure here. The market rate was about ₹95.5 in October 2026 (FRED series EXINUS). At that rate the same rupee spending costs about 10% fewer dollars, so the dollar corpus figures here err on the high side, and $1 million converted on arrival would be ₹9.55 crore rather than ₹8.6 crore.
 - Survival means the balance stays above zero in every year to 90.
 - No tax in either country, and no currency-conversion costs. Both matter for NRIs: Indian tax residency, the RNOR period after you return, US tax for citizens and green-card holders, and how India taxes foreign funds can all change what you keep.
 
@@ -205,7 +213,7 @@ A faster-falling rupee lowers the dollar corpus you need, because your rupee cos
 
 #### Can I get US Social Security if I retire in India?
 
-US Social Security is generally payable to US citizens living in India, and a benefit lowers what your savings must cover. In the model, $24,000 a year from 67 cuts the cautious corpus for ₹2.5 lakh a month from $975,000 to $700,000. Check your own eligibility with the Social Security Administration.
+US Social Security is generally payable to US citizens living in India, and a benefit lowers what your savings must cover. In the model, $24,000 a year from 67 cuts the cautious corpus for ₹2.5 lakh a month from $975,000 to $700,000. Check your own eligibility with the Social Security Administration's payments-outside-the-US screening tool.
 
 ### Run your own number
 
@@ -756,6 +764,8 @@ Short answer. For most couples, not on its own. ₹1 crore supports about ₹25,
 
 The largest monthly spending, to the nearest ₹1,000, at which ₹1 crore lasts to 90 in at least 80% (or 90%) of paths. Health insurance is paid on top of these figures.
 
+*Largest monthly spending at which ₹1 crore lasted to 90 in at least 80% / 90% of 10,000 simulated paths. Couple, no income after stopping; spending in today's rupees rising with Bangalore inflation (5%); health insurance ₹40,000 a year rising 10% on top; Balanced India Monte Carlo (9.5% mean, 13% volatility), 10,000 trials; must last every year to 90. Bhavitta 2.9 engine.*
+
 | Stop working at | 80% chance | 90% chance |
 |---|---|---|
 | 45 | ₹15,000 | ₹10,000 |
@@ -763,7 +773,9 @@ The largest monthly spending, to the nearest ₹1,000, at which ₹1 crore lasts
 | 55 | ₹21,000 | ₹17,000 |
 | 60 | ₹25,000 | ₹21,000 |
 
-₹25,000 a month is ₹3 lakh a year, which works out to a 3% withdrawal rate. That is lower than the 4% often quoted, because the premium grows faster than prices. By 90 it is about ₹1.6 lakh a year in today's money, so the corpus pays for more than the monthly figure alone suggests.
+₹25,000 a month is ₹3 lakh a year, which works out to a 3% withdrawal rate. That is lower than the 4% often quoted, because the premium grows faster than prices. By 90 it is about ₹1.6 lakh a year in today's money, so the corpus pays for more than the monthly figure alone suggests. Download this table (CSV).
+
+Try this ₹1 crore scenario in Bhavitta. Set the currency to INR and build a plan for a couple aged 60 with ₹1 crore saved and no income, living in Bangalore. On My Plan, open the Bangalore stage and set yearly spending to ₹4.8 lakh (₹40,000 a month), and add Health insurance (₹40,000 a year, rising 10%) from "Add a life event". The chance should come out at about 41%; add a Pension / Social Security stage of ₹1.8 lakh a year from 60 with "Fixed in rupees" switched on, and it rises to about 66%. Free on App Store · Google Play.
 
 ### What chance does ₹1 crore give you?
 
@@ -888,6 +900,8 @@ Short answer. For a couple stopping work at 45, ₹5 crore supports about ₹1.1
 
 The largest monthly spending, to the nearest ₹1,000, at which ₹5 crore lasts to 90 in at least 80% (or 90%) of paths. Health insurance is paid on top.
 
+*Largest monthly spending at which ₹5 crore lasted to 90 in at least 80% / 90% of 10,000 simulated paths. Couple, no income after stopping; spending in today's rupees rising with Bangalore inflation (5%); health insurance ₹40,000 a year rising 10% on top; Balanced India Monte Carlo (9.5% mean, 13% volatility), 10,000 trials; must last every year to 90. Bhavitta 2.9 engine.*
+
 | Stop working at | 80% chance | 90% chance |
 |---|---|---|
 | 35 | ₹1,01,000 | ₹80,000 |
@@ -896,7 +910,9 @@ The largest monthly spending, to the nearest ₹1,000, at which ₹5 crore lasts
 | 50 | ₹1,26,000 | ₹1,03,000 |
 | 55 | ₹1,39,000 | ₹1,14,000 |
 
-Stopping at 35 instead of 55 costs about ₹38,000 a month of spending for life. From 35, ₹5 crore is 41 times a year's spending at the 80% level, a withdrawal rate of 2.4%.
+Stopping at 35 instead of 55 costs about ₹38,000 a month of spending for life. From 35, ₹5 crore is 41 times a year's spending at the 80% level, a withdrawal rate of 2.4%. Download this table (CSV).
+
+Try this ₹5 crore scenario in Bhavitta. Set the currency to INR and build a plan for a couple aged 45 with ₹5 crore saved and no income, living in Bangalore. On My Plan, open the Bangalore stage and set yearly spending to ₹12 lakh (₹1 lakh a month), and add Health insurance (₹40,000 a year, rising 10%) from "Add a life event". The chance should come out at about 87%; change the spending to ₹18 lakh a year and it falls to about 60%. Free on App Store · Google Play.
 
 ### What chance does ₹5 crore give you?
 
@@ -1384,7 +1400,7 @@ In Plan B the move itself ends earned income at 50, so "stop working at 55" is t
 
 ### Why does Bangalore retire six years earlier?
 
-- Spending is the lever, not returns. Dropping the retirement budget from $142,500 to $54,100 a year moves the earliest safe stop-working age from 52 to 46 on history, and from "work to 65 and still land at 76%" to "stop at 50 at 91%" on the conservative model. No return assumption in the app does that much.
+- Spending is the lever, not returns. Dropping the retirement budget from $142,500 to $54,100 a year moves the earliest stop-working age that meets the 80% bar from 52 to 46 on history, and from "work to 65 and still land at 76%" to "stop at 50 at 91%" on the conservative model. No return assumption in the app does that much.
 - The models disagree on how safe, not on which plan wins. History says both plans are fine from the mid-fifties; Monte Carlo at 7% says Seattle needs work past 65. Which one you believe is a view about future US equity returns, and the app lets you hold either.
 - Rupee depreciation is doing quiet work. Bangalore costs rise at 5% in rupees but about 1.9% in dollars under the default 3% depreciation. Set depreciation to 0% and Bangalore inflates at 5% in dollars, and the gap between the plans narrows; set it higher and it widens. Worth a slider pass. If your savings are in rupees rather than dollars, depreciation should be 0%; the India guide explains when to use it.
 - Neither plan is a recommendation. The example leaves out Indian income tax on the portfolio's gains after the move, NRI-to-resident tax status, health insurance in either country, property, children, and the parents everyone in this situation is actually planning around. Each of those is a stage or an overlay you add; health insurance, EPF, PPF and NPS now have their own (see the India guide).
@@ -1393,7 +1409,7 @@ In Plan B the move itself ends earned income at 50, so "stop working at 55" is t
 
 #### Can you retire in India at 50 on US savings?
 
-For this couple, yes. Moving to Bangalore at 50 survives every 1928–2025 history window and 91% of the conservative Monte Carlo trials, and the earliest safe stop-working age is 46. Staying in Seattle, the earliest is 52.
+For this couple, yes. Moving to Bangalore at 50 survives every 1928–2025 history window and 91% of the conservative Monte Carlo trials, and the earliest stop-working age that meets the model's 80% bar is 46. Staying in Seattle, the earliest is 52.
 
 #### How much cheaper is retiring in Bangalore than in Seattle?
 
@@ -1437,7 +1453,7 @@ Map every chapter as a stage — any of 49 curated cities (11 in the US, 38 worl
 
 #### Two simulation models
 
-Replay decades of real market history (1928–2025, nominal or inflation-adjusted) or run 10,000 Monte Carlo trials. Both give you a probability fan and your true survival rate.
+Replay decades of real market history (1928–2025, nominal or inflation-adjusted) or run 10,000 Monte Carlo trials. Both give you a probability fan and the share of simulated futures in which your money lasted.
 
 #### Stress-test heatmap
 

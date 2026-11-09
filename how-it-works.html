@@ -28,7 +28,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png" />
 <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png" />
 <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
-<link rel="stylesheet" href="./site.css?v=1054f2b7" />
+<link rel="stylesheet" href="./site.css?v=6b93d29e" />
 <link rel="alternate" type="application/rss+xml" title="Bhavitta guides" href="https://bhavitta.com/feed.xml" />
 <script type="application/ld+json">
 {
@@ -46,6 +46,18 @@
     {
      "@type": "ListItem",
      "position": 2,
+     "name": "Guides",
+     "item": "https://bhavitta.com/guides.html"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "How Bhavitta works",
+     "item": "https://bhavitta.com/guides.html#how-it-works"
+    },
+    {
+     "@type": "ListItem",
+     "position": 4,
      "name": "How the readiness score works",
      "item": "https://bhavitta.com/how-it-works.html"
     }
@@ -147,8 +159,8 @@
         <a href="./#faq">FAQ</a>
         <a href="./#privacy">Privacy</a>
         <a href="./#support">Support</a>
-        <a class="nav-store" href="https://apps.apple.com/app/apple-store/id6781692447?pt=129056482&amp;ct=site&amp;mt=8" target="_blank" rel="noopener">App Store</a>
-        <a class="nav-store" href="https://play.google.com/store/apps/details?id=com.gururajan.bhavitta&amp;referrer=utm_source%3Dbhavitta.com%26utm_medium%3Dweb%26utm_campaign%3Dsite" target="_blank" rel="noopener">Google Play</a>
+        <a class="nav-store" href="https://apps.apple.com/app/apple-store/id6781692447?pt=129056482&amp;ct=site_method_nav&amp;mt=8" target="_blank" rel="noopener">App Store</a>
+        <a class="nav-store" href="https://play.google.com/store/apps/details?id=com.gururajan.bhavitta&amp;referrer=utm_source%3Dbhavitta.com%26utm_medium%3Dweb%26utm_campaign%3Dmethod_nav" target="_blank" rel="noopener">Google Play</a>
       </div>
       <a class="nav-mobile" href="./guides.html">Guides</a>
       <div class="nav-socials">
@@ -164,19 +176,19 @@
 </nav>
 <header class="article-hero">
   <div class="wrap">
-    <div class="breadcrumb"><a href="./">Bhavitta</a> › Guides</div>
+    <div class="breadcrumb"><a href="./">Bhavitta</a> › <a href="./guides.html">Guides</a> › <a href="./guides.html#how-it-works">How Bhavitta works</a></div>
     <div class="eyebrow">How it works</div>
     <h1>How the readiness score works</h1>
     <p class="lede">A plain-language walk through the simulation engine: what goes in, what the recurrence does each year, how the two return models differ, and exactly how the score, the survival rate and the "Ready at" age are computed.</p>
     <div class="hero-links">
-      <a class="store-badge" href="https://apps.apple.com/app/apple-store/id6781692447?pt=129056482&amp;ct=site&amp;mt=8" target="_blank" rel="noopener"><img src="./badges/app-store.svg" width="144" height="48" alt="Download on the App Store" /></a>
-      <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.gururajan.bhavitta&amp;referrer=utm_source%3Dbhavitta.com%26utm_medium%3Dweb%26utm_campaign%3Dsite" target="_blank" rel="noopener"><img src="./badges/google-play.png" width="161" height="48" alt="Get it on Google Play" /></a>
+      <a class="store-badge" href="https://apps.apple.com/app/apple-store/id6781692447?pt=129056482&amp;ct=site_method_hero&amp;mt=8" target="_blank" rel="noopener"><img src="./badges/app-store.svg" width="144" height="48" alt="Download on the App Store" /></a>
+      <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.gururajan.bhavitta&amp;referrer=utm_source%3Dbhavitta.com%26utm_medium%3Dweb%26utm_campaign%3Dmethod_hero" target="_blank" rel="noopener"><img src="./badges/google-play.png" width="161" height="48" alt="Get it on Google Play" /></a>
     </div>
     <p class="meta">By <a href="./#developer" rel="author">Balaji Gururajan</a> · Published 10 October 2026 · Updated 4 November 2026 · Reflects Bhavitta 2.8 · 9 min read</p>
   </div>
 </header>
 <main id="content" class="article">
-<div class="more-guides"><span>More guides</span><a href="./retirement-corpus-india.html">How much to retire in India</a><a href="./retirement-planning-india.html">India guide</a><a href="./retire-in-india-mumbai-vs-pune.html">Mumbai vs Pune</a><a href="./retire-in-india-vs-us.html">Bangalore vs Seattle</a><a href="./features.html">All 12 features</a><a href="./#faq">FAQ</a><a class="all" href="./guides.html">All guides →</a></div>
+<div class="more-guides"><span>More guides</span><a href="./retirement-planning-india.html">India guide</a><a href="./features.html">All features</a><a href="./retirement-corpus-india.html">Corpus by city</a><a href="./earliest-retirement-city-india.html">Earliest city</a><a href="./moving-back-to-india-from-us.html">Moving back from the US</a><a href="./market-crash-first-year-retirement-india.html">A crash in year one</a><a class="all" href="./guides.html">All guides →</a></div>
 
 <div class="callout answer"><strong>Short answer.</strong> Bhavitta's readiness score is 0.8 × survival rate + 20 × min(1, cushion years ÷ 10). Survival is the share of 1928–2025 history windows, or of 10,000 Monte Carlo trials, in which the balance stays above zero in every year. Cushion years are the bad-markets (P80) balance at retirement divided by the first year's spending. "Ready at N" is the earliest age you could stop earning and still clear 80% survival.</div>
 
@@ -275,8 +287,8 @@
 <div class="cta">
   <h3>Run it with your own numbers</h3>
   <p>Free on iPhone and Android. No account; your plan never leaves your phone.</p>
-  <a class="store-badge" href="https://apps.apple.com/app/apple-store/id6781692447?pt=129056482&amp;ct=site&amp;mt=8" target="_blank" rel="noopener"><img src="./badges/app-store.svg" width="144" height="48" alt="Download on the App Store" /></a>
-  <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.gururajan.bhavitta&amp;referrer=utm_source%3Dbhavitta.com%26utm_medium%3Dweb%26utm_campaign%3Dsite" target="_blank" rel="noopener"><img src="./badges/google-play.png" width="161" height="48" alt="Get it on Google Play" /></a>
+  <a class="store-badge" href="https://apps.apple.com/app/apple-store/id6781692447?pt=129056482&amp;ct=site_method_end&amp;mt=8" target="_blank" rel="noopener"><img src="./badges/app-store.svg" width="144" height="48" alt="Download on the App Store" /></a>
+  <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.gururajan.bhavitta&amp;referrer=utm_source%3Dbhavitta.com%26utm_medium%3Dweb%26utm_campaign%3Dmethod_end" target="_blank" rel="noopener"><img src="./badges/google-play.png" width="161" height="48" alt="Get it on Google Play" /></a>
 </div>
 </main>
 <footer>
