@@ -55,7 +55,7 @@ For a couple stopping work at 45, the chance of the money lasting to 90:
 | ₹1.5 lakh | 0% | 12% | 36% | 60% | 75% |
 | ₹2 lakh | 0% | 1% | 13% | 31% | 51% |
 
-The jump from ₹2 crore to ₹3 crore matters more than any later step: on ₹75,000 a month it takes the chance from 31% to 72%. Past about 35 times spending, each extra crore buys less.
+The jump from ₹2 crore to ₹3 crore matters more than any later step: on ₹75,000 a month it takes the chance from 31% to 72%. Past about 35 times spending, each extra crore buys less. For smaller and larger amounts, see Is ₹1 crore enough? and Is ₹5 crore enough?
 
 ### What the numbers assume
 
@@ -738,6 +738,246 @@ Less than you might expect for a single cost. A wedding at 56 and one at 70 each
 - Set the currency to INR and build your plan on the Start tab.
 - On My Plan, tap "Add a life event" and choose Wedding, Kids' college or Big purchase. Set the age and the amount you expect to pay that year.
 - Copy the plan without the costs on Scenarios and tap Compare to see what they cost you.
+
+Educational, not advice. These figures are the engine's output for invented households using Bhavitta's defaults and its own cost-of-living estimates. They are not a forecast and not a recommendation to retire at any age or with any amount. Returns, inflation, scheme rules and tax change; talk to a SEBI-registered adviser about your own situation.
+
+---
+
+# Is ₹1 crore enough to retire in India? What it pays each month, by age
+
+URL: https://bhavitta.com/is-1-crore-enough-to-retire-india.html
+Last updated: 2026-11-09
+
+Short answer. For most couples, not on its own. ₹1 crore supports about ₹25,000 a month from 60 with an 80% chance of lasting to 90, ₹21,000 from 55 and ₹15,000 from 45, in today's money, with health insurance paid on top. On ₹40,000 a month it lasts in 41% of market paths from 60. A fixed ₹15,000-a-month pension lifts that to 66% and raises the safe figure to about ₹34,000.
+
+"Is ₹1 crore enough to retire?" was the classic Indian retirement number for a generation, and it still comes up constantly. It was a lot of money when the question was first asked. The tables below come from Bhavitta's own engine, the same one the app runs: 10,000 simulated market paths for each figure, in rupees, for a couple who stop working at 45, 50, 55 or 60 and need the money to last to 90.
+
+### How much can you spend each month on ₹1 crore?
+
+The largest monthly spending, to the nearest ₹1,000, at which ₹1 crore lasts to 90 in at least 80% (or 90%) of paths. Health insurance is paid on top of these figures.
+
+| Stop working at | 80% chance | 90% chance |
+|---|---|---|
+| 45 | ₹15,000 | ₹10,000 |
+| 50 | ₹18,000 | ₹13,000 |
+| 55 | ₹21,000 | ₹17,000 |
+| 60 | ₹25,000 | ₹21,000 |
+
+₹25,000 a month is ₹3 lakh a year, which works out to a 3% withdrawal rate. That is lower than the 4% often quoted, because the premium grows faster than prices. By 90 it is about ₹1.6 lakh a year in today's money, so the corpus pays for more than the monthly figure alone suggests.
+
+### What chance does ₹1 crore give you?
+
+The share of 10,000 market paths in which ₹1 crore lasts to 90, by monthly spending and the age you stop working:
+
+| Monthly spending | Stop at 45 | Stop at 50 | Stop at 55 | Stop at 60 |
+|---|---|---|---|---|
+| ₹30,000 | 40% | 48% | 57% | 70% |
+| ₹40,000 | 19% | 23% | 31% | 41% |
+| ₹50,000 | 7% | 9% | 13% | 20% |
+| ₹60,000 | 2% | 3% | 5% | 7% |
+| ₹75,000 | 0% | 0% | 0% | 1% |
+
+Even the frugal row falls short. On ₹30,000 a month, ₹1 crore reaches 70% from 60, still under the app's 80% bar, and from 45 it is worse than a coin toss.
+
+### How much does a pension help?
+
+A couple stopping at 60 with ₹1 crore, with and without a fixed ₹15,000-a-month pension from 60. The pension is in fixed rupees, like EPS or many employer pensions, so it buys less every year.
+
+| Monthly spending | ₹1 crore alone | With ₹15,000 pension |
+|---|---|---|
+| ₹40,000 | 41% | 66% |
+| ₹50,000 | 20% | 39% |
+| ₹60,000 | 7% | 19% |
+| ₹75,000 | 1% | 4% |
+
+With the pension, the largest monthly spend at 80% rises from ₹25,000 to ₹34,000. A ₹15,000 pension adds only ₹9,000 to what you can spend, because it doesn't rise with prices: by 75 it buys about half what it did at 60.
+
+### Is ₹1 crore enough in any Indian city?
+
+Instead of a monthly figure, these use the app's resident cost of living for a comfortable couple in each city, including rent, and that city's inflation:
+
+| City | Couple's cost a month | Stop at 55 | Stop at 60 |
+|---|---|---|---|
+| Mumbai | ₹1,07,500 | 0% | 0% |
+| Bangalore | ₹80,600 | 0% | 0% |
+| Delhi | ₹75,300 | 1% | 1% |
+| Goa | ₹75,300 | 1% | 2% |
+| Hyderabad | ₹69,900 | 1% | 2% |
+| Pune | ₹64,500 | 3% | 4% |
+| Chennai | ₹64,500 | 3% | 4% |
+
+A typical big-city lifestyle with rent costs two to four times what ₹1 crore can carry. The couples for whom ₹1 crore can work spend far less than these estimates: usually a paid-off home, a smaller town, and a pension or rent coming in.
+
+### How much do you need for ₹30,000–₹50,000 a month?
+
+The smallest corpus, to the nearest ₹5 lakh, that lasts to 90 in at least 80% of paths:
+
+| Monthly spending | Stop at 55 | Stop at 60 |
+|---|---|---|
+| ₹30,000 | ₹1.30 Cr | ₹1.15 Cr |
+| ₹40,000 | ₹1.65 Cr | ₹1.45 Cr |
+| ₹50,000 | ₹2.00 Cr | ₹1.75 Cr |
+
+For ₹75,000 a month and up, Is ₹3 crore enough? has the same table for stopping at 40 to 55.
+
+### What the numbers assume
+
+- A couple with no further income (except in the pension table). The corpus is everything they hold the day they stop working.
+- Monthly spending in today's rupees, rising with Bangalore's inflation of 5% a year (state CPI-Urban). Health insurance comes on top: ₹40,000 a year today, rising 10% a year.
+- Returns from the app's Balanced India Monte Carlo preset: 9.5% a year on average, 13% volatility, all in rupees. 10,000 trials per figure.
+- Survival means the balance stays above zero in every year to 90, not just at the end. 80% is the bar the app uses for "ready".
+- EPF, PPF and NPS count inside the corpus. If part of it is locked until 58 or 60, the liquid part has to carry you until then.
+- No tax in retirement. Add a tax rate to the retirement stage in the app if your withdrawals will be taxed.
+- City tables use the app's resident cost of living for a comfortable couple, including rent, and each city's own inflation rate, instead of a monthly figure.
+
+### What changes the answer most
+
+- Owning your home. At this budget rent can take a large share of the spending. Without it, ₹25,000 a month covers far more.
+- A pension or rent. Any income that arrives every month shortens the stretch the corpus has to cover alone. One that rises with prices is worth much more than a fixed one.
+- Health cover. The premium rising 10% a year is a large share of a ₹1 crore budget. Employer or government cover that continues after you stop work changes the picture.
+- Working a few more years. Each year adds to the corpus and takes a year off the stretch it has to last; stopping at 60 instead of 55 adds about ₹4,000 a month.
+- Where you live. The corpus-by-city guide gives the number each city needs, and retiring in a metro, then moving shows what a later move saves.
+
+### Common questions
+
+#### Is ₹1 crore enough to retire in India?
+
+For most couples, no. ₹1 crore supports about ₹25,000 a month from 60 with an 80% chance of lasting to 90, plus health insurance, and less if you stop earlier. A typical big-city cost of living for a couple, ₹64,500 to ₹1,07,500 a month including rent, needs two to four times as much.
+
+#### How much monthly income can ₹1 crore give?
+
+About ₹25,000 a month in today's money, rising with inflation, for a couple from 60; ₹21,000 from 55, ₹18,000 from 50 and ₹15,000 from 45. Those keep an 80% chance of the money lasting to 90, with health insurance paid on top.
+
+#### Is ₹1 crore enough to retire at 60?
+
+Only on very modest spending. On ₹30,000 a month it lasts to 90 in 70% of paths, on ₹40,000 in 41%. With a fixed ₹15,000 monthly pension, ₹40,000 a month reaches 66% and the safe level rises to about ₹34,000.
+
+#### Is ₹1 crore enough to retire at 45?
+
+No, unless you spend very little: it supports about ₹15,000 a month from 45 at an 80% chance. On ₹30,000 a month it lasts in 40% of paths, on ₹50,000 in 7%.
+
+#### How much do I need to retire on ₹50,000 a month?
+
+About ₹2 crore if you stop at 55 and ₹1.75 crore at 60, for an 80% chance of lasting to 90, with health insurance on top. ₹40,000 a month needs ₹1.65 crore and ₹1.45 crore.
+
+#### Is ₹1 crore enough for a single person?
+
+These figures are for a couple's monthly spending, but the engine only sees the spending, so a single person spending the same amount gets the same answer. On ₹25,000 a month from 60, ₹1 crore has an 80% chance; enter your own figure in the app to check yours.
+
+### Run your own number
+
+- Set the currency to INR at the top of the app. New plans start with Indian defaults: resident cost of living, city inflation and the Balanced India return preset.
+- On the Start tab, enter your age, savings, income and city. To use your own monthly figure, open the city stage on My Plan and type your yearly spending.
+- Add Health insurance, EPF, PPF, NPS and any pension from "Add a life event".
+- The Projections tab shows your chance of lasting to 90, the earliest age you could stop at 80%, and a savings slider to try your own corpus against your own spending.
+
+Educational, not advice. These figures are the engine's output for invented households using Bhavitta's defaults and its own cost-of-living estimates. They are not a forecast and not a recommendation to retire at any age or with any amount. Returns, inflation, scheme rules and tax change; talk to a SEBI-registered adviser about your own situation.
+
+---
+
+# Is ₹5 crore enough to retire in India? Early retirement by age and spending
+
+URL: https://bhavitta.com/is-5-crore-enough-to-retire-india.html
+Last updated: 2026-11-09
+
+Short answer. For a couple stopping work at 45, ₹5 crore supports about ₹1.17 lakh a month with an 80% chance of lasting to 90, ₹1.08 lakh from 40 and ₹1.01 lakh from 35, in today's money, with health insurance paid on top. On ₹1 lakh a month from 45 it lasts in 87% of market paths; on ₹1.5 lakh a month only 60%. At each city's typical cost of living for a couple, it clears 80% from 45 everywhere, and from 35 everywhere except Mumbai (76%).
+
+₹5 crore is the number that comes up when people talk about retiring early in India, at 35, 40 or 45, rather than at 60. It sounds like more than enough, and for many lifestyles it is. But retiring at 40 means the money has to last 50 years, and the monthly figure it can carry is smaller than people expect. The tables below come from Bhavitta's own engine, the same one the app runs: 10,000 simulated market paths for each figure, in rupees, for a couple who need the money to last to 90.
+
+### How much can you spend each month on ₹5 crore?
+
+The largest monthly spending, to the nearest ₹1,000, at which ₹5 crore lasts to 90 in at least 80% (or 90%) of paths. Health insurance is paid on top.
+
+| Stop working at | 80% chance | 90% chance |
+|---|---|---|
+| 35 | ₹1,01,000 | ₹80,000 |
+| 40 | ₹1,08,000 | ₹87,000 |
+| 45 | ₹1,17,000 | ₹93,000 |
+| 50 | ₹1,26,000 | ₹1,03,000 |
+| 55 | ₹1,39,000 | ₹1,14,000 |
+
+Stopping at 35 instead of 55 costs about ₹38,000 a month of spending for life. From 35, ₹5 crore is 41 times a year's spending at the 80% level, a withdrawal rate of 2.4%.
+
+### What chance does ₹5 crore give you?
+
+The share of 10,000 market paths in which ₹5 crore lasts to 90, by monthly spending and the age you stop working:
+
+| Monthly spending | Stop at 35 | Stop at 40 | Stop at 45 | Stop at 50 |
+|---|---|---|---|---|
+| ₹1 lakh | 80% | 84% | 87% | 91% |
+| ₹1.5 lakh | 51% | 55% | 60% | 66% |
+| ₹2 lakh | 24% | 27% | 31% | 37% |
+| ₹2.5 lakh | 9% | 12% | 13% | 17% |
+| ₹3 lakh | 3% | 4% | 4% | 5% |
+| ₹4 lakh | 0% | 0% | 0% | 0% |
+
+The line falls between ₹1 lakh and ₹1.5 lakh a month. Up to ₹1 lakh, ₹5 crore works from any of these ages; at ₹1.5 lakh it stays below the bar even from 50 (66%). Spending matters far more than the age you stop: going from ₹1 lakh to ₹1.5 lakh costs more than stopping fifteen years earlier.
+
+### Which cities does ₹5 crore work in?
+
+Instead of a monthly figure, these use the app's resident cost of living for a comfortable couple in each city, including rent, and that city's inflation:
+
+| City | Couple's cost a month | Stop at 35 | Stop at 40 | Stop at 45 |
+|---|---|---|---|---|
+| Mumbai | ₹1,07,500 | 76% | 80% | 84% |
+| Bangalore | ₹80,600 | 89% | 92% | 94% |
+| Delhi | ₹75,300 | 93% | 95% | 96% |
+| Goa | ₹75,300 | 94% | 95% | 97% |
+| Hyderabad | ₹69,900 | 93% | 95% | 96% |
+| Pune | ₹64,500 | 95% | 96% | 97% |
+| Chennai | ₹64,500 | 95% | 96% | 97% |
+
+At a typical comfortable lifestyle, ₹5 crore is enough to stop at 40 in every city, with Mumbai right at the bar. In Pune or Chennai it leaves a wide margin: room for travel, a car every decade, or helping children, which these figures don't include.
+
+### Retiring at 35 or 40 on ₹5 crore
+
+- Fifty years is a long time. From 35, the money has to outlast five decades of inflation, at least one or two deep market falls, and health costs that keep rising. That is why the safe withdrawal rate here is 2.4%, not 4%.
+- The order of returns matters most early on. A bad first few years does more damage than the same fall at 70, because you are selling to live while prices are down.
+- Some income helps a lot. Consulting, a small business or rent for even five years after stopping takes a large bite out of the risk. Add it as a stage in the app to see how much.
+- Mix matters too. Equity or debt after retirement compares the app's three Indian return presets.
+
+### What the numbers assume
+
+- A couple with no further income, pension or rent. The corpus is everything they hold the day they stop working.
+- Monthly spending in today's rupees, rising with Bangalore's inflation of 5% a year (state CPI-Urban). Health insurance comes on top: ₹40,000 a year today, rising 10% a year.
+- Returns from the app's Balanced India Monte Carlo preset: 9.5% a year on average, 13% volatility, all in rupees. 10,000 trials per figure.
+- Survival means the balance stays above zero in every year to 90, not just at the end. 80% is the bar the app uses for "ready".
+- EPF, PPF and NPS count inside the corpus. If part of it is locked until 58 or 60, the liquid part has to carry you until then.
+- No tax in retirement. Add a tax rate to the retirement stage in the app if your withdrawals will be taxed.
+- City tables use the app's resident cost of living for a comfortable couple, including rent, and each city's own inflation rate, instead of a monthly figure.
+
+### Common questions
+
+#### Is ₹5 crore enough to retire in India?
+
+For a couple spending up to about ₹1.2 lakh a month, yes, from 45: it supports ₹1.17 lakh a month at an 80% chance of lasting to 90, with health insurance on top. On ₹1.5 lakh a month it lasts in only 60% of paths from 45.
+
+#### Is ₹5 crore enough to retire at 40?
+
+On ₹1 lakh a month, yes: 84% of paths last to 90, and the safe level is about ₹1.08 lakh a month. At a typical comfortable cost of living it clears 80% in every one of the seven cities, with Mumbai exactly at 80%.
+
+#### Is ₹5 crore enough to retire at 35?
+
+Just, at ₹1 lakh a month: exactly 80% of paths last to 90. The money has to last 55 years, so anything above about ₹1 lakh a month falls below the bar.
+
+#### How much monthly income can ₹5 crore give?
+
+About ₹1.17 lakh a month in today's money, rising with inflation, for a couple from 45 at an 80% chance; ₹1.01 lakh from 35, ₹1.26 lakh from 50 and ₹1.39 lakh from 55.
+
+#### Is ₹5 crore enough to live in Mumbai after retirement?
+
+At the app's comfortable Mumbai cost for a couple, about ₹1.07 lakh a month including rent, ₹5 crore lasts to 90 in 84% of paths from 45, 80% from 40 and 76% from 35.
+
+#### Is ₹5 crore enough for ₹2 lakh a month?
+
+No: ₹2 lakh a month on ₹5 crore lasts to 90 in 31% of paths from 45 and 37% from 50. That lifestyle needs about ₹8.3 crore from 45 (see Is ₹3 crore enough? for the corpus table).
+
+### Run your own number
+
+- Set the currency to INR at the top of the app. New plans start with Indian defaults: resident cost of living, city inflation and the Balanced India return preset.
+- On the Start tab, enter your age, savings, income and city. To use your own monthly figure, open the city stage on My Plan and type your yearly spending.
+- Add Health insurance, EPF, PPF, NPS and any pension from "Add a life event".
+- The Projections tab shows your chance of lasting to 90, the earliest age you could stop at 80%, and a savings slider to try your own corpus against your own spending.
 
 Educational, not advice. These figures are the engine's output for invented households using Bhavitta's defaults and its own cost-of-living estimates. They are not a forecast and not a recommendation to retire at any age or with any amount. Returns, inflation, scheme rules and tax change; talk to a SEBI-registered adviser about your own situation.
 
