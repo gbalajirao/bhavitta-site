@@ -1002,7 +1002,7 @@ Educational, not advice. These figures are the engine's output for invented hous
 # How is a retirement readiness score calculated? Bhavitta's method and formula
 
 URL: https://bhavitta.com/how-it-works.html
-Last updated: 2026-11-04
+Last updated: 2026-11-11
 
 Short answer. Bhavitta's readiness score is 0.8 × survival rate + 20 × min(1, cushion years ÷ 10). Survival is the share of 1928–2025 history windows, or of 10,000 Monte Carlo trials, in which the balance stays above zero in every year. Cushion years are the bad-markets (P80) balance at retirement divided by the first year's spending. "Ready at N" is the earliest age you could stop earning and still clear 80% survival.
 
@@ -1030,7 +1030,7 @@ balance(t+1) = (balance(t) + netCashFlow(t)) × (1 + return(t)) when the sum is 
 
 Two deliberate choices sit in that recurrence. A plan that fails is allowed to go negative, so the ledger and chart show how deep the shortfall is instead of clamping at zero. And a deficit neither earns nor compounds; it is carried and can be paid back down by a later inflow such as a home sale or Social Security.
 
-Indexing. Every amount you type is a today's-money figure. Income, living costs, guaranteed income and property tax grow with the active location's inflation rate from the start of the plan. Costs for an Indian city are stored in dollars and grow at the city's inflation less the rupee-depreciation rate you set (defaults 5% and 3%, so about 1.9% a year in dollar terms). A separate display deflator converts any nominal balance back to today's money, switching rate the moment the active location changes, which is why a US-to-Bangalore plan reads sensibly in either basis.
+Indexing. Every amount you type is a today's-money figure. Income, living costs, guaranteed income and property tax grow with the active location's inflation rate from the start of the plan. Each plan is kept in its own currency, US dollars or Indian rupees, and every amount in it is stored and simulated in that currency. Where the two meet, the plan's own ₹-per-$ rate (editable in Inputs) converts: in a dollar plan an Indian city's costs grow at the city's inflation less the rupee-depreciation rate you set (defaults 5% and 3%, so about 1.9% a year in dollar terms); in a rupee plan, dollar items such as a US city's costs or Social Security are converted at that rate and also rise as the rupee falls. A separate display deflator converts any nominal balance back to today's money, switching rate the moment the active location changes, which is why a US-to-Bangalore plan reads sensibly in either basis.
 
 ### 3. Two ways to generate returns
 
@@ -1077,7 +1077,7 @@ By default spending is constant real: flat in today's money, rising only with in
 - One portfolio return. There is no asset allocation, bond ladder or glide path; the return you set, or history, applies to the whole balance.
 - Historical replay uses US equity history for every plan, including plans lived in India; for rupee savings use the Indian Monte Carlo presets.
 - Long-term care is not special; add it as a recurring cost or a one-time event. Health insurance is a life event whose premium grows at its own rate (10% a year by default in India, 7% in the US).
-- Display currency is a presentation conversion of dollar amounts; the rupee-depreciation input is the only currency-risk lever. The Indian return presets are rupee returns, so choosing one sets rupee depreciation to 0%.
+- Plans are kept in dollars or rupees only. Other display currencies (euro, baht and so on) are presentation conversions of a dollar plan, and the rupee-depreciation input is the only currency-risk lever. The Indian return presets are rupee returns, so choosing one sets rupee depreciation to 0%.
 
 Defaults, in case you want to compare with your own spreadsheet: expected return 7%, volatility 12%, US inflation 3%, Indian city inflation 5% (Delhi and Goa 4.5%), rupee depreciation 3%, Monte Carlo 10,000 trials, benchmark P80 at an 80% survival bar. New plans in rupees start instead on Balanced India (9.5% return, 13% volatility) with rupee depreciation at 0%; see the India guide. All are editable in Inputs.
 
@@ -1200,7 +1200,7 @@ Educational, not advice. These figures are the engine's output for an invented h
 # Retirement planning in India: EPF, PPF, NPS, EPS, tax and city costs, in rupees
 
 URL: https://bhavitta.com/retirement-planning-india.html
-Last updated: 2026-11-04
+Last updated: 2026-11-11
 
 Short answer. Planning a retirement in India means modelling what most calculators leave out: rupee returns, each city's own cost of living and inflation (5% a year; 4.5% in Delhi and Goa), tax from the Indian slabs, EPF, PPF and NPS locked until 58 or 60, an EPS pension fixed in rupees, gratuity, and health premiums that rise about 10% a year. Bhavitta 2.9 models all of these, free and on your phone. For the corpus they add up to, see how much you need to retire in India.
 
@@ -1267,7 +1267,7 @@ Health insurance is a yearly premium that grows at its own rate, not with genera
 - No Indian market history. Historical replay is US-only; Indian plans use the Monte Carlo presets.
 - One tax rate per stage. The slab helper sets it, but there is no capital-gains tax on the portfolio, and no separate tax on withdrawals.
 - One investment portfolio. No separate mutual fund, FD or gold buckets, and no glide path; the return you pick applies to the whole balance.
-- Amounts are stored in dollars. The app converts at the rate in Inputs to show and accept rupees, so change that rate and every plan's rupee figures move with it.
+- Two currencies only. A plan is kept in rupees or dollars (since Bhavitta 2.10, a rupee plan stores and simulates rupees, so its figures never move with the exchange rate). Other currencies, such as dirhams or pounds, are display conversions of a dollar plan.
 
 The full list of what the engine leaves out, India or not, is on How the readiness score works.
 

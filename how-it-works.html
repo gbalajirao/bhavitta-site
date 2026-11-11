@@ -70,7 +70,7 @@
    "description": "How Bhavitta computes a retirement readiness score: life-stage cash-flow model, historical replay of 1928–2025 S&P 500 returns, 10,000-trial Monte Carlo, survival rate, cushion test, and the earliest-retirement solver.",
    "url": "https://bhavitta.com/how-it-works.html",
    "datePublished": "2026-10-10",
-   "dateModified": "2026-11-04",
+   "dateModified": "2026-11-11",
    "author": {
     "@type": "Person",
     "@id": "https://bhavitta.com/#balaji-gururajan",
@@ -184,7 +184,7 @@
       <a class="store-badge" href="https://apps.apple.com/app/apple-store/id6781692447?pt=129056482&amp;ct=site_method_hero&amp;mt=8" target="_blank" rel="noopener"><img src="./badges/app-store.svg" width="144" height="48" alt="Download on the App Store" /></a>
       <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.gururajan.bhavitta&amp;referrer=utm_source%3Dbhavitta.com%26utm_medium%3Dweb%26utm_campaign%3Dmethod_hero" target="_blank" rel="noopener"><img src="./badges/google-play.png" width="161" height="48" alt="Get it on Google Play" /></a>
     </div>
-    <p class="meta">By <a href="./#developer" rel="author">Balaji Gururajan</a> · Published 10 October 2026 · Updated 4 November 2026 · Reflects Bhavitta 2.8 · 9 min read</p>
+    <p class="meta">By <a href="./#developer" rel="author">Balaji Gururajan</a> · Published 10 October 2026 · Updated 11 November 2026 · Reflects Bhavitta 2.10 · 9 min read</p>
   </div>
 </header>
 <main id="content" class="article">
@@ -210,7 +210,7 @@
 <p>For each year of the plan the engine resolves the active stage and computes net cash flow: earned income minus tax, minus living expense, college, property and recurring costs, plus guaranteed income, rental income, home-sale proceeds and one-time credits. Then it rolls the balance forward:</p>
 <div class="formula">balance(t+1) = (balance(t) + netCashFlow(t)) × (1 + return(t))   when the sum is positive<br>balance(t+1) =  balance(t) + netCashFlow(t)                      otherwise</div>
 <p>Two deliberate choices sit in that recurrence. A plan that fails is allowed to <strong>go negative</strong>, so the ledger and chart show how deep the shortfall is instead of clamping at zero. And a deficit <strong>neither earns nor compounds</strong>; it is carried and can be paid back down by a later inflow such as a home sale or Social Security.</p>
-<p><strong>Indexing.</strong> Every amount you type is a today's-money figure. Income, living costs, guaranteed income and property tax grow with the active location's inflation rate from the start of the plan. Costs for an Indian city are stored in dollars and grow at the city's inflation <em>less</em> the rupee-depreciation rate you set (defaults 5% and 3%, so about 1.9% a year in dollar terms). A separate <strong>display deflator</strong> converts any nominal balance back to today's money, switching rate the moment the active location changes, which is why a US-to-Bangalore plan reads sensibly in either basis.</p>
+<p><strong>Indexing.</strong> Every amount you type is a today's-money figure. Income, living costs, guaranteed income and property tax grow with the active location's inflation rate from the start of the plan. Each plan is kept in its own currency, US dollars or Indian rupees, and every amount in it is stored and simulated in that currency. Where the two meet, the plan's own ₹-per-$ rate (editable in Inputs) converts: in a dollar plan an Indian city's costs grow at the city's inflation <em>less</em> the rupee-depreciation rate you set (defaults 5% and 3%, so about 1.9% a year in dollar terms); in a rupee plan, dollar items such as a US city's costs or Social Security are converted at that rate and also rise as the rupee falls. A separate <strong>display deflator</strong> converts any nominal balance back to today's money, switching rate the moment the active location changes, which is why a US-to-Bangalore plan reads sensibly in either basis.</p>
 
 <h2>3. Two ways to generate returns</h2>
 <h3>Historical replay (the default)</h3>
@@ -266,7 +266,7 @@
   <li>One portfolio return. There is no asset allocation, bond ladder or glide path; the return you set, or history, applies to the whole balance.</li>
   <li>Historical replay uses US equity history for every plan, including plans lived in India; for rupee savings use the Indian Monte Carlo presets.</li>
   <li>Long-term care is not special; add it as a recurring cost or a one-time event. Health insurance is a life event whose premium grows at its own rate (10% a year by default in India, 7% in the US).</li>
-  <li>Display currency is a presentation conversion of dollar amounts; the rupee-depreciation input is the only currency-risk lever. The Indian return presets are rupee returns, so choosing one sets rupee depreciation to 0%.</li>
+  <li>Plans are kept in dollars or rupees only. Other display currencies (euro, baht and so on) are presentation conversions of a dollar plan, and the rupee-depreciation input is the only currency-risk lever. The Indian return presets are rupee returns, so choosing one sets rupee depreciation to 0%.</li>
 </ul>
 <p class="note">Defaults, in case you want to compare with your own spreadsheet: expected return 7%, volatility 12%, US inflation 3%, Indian city inflation 5% (Delhi and Goa 4.5%), rupee depreciation 3%, Monte Carlo 10,000 trials, benchmark P80 at an 80% survival bar. New plans in rupees start instead on Balanced India (9.5% return, 13% volatility) with rupee depreciation at 0%; see the <a href="./retirement-planning-india.html">India guide</a>. All are editable in Inputs.</p>
 

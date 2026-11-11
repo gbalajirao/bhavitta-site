@@ -9,6 +9,18 @@
   <lastBuildDate>Wed, 11 Nov 2026 06:00:00 +0530</lastBuildDate>
   <image><url>https://bhavitta.com/icon-192.png</url><title>Bhavitta guides</title><link>https://bhavitta.com/guides.html</link></image>
   <item>
+    <title>How the readiness score works</title>
+    <link>https://bhavitta.com/how-it-works.html</link>
+    <guid isPermaLink="true">https://bhavitta.com/how-it-works.html</guid>
+    <pubDate>Wed, 11 Nov 2026 05:49:00 +0530</pubDate>
+    <dc:creator>Balaji Gururajan</dc:creator>
+    <category>How it works</category>
+    <category>How Bhavitta works</category>
+    <category>Most read</category>
+    <description>A plain-language walk through the simulation engine: what goes in, what the recurrence does each year, how the two return models differ, and exactly how the score, the survival rate and the &quot;Ready at&quot; age are computed.</description>
+    <media:content url="https://bhavitta.com/screenshots/web/example-chart.png" medium="image" />
+  </item>
+  <item>
     <title>Bhavitta vs a retirement calculator</title>
     <link>https://bhavitta.com/bhavitta-vs-retirement-calculator.html</link>
     <guid isPermaLink="true">https://bhavitta.com/bhavitta-vs-retirement-calculator.html</guid>
@@ -17,6 +29,18 @@
     <category>Comparison</category>
     <category>How Bhavitta works</category>
     <description>A retirement calculator takes one return, applies it every year and tells you whether the money lasts. That is a useful first look, and on a real plan it is usually too optimistic. Here is the same plan run both ways, with what simulation adds and where a calculator is still the right tool.</description>
+  </item>
+  <item>
+    <title>Retirement planning in India, in rupees</title>
+    <link>https://bhavitta.com/retirement-planning-india.html</link>
+    <guid isPermaLink="true">https://bhavitta.com/retirement-planning-india.html</guid>
+    <pubDate>Wed, 11 Nov 2026 05:47:00 +0530</pubDate>
+    <dc:creator>Balaji Gururajan</dc:creator>
+    <category>India</category>
+    <category>How Bhavitta works</category>
+    <category>Most read</category>
+    <description>What Bhavitta 2.9 models for a life lived in India: rupee returns, city costs and inflation, Indian tax slabs, EPF, PPF and NPS, a fixed EPS pension, gratuity and health insurance. The defaults, where they come from, and what is still missing.</description>
+    <media:content url="https://bhavitta.com/screenshots/web/india-tax.png" medium="image" />
   </item>
   <item>
     <title>Is ₹1 crore enough to retire in India?</title>
@@ -138,30 +162,6 @@
     <category>How much do I need?</category>
     <description>The corpus a couple needs to retire at 45, 50 or 55 in seven Indian cities, with the chance it lasts to 90. Every figure from the engine, in rupees.</description>
     <media:content url="https://bhavitta.com/screenshots/web/example-corpus-projections.png" medium="image" />
-  </item>
-  <item>
-    <title>How the readiness score works</title>
-    <link>https://bhavitta.com/how-it-works.html</link>
-    <guid isPermaLink="true">https://bhavitta.com/how-it-works.html</guid>
-    <pubDate>Wed, 04 Nov 2026 05:49:00 +0530</pubDate>
-    <dc:creator>Balaji Gururajan</dc:creator>
-    <category>How it works</category>
-    <category>How Bhavitta works</category>
-    <category>Most read</category>
-    <description>A plain-language walk through the simulation engine: what goes in, what the recurrence does each year, how the two return models differ, and exactly how the score, the survival rate and the &quot;Ready at&quot; age are computed.</description>
-    <media:content url="https://bhavitta.com/screenshots/web/example-chart.png" medium="image" />
-  </item>
-  <item>
-    <title>Retirement planning in India, in rupees</title>
-    <link>https://bhavitta.com/retirement-planning-india.html</link>
-    <guid isPermaLink="true">https://bhavitta.com/retirement-planning-india.html</guid>
-    <pubDate>Wed, 04 Nov 2026 05:47:00 +0530</pubDate>
-    <dc:creator>Balaji Gururajan</dc:creator>
-    <category>India</category>
-    <category>How Bhavitta works</category>
-    <category>Most read</category>
-    <description>What Bhavitta 2.9 models for a life lived in India: rupee returns, city costs and inflation, Indian tax slabs, EPF, PPF and NPS, a fixed EPS pension, gratuity and health insurance. The defaults, where they come from, and what is still missing.</description>
-    <media:content url="https://bhavitta.com/screenshots/web/india-tax.png" medium="image" />
   </item>
   <item>
     <title>Mumbai or Pune? Retiring in India at 55</title>
