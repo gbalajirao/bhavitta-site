@@ -120,7 +120,7 @@ Educational, not advice. These figures are the engine's output for invented hous
 URL: https://bhavitta.com/moving-back-to-india-from-us.html
 Last updated: 2026-11-05
 
-Short answer. For a couple moving to Bangalore at 50 and spending ₹2.5 lakh a month, about $975,000 (₹8.4 crore) gives an 80% chance the money lasts to 90 on cautious returns of 7% a year, and about $575,000 if US markets repeat their history. On ₹1.5 lakh a month it is $600,000 (or $350,000); on ₹4 lakh a month, $1.55 million (or $925,000). A falling rupee works in your favour while your savings stay in dollars.
+Short answer. For a couple moving to Bangalore at 50 and spending ₹2.5 lakh a month, about $875,000 (₹8.4 crore at ₹95.5) gives an 80% chance the money lasts to 90 on cautious returns of 7% a year, and about $525,000 if US markets repeat their history. On ₹1.5 lakh a month it is $550,000 (or $325,000); on ₹4 lakh a month, $1.4 million (or $825,000). A falling rupee works in your favour while your savings stay in dollars.
 
 "How much do I need to move back?" comes up constantly among NRIs in the US, and it is harder than the usual retirement question because two currencies are involved. Your savings earn in dollars, your life costs rupees, and the exchange rate moves between them every year. The tables below come from Bhavitta's own engine, the same one the app runs, for a couple who stop working and move to Bangalore with a dollar portfolio. Each figure is the smallest corpus, in $25,000 steps, that lasts to 90 in at least 80% of simulated market paths.
 
@@ -130,19 +130,19 @@ With cautious returns: the app's default Monte Carlo setting for a dollar portfo
 
 | Monthly spending | Move at 45 | Move at 50 | Move at 55 |
 |---|---|---|---|
-| ₹1.5 lakh | $650k | $600k | $575k |
-| ₹2.5 lakh | $1.05M | $975k | $925k |
-| ₹4 lakh | $1.65M | $1.55M | $1.45M |
+| ₹1.5 lakh | $575k | $550k | $500k |
+| ₹2.5 lakh | $925k | $875k | $825k |
+| ₹4 lakh | $1.48M | $1.40M | $1.30M |
 
 With US market history: the app's Historical setting, which replays every stretch of US market returns since 1928.
 
 | Monthly spending | Move at 45 | Move at 50 | Move at 55 |
 |---|---|---|---|
-| ₹1.5 lakh | $375k | $350k | $350k |
-| ₹2.5 lakh | $625k | $575k | $575k |
-| ₹4 lakh | $975k | $925k | $900k |
+| ₹1.5 lakh | $350k | $325k | $325k |
+| ₹2.5 lakh | $550k | $525k | $500k |
+| ₹4 lakh | $875k | $825k | $800k |
 
-Try this scenario in Bhavitta. Keep the currency on USD and build a plan for a couple aged 50 with $1 million saved and no income, living in Bangalore; a dollar plan starts on the cautious defaults (7% returns, 12% volatility, the rupee falling 3% a year). Switch the display to INR, open the Bangalore stage on My Plan and set yearly spending to ₹30 lakh (₹2.5 lakh a month), then add Health insurance from "Add a life event". The chance should land near the 82% in the table below. Free on App Store · Google Play.
+Try this scenario in Bhavitta. Keep the currency on USD and build a plan for a couple aged 50 with $1 million saved and no income, living in Bangalore; a dollar plan starts on the cautious defaults (7% returns, 12% volatility, the rupee falling 3% a year). Switch the display to INR, open the Bangalore stage on My Plan and set yearly spending to ₹30 lakh (₹2.5 lakh a month), then add Health insurance from "Add a life event". The chance should land near the 88% in the table below. Free on App Store · Google Play.
 
 The gap between the two tables is the honest range. History has been generous to US stocks; a planner who wants a margin of safety uses the first table. In both, the corpus works out to a first-year withdrawal of about 3.5% on cautious returns and 6% on history.
 
@@ -150,27 +150,27 @@ The gap between the two tables is the honest range. History has been generous to
 
 Your costs are in rupees. If the rupee loses 3% a year against the dollar, as it has on average for the last decade, then each year a dollar buys more rupees and Bangalore's 5% inflation feels like about 2% in dollar terms. The dollar corpus needed at 50 on ₹2.5 lakh a month, by how fast the rupee falls:
 
-*Smallest dollar corpus, in $25,000 steps, that lasted to 90 in at least 80% of simulated paths, for a couple moving to Bangalore at 50 and spending ₹2.5 lakh a month in today's rupees. Rupee spending converted at the scenario's ₹86 to the dollar; Bangalore inflation 5%; India health insurance ₹40,000 a year rising 10%; cautious = Monte Carlo 7% mean, 12% volatility, 10,000 trials; history = every US market window since 1928. Bhavitta 2.9 engine.*
+*Smallest dollar corpus, in $25,000 steps, that lasted to 90 in at least 80% of simulated paths, for a couple moving to Bangalore at 50 and spending ₹2.5 lakh a month in today's rupees. Rupee spending converted at ₹95.5 to the dollar, the plan's own rate; Bangalore inflation 5%; India health insurance ₹40,000 a year rising 10%; cautious = Monte Carlo 7% mean, 12% volatility, 10,000 trials; history = every US market window since 1928. Bhavitta 2.9 engine.*
 
 | Rupee falls each year | Cautious returns | US market history |
 |---|---|---|
-| 0% (rupee holds) | $1.65M | $825k |
-| 2% | $1.15M | $650k |
-| 3% (the app's default) | $975k | $575k |
-| 4% | $850k | $525k |
-| 5% | $750k | $500k |
+| 0% (rupee holds) | $1.50M | $750k |
+| 2% | $1.02M | $575k |
+| 3% (the app's default) | $875k | $525k |
+| 4% | $775k | $475k |
+| 5% | $675k | $450k |
 
-This is the single biggest assumption in an NRI plan. If the rupee held steady for 40 years, the cautious figure would rise by two-thirds. The app lets you set the rate yourself in Inputs. Download this table (CSV).
+This is the single biggest assumption in an NRI plan. If the rupee held steady for 40 years, the cautious figure would rise by about 70%. The app lets you set the rate yourself in Inputs. Download this table (CSV).
 
 ### Keep it in dollars or convert to rupees?
 
-The same couple at 50 on ₹2.5 lakh a month, with the money either left in a dollar portfolio or converted at the scenario's ₹86 on arrival and invested in rupees (the app's Balanced India preset: 9.5% a year, 13% volatility, no currency effect). Chance of lasting to 90:
+The same couple at 50 on ₹2.5 lakh a month, with the money either left in a dollar portfolio or converted at ₹95.5 on arrival and invested in rupees (the app's Balanced India preset: 9.5% a year, 13% volatility, no currency effect). Chance of lasting to 90:
 
 | Savings | Dollars, cautious | Dollars, history | Converted to rupees |
 |---|---|---|---|
-| $1M (₹8.6 Cr) | 82% | 96% | 71% |
-| $1.5M (₹12.9 Cr) | 97% | 100% | 93% |
-| $2M (₹17.2 Cr) | 99% | 100% | 98% |
+| $1M (₹9.55 Cr) | 88% | 96% | 79% |
+| $1.5M (₹14.3 Cr) | 98% | 100% | 96% |
+| $2M (₹19.1 Cr) | 99% | 100% | 99% |
 
 On these defaults the dollar portfolio wins because 7% returns against roughly 2% dollar-terms inflation leaves a wider margin than 9.5% against 5% in rupees. That conclusion rests entirely on the rupee continuing to fall about 3% a year; at 0% the two are much closer. Many people who move back hold some of each, and the app can model both as separate plans.
 
@@ -180,16 +180,16 @@ If you have enough US work credits, Social Security can be paid to you in India;
 
 | Social Security from 67 | Cautious returns | US market history |
 |---|---|---|
-| None | $975k | $575k |
-| $12,000 a year | $850k | $550k |
-| $24,000 a year | $700k | $500k |
+| None | $875k | $525k |
+| $12,000 a year | $750k | $500k |
+| $24,000 a year | $600k | $450k |
 
 ### What the numbers assume
 
 - A couple with no further income after the move: no salary, rent, pension or annuity unless stated.
 - Monthly spending in today's rupees at Bangalore's 5% inflation. Health insurance comes on top: ₹40,000 a year today, rising 10% a year in rupees.
 - Rupee depreciation of 3% a year against the dollar, the app's default (on annual averages of the Federal Reserve's INR/USD rate, FRED series EXINUS, the rupee fell about 3.1% a year from 2015 to 2025 and 4.7% a year from 1990 to 2025).
-- Exchange rate of ₹86 to the dollar: the app's fixed conversion rate, and the input behind every figure here. The market rate was about ₹95.5 in October 2026 (FRED series EXINUS). At that rate the same rupee spending costs about 10% fewer dollars, so the dollar corpus figures here err on the high side, and $1 million converted on arrival would be ₹9.55 crore rather than ₹8.6 crore.
+- Exchange rate of ₹95.5 to the dollar, the market rate in October 2026 (FRED series EXINUS). Each plan in the app carries its own rate, editable in Inputs, and it converts only costs priced in the other currency.
 - Survival means the balance stays above zero in every year to 90.
 - No tax in either country, and no currency-conversion costs. Both matter for NRIs: Indian tax residency, the RNOR period after you return, US tax for citizens and green-card holders, and how India taxes foreign funds can all change what you keep.
 
@@ -197,23 +197,23 @@ If you have enough US work credits, Social Security can be paid to you in India;
 
 #### How much money do I need to move back to India from the US?
 
-For a couple retiring to Bangalore at 50 on ₹2.5 lakh a month, about $975,000 for an 80% chance of lasting to 90 on cautious 7% returns, or $575,000 if US markets repeat their history. On ₹1.5 lakh a month it is $600,000 (or $350,000).
+For a couple retiring to Bangalore at 50 on ₹2.5 lakh a month, about $875,000 for an 80% chance of lasting to 90 on cautious 7% returns, or $525,000 if US markets repeat their history. On ₹1.5 lakh a month it is $550,000 (or $325,000).
 
 #### Is $1 million enough to retire in India?
 
-For a couple spending ₹2.5 lakh a month from 50, yes: $1 million kept in dollars lasts to 90 in 82% of paths on cautious returns and 96% on US market history. Converted to ₹8.6 crore and invested in rupees it is 71%. On ₹4 lakh a month you would need about $1.55 million.
+For a couple spending ₹2.5 lakh a month from 50, yes: $1 million kept in dollars lasts to 90 in 88% of paths on cautious returns and 96% on US market history. Converted to ₹9.55 crore at today's rate and invested in rupees it is 79%. On ₹4 lakh a month you would need about $1.4 million.
 
 #### Should I convert my US savings to rupees when I move back?
 
-On the app's defaults, keeping the money in dollars gave the better chance (82% vs 71% on $1 million), because a rupee falling 3% a year makes Indian costs cheaper in dollar terms. If the rupee stopped falling the advantage would shrink. This is a modelled comparison, not a recommendation; tax and fund rules differ by person.
+On the app's defaults, keeping the money in dollars gave the better chance (88% vs 79% on $1 million), because a rupee falling 3% a year makes Indian costs cheaper in dollar terms. If the rupee stopped falling the advantage would shrink. This is a modelled comparison, not a recommendation; tax and fund rules differ by person.
 
 #### How does rupee depreciation affect an NRI retirement plan?
 
-A faster-falling rupee lowers the dollar corpus you need, because your rupee costs take fewer dollars each year. For ₹2.5 lakh a month from 50, cautious returns need $1.65 million if the rupee holds steady, $975,000 at 3% a year and $750,000 at 5% a year.
+A faster-falling rupee lowers the dollar corpus you need, because your rupee costs take fewer dollars each year. For ₹2.5 lakh a month from 50, cautious returns need $1.5 million if the rupee holds steady, $875,000 at 3% a year and $675,000 at 5% a year.
 
 #### Can I get US Social Security if I retire in India?
 
-US Social Security is generally payable to US citizens living in India, and a benefit lowers what your savings must cover. In the model, $24,000 a year from 67 cuts the cautious corpus for ₹2.5 lakh a month from $975,000 to $700,000. Check your own eligibility with the Social Security Administration's payments-outside-the-US screening tool.
+US Social Security is generally payable to US citizens living in India, and a benefit lowers what your savings must cover. In the model, $24,000 a year from 67 cuts the cautious corpus for ₹2.5 lakh a month from $875,000 to $600,000. Check your own eligibility with the Social Security Administration's payments-outside-the-US screening tool.
 
 ### Run your own number
 
@@ -1343,7 +1343,7 @@ Educational, not advice. The numbers above are the engine's output for one inven
 URL: https://bhavitta.com/retire-in-india-vs-us.html
 Last updated: 2026-11-01
 
-Short answer. A Seattle couple, both 40, with $900,000 saved and $250,000 a year of income, could stop working at 52 at the earliest if they stay in Seattle, and at 46 if they plan to retire in Bangalore, on 1928–2025 market history with an 80% survival bar. Both plans as written, working to 65 in Seattle or moving at 50, are safe. Spending is what moves the age: $142,500 a year in Seattle against $54,100 in Bangalore.
+Short answer. A Seattle couple, both 40, with $900,000 saved and $250,000 a year of income, could stop working at 52 at the earliest if they stay in Seattle, and at 46 if they plan to retire in Bangalore, on 1928–2025 market history with an 80% survival bar. Both plans as written, working to 65 in Seattle or moving at 50, are safe. Spending is what moves the age: $142,500 a year in Seattle against $48,700 in Bangalore.
 
 This is the question a lot of Indian professionals in the US eventually ask, and it is hard to answer in a spreadsheet because the two lives have different costs, different inflation, a currency between them, and the same portfolio. Here is one couple's version of it, built in Bhavitta with the app's defaults and its own city estimates, with every number the engine produced. Change any input and the answer changes; that is the point of the app, and the reason this page ends with a download link rather than a conclusion.
 
@@ -1354,7 +1354,7 @@ Living and saving in India rather than moving there from the US? The Mumbai vs P
 - Both 40, planning to 90. Household of two.
 - $900,000 invested today, all treated as one portfolio.
 - $250,000 household income in Seattle, a 32% blended tax rate while working.
-- Comfortable lifestyle. Bhavitta's Seattle estimate at that tier is $142,500 a year for two in today's money; its Bangalore estimate is $54,100.
+- Comfortable lifestyle. Bhavitta's Seattle estimate at that tier is $142,500 a year for two in today's money; its Bangalore estimate is $48,700.
 - $30,000 a year of Social Security from 67, indexed, in both plans.
 - Defaults everywhere else: 7% expected return and 12% volatility for Monte Carlo, 3% US inflation, 5% Bangalore inflation (each Indian city carries its own rate), 3% a year rupee depreciation, constant-real spending, 80% survival benchmark on the bad-markets (P80) line.
 |  | Plan A — Stay in Seattle | Plan B — Move to Bangalore at 50 |
@@ -1374,9 +1374,9 @@ Historical replay, the app's default, runs each plan through all 49 fifty-year w
 | Readiness score | 100 | 100 |
 | Headline | Ready at 52 | Ready at 46 |
 | Earliest age clearing the 80% bar | 52 (82%) | 46 (92%) |
-| First-year retirement spending, today's $ | $142,500 | $54,100 |
-| Typical (P50) balance at 80, today's $ | $21.4M | $19.5M |
-| Bad-markets (P80) balance at 80, today's $ | $14.6M | $14.2M |
+| First-year retirement spending, today's $ | $142,500 | $48,700 |
+| Typical (P50) balance at 80, today's $ | $21.4M | $20.0M |
+| Bad-markets (P80) balance at 80, today's $ | $14.6M | $15.2M |
 
 Both plans as written are comfortably safe; a couple earning $250,000 and working to 65 with $900,000 already saved does not have a survival problem. The interesting line is the headline. The solver asks "what is the earliest age at which earned income can stop and the plan still clears 80%?" and gets 52 in Seattle and 46 in Bangalore. The app's own explanation for Plan B reads: "At your planned retirement at 50, Pension or Social Security plus your savings, in Bangalore, cover spending. The risky years are 62–66, if markets fall early."
 
@@ -1386,21 +1386,21 @@ Instead of one solved age, here is survival for each candidate stop-working age.
 
 | Stop working at | Seattle, historical | Seattle, Monte Carlo | Bangalore, historical | Bangalore, Monte Carlo |
 |---|---|---|---|---|
-| 45 | 27% | 0% | 78% | 30% |
-| 48 | 45% | 2% | 96% | 72% |
-| 50 | 63% | 7% | 100% | 91% |
-| 52 | 82% | 11% | 100% | 91% |
-| 55 | 94% | 24% | 100% | 91% |
-| 58 | 100% | 40% | 100% | 91% |
-| 60 | 100% | 53% | 100% | 91% |
-| 62 | 100% | 63% | 100% | 91% |
-| 65 | 100% | 76% | 100% | 91% |
+| 45 | 27% | 0% | 80% | 36% |
+| 48 | 45% | 3% | 96% | 79% |
+| 50 | 63% | 7% | 100% | 94% |
+| 52 | 82% | 13% | 100% | 94% |
+| 55 | 94% | 25% | 100% | 94% |
+| 58 | 100% | 41% | 100% | 94% |
+| 60 | 100% | 51% | 100% | 94% |
+| 62 | 100% | 60% | 100% | 94% |
+| 65 | 100% | 77% | 100% | 94% |
 
 In Plan B the move itself ends earned income at 50, so "stop working at 55" is the same plan as "stop at 50"; the Bangalore columns flatten from 50 onward. Monte Carlo figures below the solver rows used 2,000 trials per cell; the headline rows used 10,000.
 
 ### Why does Bangalore retire six years earlier?
 
-- Spending is the lever, not returns. Dropping the retirement budget from $142,500 to $54,100 a year moves the earliest stop-working age that meets the 80% bar from 52 to 46 on history, and from "work to 65 and still land at 76%" to "stop at 50 at 91%" on the conservative model. No return assumption in the app does that much.
+- Spending is the lever, not returns. Dropping the retirement budget from $142,500 to $48,700 a year moves the earliest stop-working age that meets the 80% bar from 52 to 46 on history, and from "work to 65 and still land at 77%" to "stop at 50 at 94%" on the conservative model. No return assumption in the app does that much.
 - The models disagree on how safe, not on which plan wins. History says both plans are fine from the mid-fifties; Monte Carlo at 7% says Seattle needs work past 65. Which one you believe is a view about future US equity returns, and the app lets you hold either.
 - Rupee depreciation is doing quiet work. Bangalore costs rise at 5% in rupees but about 1.9% in dollars under the default 3% depreciation. Set depreciation to 0% and Bangalore inflates at 5% in dollars, and the gap between the plans narrows; set it higher and it widens. Worth a slider pass. If your savings are in rupees rather than dollars, depreciation should be 0%; the India guide explains when to use it.
 - Neither plan is a recommendation. The example leaves out Indian income tax on the portfolio's gains after the move, NRI-to-resident tax status, health insurance in either country, property, children, and the parents everyone in this situation is actually planning around. Each of those is a stage or an overlay you add; health insurance, EPF, PPF and NPS now have their own (see the India guide).
@@ -1409,11 +1409,11 @@ In Plan B the move itself ends earned income at 50, so "stop working at 55" is t
 
 #### Can you retire in India at 50 on US savings?
 
-For this couple, yes. Moving to Bangalore at 50 survives every 1928–2025 history window and 91% of the conservative Monte Carlo trials, and the earliest stop-working age that meets the model's 80% bar is 46. Staying in Seattle, the earliest is 52.
+For this couple, yes. Moving to Bangalore at 50 survives every 1928–2025 history window and 94% of the conservative Monte Carlo trials, and the earliest stop-working age that meets the model's 80% bar is 46. Staying in Seattle, the earliest is 52.
 
 #### How much cheaper is retiring in Bangalore than in Seattle?
 
-At the comfortable tier, the app estimates $142,500 a year for two in Seattle and $54,100 in Bangalore, in today's dollars: about 60% less.
+At the comfortable tier, the app estimates $142,500 a year for two in Seattle and $48,700 in Bangalore, in today's dollars: about two-thirds less.
 
 #### How does rupee depreciation affect retiring in India on dollar savings?
 
@@ -1421,7 +1421,7 @@ Bangalore costs rise 5% a year in rupees, but with the default 3% a year rupee d
 
 #### Why do historical replay and Monte Carlo give different answers?
 
-History compounds at about 10% a year; the Monte Carlo default assumes a conservative 7% with 12% volatility. On Monte Carlo, Seattle working to 65 lands at 76% survival, and Bangalore from 50 at 91%.
+History compounds at about 10% a year; the Monte Carlo default assumes a conservative 7% with 12% volatility. On Monte Carlo, Seattle working to 65 lands at 77% survival, and Bangalore from 50 at 94%.
 
 #### Does the example include Indian tax after moving back?
 
