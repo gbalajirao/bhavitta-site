@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://bhavitta.com/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <image:image><image:loc>https://bhavitta.com/og-card.png</image:loc><image:title>Bhavitta — Will your retirement plan hold?</image:title></image:image>
     <image:image><image:loc>https://bhavitta.com/screenshots/readiness.png</image:loc><image:title>Bhavitta readiness score card</image:title></image:image>
     <image:image><image:loc>https://bhavitta.com/screenshots/projections.png</image:loc><image:title>Bhavitta Projections screen with readiness sliders and fan chart</image:title></image:image>
@@ -13,7 +13,7 @@
   </url>
   <url>
     <loc>https://bhavitta.com/guides.html</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://bhavitta.com/is-3-crore-enough-to-retire-india.html</loc>
@@ -61,11 +61,15 @@
   </url>
   <url>
     <loc>https://bhavitta.com/how-it-works.html</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://bhavitta.com/bhavitta-vs-retirement-calculator.html</loc>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://bhavitta.com/retirement-planning-india.html</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://bhavitta.com/retire-in-india-mumbai-vs-pune.html</loc>
@@ -77,7 +81,7 @@
   </url>
   <url>
     <loc>https://bhavitta.com/features.html</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://bhavitta.com/llms.txt</loc>

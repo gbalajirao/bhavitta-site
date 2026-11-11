@@ -1109,6 +1109,94 @@ Survival alone earns at most 80 points. The last 20 need ten years of spending o
 
 ---
 
+# Bhavitta vs a retirement calculator: what a single-number answer misses
+
+URL: https://bhavitta.com/bhavitta-vs-retirement-calculator.html
+Last updated: 2026-11-11
+
+Short answer. A calculator assumes the same return every year, so it only tells you whether the average lasts. On the same plan (a couple stopping at 45 with ₹3 crore, 9.5% a year, Bangalore inflation, to 90) a constant-return calculation approves up to ₹1.13 lakh a month. Run through 10,000 simulated market paths with the same 9.5% average, that spending lasts in only 35% of them. Spending that lasts in 80% is about ₹65,000 a month, 42% less. Bhavitta also models the plan as life stages (cities, a home, college, a pension, a move) rather than one set of numbers.
+
+### What a retirement calculator does
+
+Most online retirement calculators ask for your age, savings, monthly spending, an expected return and an inflation rate. They grow the savings at that return, take out the spending each year, and report whether the money reaches your chosen age, or how much you would need for it to. That is quick, free, needs nothing installed, and is a perfectly good way to get the order of magnitude.
+
+The weakness is the one assumption every year shares: the return. Real markets do not deliver 9.5% each year; they deliver +30% one year and −20% another, and the order matters. Bad years early in retirement, while you are withdrawing, do far more damage than the same bad years later. A constant return cannot show that, so a calculator effectively answers "does the plan work if markets are perfectly average every single year?"
+
+### The same plan, two answers
+
+To make the difference concrete, here is one household run both ways through Bhavitta's own engine. The "calculator" column is the engine with volatility set to zero, so every year earns exactly 9.5%: a constant-return calculator, with the same spending, inflation and health premium. The "simulation" column runs the identical plan through 10,000 Monte Carlo paths whose returns average the same 9.5% but vary year to year (13% volatility).
+
+*Largest monthly spending a constant 9.5% return supports to 90, the share of 10,000 simulated paths in which that spending actually lasts every year to 90, and the largest spending that lasts in at least 80%. Couple, no income after stopping; spending in today's rupees rising with Bangalore inflation (5%); health insurance ₹40,000 a year rising 10% on top; Balanced India returns (9.5% mean, 13% volatility for the simulation, 0% for the calculator). Bhavitta 2.9 engine.*
+
+| Corpus, stop at | Calculator says | Lasts in | 80% chance | Difference |
+|---|---|---|---|---|
+| ₹3 crore, 45 | ₹1.13 lakh | 35% | ₹65,000 | −42% |
+| ₹3 crore, 55 | ₹1.26 lakh | 37% | ₹80,000 | −37% |
+| ₹5 crore, 45 | ₹1.93 lakh | 36% | ₹1.17 lakh | −39% |
+| ₹5 crore, 55 | ₹2.15 lakh | 36% | ₹1.39 lakh | −35% |
+
+The pattern holds across all four: spending set at the calculator's limit lasts in only about a third of market paths, because a constant return sits at the middle of the distribution and roughly half of real sequences do worse. Even ₹1 lakh a month on ₹3 crore from 45, comfortably inside the calculator's limit, lasts in only 46% of paths. The full tables are in Is ₹3 crore enough? and Is ₹5 crore enough?.
+
+Try this ₹3 crore scenario in Bhavitta. Set the currency to INR and build a plan for a couple aged 45 with ₹3 crore saved and no income, living in Bangalore. On My Plan, open the Bangalore stage and set yearly spending to ₹12 lakh (₹1 lakh a month), and add Health insurance (₹40,000 a year, rising 10%) from "Add a life event". With Monte Carlo on Balanced India, the chance should come out at about 46%; set Volatility to 0% (Inputs, under Advanced) and you get the calculator's view, a balance that lasts. Free on App Store · Google Play.
+
+### What a single number misses
+
+- Sequence of returns. The order of good and bad years, which matters most in the first decade of withdrawals. Bhavitta runs either every window of 1928–2025 market history or 10,000 Monte Carlo paths, and its crash-in-year-one guide shows how much a bad start costs.
+- "Lasts every year", not "lasts on average". Bhavitta's survival rate counts a path only if the balance stays above zero in every year to the end of the plan.
+- A life, not one set of numbers. A calculator has one spending figure and one inflation rate. A Bhavitta plan is a timeline of stages: working in one city, retiring to another, a home with its mortgage and sale, a child's college years, a pension or Social Security from a later age, EPF/PPF/NPS paying out at their own ages, health insurance rising faster than inflation, one-time costs such as a wedding.
+- Which assumption matters. The stress test re-runs the plan across a five-by-five grid of return and inflation, so you can see whether your plan is fragile to markets or to prices.
+- What one change does. Sliders and what-if chips (a job loss, a crash, retiring two years earlier, a move abroad) re-run the whole simulation and show the before and after, and Compare puts up to three scenarios side by side with a one-line verdict.
+
+### Side by side
+
+|  | Typical retirement calculator | Bhavitta |
+|---|---|---|
+| Market returns | One fixed rate every year | Every window of 1928–2025 history, or 10,000 Monte Carlo paths |
+| Answer | Yes / no, or one corpus figure | Survival rate, a 0–100 readiness score, the earliest age you could stop working, and a fan of outcomes from typical to worst case |
+| Your plan | Age, savings, spending, return, inflation | Life stages by city and lifestyle, a home, college, pensions, EPF/PPF/NPS, recurring and one-time costs |
+| Moving countries | Usually one currency and one inflation rate | Each stage has its own city cost and inflation, linked by a rupee-depreciation rate you set |
+| Exploring | Change an input, recalculate | What-if chips, stress-test grid, side-by-side Compare |
+| Where it runs | A web page; nothing to install | An iPhone or Android app |
+| Your data | Varies by site | Stays on your phone; no account, no sign-up |
+| Price | Usually free | Free, with an optional tip |
+
+### When a calculator is the right tool
+
+A calculator is faster when you want a rough target in thirty seconds, are on a computer, or are comparing a handful of round numbers. And Bhavitta has real limits that are worth knowing before you install it:
+
+- It is not a tax calculator: one blended rate per stage (estimated from the Indian slabs for an Indian city, if you ask), no US brackets, filing status or treaty rules.
+- It has one portfolio return, with no asset allocation, bond ladder or glide path, and no 401(k)/IRA withdrawal rules or required distributions.
+- Historical replay uses US equity history for every plan; for rupee savings, use the Indian Monte Carlo presets instead.
+- There is no web version yet, only iPhone and Android.
+
+The full method, including the score formula and every default, is on How the readiness score works.
+
+### Common questions
+
+#### Is a retirement calculator accurate?
+
+It is accurate about one scenario: markets delivering the same return every year. Real returns vary, and bad years early in retirement do lasting damage, so spending set at a constant-return calculator's limit lasted in only about a third of simulated market paths in Bhavitta's engine.
+
+#### What is the difference between a retirement calculator and Monte Carlo simulation?
+
+A calculator applies one return every year and gives one answer. Monte Carlo runs the plan thousands of times with returns that vary year to year around the same average, and reports the share of runs in which the money lasted. Bhavitta runs 10,000 by default, or replays every window of 1928–2025 market history.
+
+#### How much less should I spend than a calculator says?
+
+In Bhavitta's engine, for a couple retiring in India on ₹3–5 crore, spending that lasts in 80% of simulated paths was 35–42% below what a constant 9.5% return supports. Your own figure depends on your plan, which is the reason to simulate it rather than apply a rule.
+
+#### What is the best retirement planning app in India?
+
+It depends on what you need. For a quick corpus figure, a free online calculator is enough. If you want to test a plan with stages (cities, a home, children, EPF/PPF/NPS, a move between India and abroad) against market history and see how likely it is to last, Bhavitta does that for free, on your phone, without an account.
+
+#### Does Bhavitta replace a financial adviser?
+
+No. It is an educational planning tool for testing whether a plan holds, not advice. For your own situation, talk to a SEBI-registered adviser in India or a fiduciary adviser in the US.
+
+Educational, not advice. These figures are the engine's output for an invented household using Bhavitta's defaults. They are not a forecast and not a recommendation to retire at any age or with any amount.
+
+---
+
 # Retirement planning in India: EPF, PPF, NPS, EPS, tax and city costs, in rupees
 
 URL: https://bhavitta.com/retirement-planning-india.html

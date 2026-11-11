@@ -6,8 +6,18 @@
   <atom:link href="https://bhavitta.com/feed.xml" rel="self" type="application/rss+xml" />
   <description>Retirement guides for India, NRIs and FIRE, with every figure from Bhavitta's own engine.</description>
   <language>en</language>
-  <lastBuildDate>Mon, 09 Nov 2026 06:00:00 +0530</lastBuildDate>
+  <lastBuildDate>Wed, 11 Nov 2026 06:00:00 +0530</lastBuildDate>
   <image><url>https://bhavitta.com/icon-192.png</url><title>Bhavitta guides</title><link>https://bhavitta.com/guides.html</link></image>
+  <item>
+    <title>Bhavitta vs a retirement calculator</title>
+    <link>https://bhavitta.com/bhavitta-vs-retirement-calculator.html</link>
+    <guid isPermaLink="true">https://bhavitta.com/bhavitta-vs-retirement-calculator.html</guid>
+    <pubDate>Wed, 11 Nov 2026 05:48:00 +0530</pubDate>
+    <dc:creator>Balaji Gururajan</dc:creator>
+    <category>Comparison</category>
+    <category>How Bhavitta works</category>
+    <description>A retirement calculator takes one return, applies it every year and tells you whether the money lasts. That is a useful first look, and on a real plan it is usually too optimistic. Here is the same plan run both ways, with what simulation adds and where a calculator is still the right tool.</description>
+  </item>
   <item>
     <title>Is ₹1 crore enough to retire in India?</title>
     <link>https://bhavitta.com/is-1-crore-enough-to-retire-india.html</link>
@@ -145,7 +155,7 @@
     <title>Retirement planning in India, in rupees</title>
     <link>https://bhavitta.com/retirement-planning-india.html</link>
     <guid isPermaLink="true">https://bhavitta.com/retirement-planning-india.html</guid>
-    <pubDate>Wed, 04 Nov 2026 05:48:00 +0530</pubDate>
+    <pubDate>Wed, 04 Nov 2026 05:47:00 +0530</pubDate>
     <dc:creator>Balaji Gururajan</dc:creator>
     <category>India</category>
     <category>How Bhavitta works</category>
@@ -157,7 +167,7 @@
     <title>Mumbai or Pune? Retiring in India at 55</title>
     <link>https://bhavitta.com/retire-in-india-mumbai-vs-pune.html</link>
     <guid isPermaLink="true">https://bhavitta.com/retire-in-india-mumbai-vs-pune.html</guid>
-    <pubDate>Wed, 04 Nov 2026 05:47:00 +0530</pubDate>
+    <pubDate>Wed, 04 Nov 2026 05:46:00 +0530</pubDate>
     <dc:creator>Balaji Gururajan</dc:creator>
     <category>India</category>
     <category>Where to retire in India</category>
@@ -168,7 +178,7 @@
     <title>Retire in Bangalore at 50, or stay in Seattle?</title>
     <link>https://bhavitta.com/retire-in-india-vs-us.html</link>
     <guid isPermaLink="true">https://bhavitta.com/retire-in-india-vs-us.html</guid>
-    <pubDate>Wed, 04 Nov 2026 05:46:00 +0530</pubDate>
+    <pubDate>Wed, 04 Nov 2026 05:45:00 +0530</pubDate>
     <dc:creator>Balaji Gururajan</dc:creator>
     <category>Worked example</category>
     <category>Moving back from abroad</category>
