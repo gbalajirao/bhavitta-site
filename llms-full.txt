@@ -226,7 +226,7 @@ Educational, not advice. These figures are the engine's output for invented hous
 
 ---
 
-# How much do you need to retire in India? Corpus by city at 45, 50 and 55
+# How much do you need to retire in India? Corpus by city and age
 
 URL: https://bhavitta.com/retirement-corpus-india.html
 Last updated: 2026-11-04
@@ -336,7 +336,7 @@ Educational, not advice. These figures are the engine's output for invented hous
 
 ---
 
-# Health insurance in retirement in India: how much it adds to your corpus
+# Health insurance in retirement in India: what it adds to your corpus
 
 URL: https://bhavitta.com/health-insurance-retirement-india.html
 Last updated: 2026-11-05
@@ -477,7 +477,7 @@ Educational, not advice. These figures are the engine's output for invented hous
 
 ---
 
-# Retire in Mumbai, then move to a cheaper city: how much a later move saves
+# Retire in Mumbai, then move: how much a later move saves
 
 URL: https://bhavitta.com/retire-metro-then-move-india.html
 Last updated: 2026-11-05
@@ -686,7 +686,7 @@ Educational, not advice. These figures are the engine's output for invented hous
 
 ---
 
-# College, weddings, cars: how one-time costs change your retirement corpus
+# College, weddings, cars: one-time costs and your retirement corpus
 
 URL: https://bhavitta.com/one-time-costs-retirement-india.html
 Last updated: 2026-11-07
@@ -887,7 +887,7 @@ Educational, not advice. These figures are the engine's output for invented hous
 
 ---
 
-# Is ₹5 crore enough to retire in India? Early retirement by age and spending
+# Is ₹5 crore enough to retire in India? Early retirement by age
 
 URL: https://bhavitta.com/is-5-crore-enough-to-retire-india.html
 Last updated: 2026-11-09
@@ -1128,7 +1128,7 @@ Educational, not advice. These figures are the engine's output for invented hous
 
 ---
 
-# How is a retirement readiness score calculated? Bhavitta's method and formula
+# How a retirement readiness score is calculated | Bhavitta
 
 URL: https://bhavitta.com/how-it-works.html
 Last updated: 2026-11-11
@@ -1238,7 +1238,7 @@ Survival alone earns at most 80 points. The last 20 need ten years of spending o
 
 ---
 
-# Bhavitta vs a retirement calculator: what a single-number answer misses
+# Bhavitta vs a retirement calculator: what one number misses
 
 URL: https://bhavitta.com/bhavitta-vs-retirement-calculator.html
 Last updated: 2026-11-11
@@ -1326,7 +1326,7 @@ Educational, not advice. These figures are the engine's output for an invented h
 
 ---
 
-# Retirement planning in India: EPF, PPF, NPS, EPS, tax and city costs, in rupees
+# Retirement planning in India: EPF, PPF, NPS, tax and city costs
 
 URL: https://bhavitta.com/retirement-planning-india.html
 Last updated: 2026-11-11
@@ -1434,7 +1434,7 @@ Educational, not advice. Scheme rates, the EPS formula, tax slabs and cost-of-li
 
 ---
 
-# How much do you need to retire in Mumbai vs Pune at 55? A worked example in rupees
+# Retire at 55 in Mumbai or Pune? A worked example in rupees
 
 URL: https://bhavitta.com/retire-in-india-mumbai-vs-pune.html
 Last updated: 2026-11-04
@@ -1555,7 +1555,7 @@ Educational, not advice. The numbers above are the engine's output for one inven
 
 ---
 
-# Can you retire in India at 50 on US savings? Bangalore vs Seattle, a worked example
+# Retire in India at 50 on US savings? Bangalore vs Seattle
 
 URL: https://bhavitta.com/retire-in-india-vs-us.html
 Last updated: 2026-11-01
@@ -1656,7 +1656,7 @@ Educational, not advice. The numbers above are the engine's output for one inven
 
 ---
 
-# Bhavitta features: a free retirement planning simulator for iPhone and Android
+# Bhavitta features: free retirement simulator for iPhone & Android
 
 URL: https://bhavitta.com/features.html
 
