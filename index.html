@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-Q3A/JdG9W+WuQTnTA89AIvIYpTL+0r6LGFXy6AF5ei0='; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self'; connect-src 'self' https://eu.i.posthog.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; form-action 'none'" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-vW1qWXryf2K7XDP81Dp7Ha6bF1u2UWsjooDKQ0U0M1Q='; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self'; connect-src 'self' https://eu.i.posthog.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; form-action 'none'" />
 <meta name="referrer" content="strict-origin-when-cross-origin" />
 <title>Bhavitta: free retirement readiness check for iPhone &amp; Android</title>
 <meta name="description" content="Free, private retirement-readiness check for iPhone and Android: map your life as a timeline and see if your money lasts. No account; plans stay on your phone." />
@@ -171,18 +171,18 @@
     {
      "@type": "VideoObject",
      "name": "Bhavitta — retirement readiness walkthrough (iPhone)",
-     "embedUrl": "https://www.youtube.com/embed/DhvDR8KRf2s",
-     "thumbnailUrl": "https://i.ytimg.com/vi/DhvDR8KRf2s/hqdefault.jpg",
+     "embedUrl": "https://www.youtube.com/embed/mSNMk78za54",
+     "thumbnailUrl": "https://i.ytimg.com/vi/mSNMk78za54/hqdefault.jpg",
      "description": "Create a scenario, add life stages, then review the Monte Carlo projections, stress-test heatmap, and ledger on iPhone.",
-     "uploadDate": "2026-11-02"
+     "uploadDate": "2026-11-17"
     },
     {
      "@type": "VideoObject",
      "name": "Bhavitta on Android — walkthrough",
-     "embedUrl": "https://www.youtube.com/embed/eM02BZ27Wq4",
-     "thumbnailUrl": "https://i.ytimg.com/vi/eM02BZ27Wq4/hqdefault.jpg",
+     "embedUrl": "https://www.youtube.com/embed/BJjnfOnC4eY",
+     "thumbnailUrl": "https://i.ytimg.com/vi/BJjnfOnC4eY/hqdefault.jpg",
      "description": "The same flow on Android.",
-     "uploadDate": "2026-11-02"
+     "uploadDate": "2026-11-17"
     }
    ]
   },
@@ -505,13 +505,13 @@
       <div class="video-col">
         <div class="platform-label">iPhone</div>
         <div class="video-embed">
-          <iframe src="https://www.youtube.com/embed/DhvDR8KRf2s" title="Bhavitta — retirement readiness walkthrough (iPhone)" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+          <iframe src="https://www.youtube.com/embed/mSNMk78za54" title="Bhavitta — retirement readiness walkthrough (iPhone)" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
         </div>
       </div>
       <div class="video-col">
         <div class="platform-label">Android</div>
         <div class="video-embed android">
-          <iframe src="https://www.youtube.com/embed/eM02BZ27Wq4" title="Bhavitta on Android — walkthrough" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+          <iframe src="https://www.youtube.com/embed/BJjnfOnC4eY" title="Bhavitta on Android — walkthrough" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
         </div>
       </div>
     </div>
@@ -826,7 +826,7 @@
       setTimeout(function () {
         var f = document.activeElement;
         if (!f || f.tagName !== 'IFRAME') return;
-        var plat = f.src.indexOf('eM02BZ27Wq4') > -1 ? 'android' : f.src.indexOf('DhvDR8KRf2s') > -1 ? 'ios' : null;
+        var plat = f.src.indexOf('BJjnfOnC4eY') > -1 ? 'android' : f.src.indexOf('mSNMk78za54') > -1 ? 'ios' : null;
         if (plat && !played[plat]) { played[plat] = 1; send('site_video_play_' + plat, {}); }
       }, 0);
     });
